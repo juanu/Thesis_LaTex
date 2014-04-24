@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: template.aux
+A level-1 auxiliary file: template_frontmatter.aux
+A level-1 auxiliary file: Chapter1/chapter1.aux
+A level-1 auxiliary file: Chapter5/chapter5.aux
+A level-1 auxiliary file: Chapter6/chapter6.aux
+The style file: abbrv.bst
+Database file #1: CompleteLibrary.bib
+Warning--empty journal in Ventosa:2012wo
+You've used 97 entries,
+            2118 wiz_defined-function locations,
+            1120 strings with 30367 characters,
+and the built_in function-call counts, 47055 in all, are:
+= -- 4199
+> -- 3845
+< -- 6
++ -- 1525
+- -- 1428
+* -- 4522
+:= -- 8306
+add.period$ -- 293
+call.type$ -- 97
+change.case$ -- 1004
+chr.to.int$ -- 0
+cite$ -- 98
+duplicate$ -- 1106
+empty$ -- 2472
+format.name$ -- 1428
+if$ -- 8924
+int.to.chr$ -- 0
+int.to.str$ -- 97
+missing$ -- 98
+newline$ -- 488
+num.names$ -- 194
+pop$ -- 853
+preamble$ -- 1
+purify$ -- 908
+quote$ -- 0
+skip$ -- 741
+stack$ -- 0
+substring$ -- 2382
+swap$ -- 138
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 386
+warning$ -- 1
+while$ -- 348
+width$ -- 99
+write$ -- 1062
+(There was 1 warning)

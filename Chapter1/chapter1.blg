@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: chapter1.aux
+The style file: abbrv.bst
+I couldn't open database file CompleteLibrary.bib
+---line 49 of file chapter1.aux
+ : \bibdata{CompleteLibrary
+ :                         }
+I'm skipping whatever remains of this command
+I found no database files---while reading file chapter1.aux
+Warning--I didn't find a database entry for "Kallmeyer:2012km"
+Warning--I didn't find a database entry for "Whitman:1998tj"
+Warning--I didn't find a database entry for "Curtis:2002dj"
+Warning--I didn't find a database entry for "Schloss:2004do"
+Warning--I didn't find a database entry for "Wu:2009ju"
+Warning--I didn't find a database entry for "Rinke:2013bt"
+Warning--I didn't find a database entry for "Staley:1985ww"
+Warning--I didn't find a database entry for "Amann:1995tw"
+Warning--I didn't find a database entry for "Stewart:2012dd"
+Warning--I didn't find a database entry for "Tyson:2005by"
+Warning--I didn't find a database entry for "Mardis:2008fr"
+Warning--I didn't find a database entry for "Caporaso:2011cs"
+Warning--I didn't find a database entry for "Rappe:2003fc"
+Warning--I didn't find a database entry for "Caporaso:2010bi"
+Warning--I didn't find a database entry for "McDonald:2011hn"
+Warning--I didn't find a database entry for "Jaspers:2004ge"
+Warning--I didn't find a database entry for "Wooley:2010uv"
+Warning--I didn't find a database entry for "Bragg:2014kv"
+Warning--I didn't find a database entry for "Ugalde:2013he"
+Warning--I didn't find a database entry for "Podell:2013kx"
+Warning--I didn't find a database entry for "Dinsdale:2008cd"
+Warning--I didn't find a database entry for "Tyson:2004bw"
+Warning--I didn't find a database entry for "Brulc:2009fi"
+Warning--I didn't find a database entry for "Kakirde:2010ew"
+Warning--I didn't find a database entry for "Pell:2012id"
+Warning--I didn't find a database entry for "Andrei:2012he"
+Warning--I didn't find a database entry for "Ghai:2011hn"
+Warning--I didn't find a database entry for "Handelsman:1998tx"
+Warning--I didn't find a database entry for "Venter:2004hg"
+Warning--I didn't find a database entry for "Rusch:2007ez"
+Warning--I didn't find a database entry for "Mardis:2013gn"
+Warning--I didn't find a database entry for "Eid:2009kv"
+Warning--I didn't find a database entry for "Branton:2008fr"
+Warning--I didn't find a database entry for "Narasingarao:2012kp"
+You've used 0 entries,
+            2118 wiz_defined-function locations,
+            565 strings with 4620 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There were 2 error messages)

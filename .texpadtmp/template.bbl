@@ -1,0 +1,679 @@
+\begin{thebibliography}{100}
+
+\bibitem{Albertsen:2013gp}
+M.~Albertsen, P.~Hugenholtz, A.~Skarshewski, K.~L. Nielsen, G.~W. Tyson, and
+  P.~H. Nielsen.
+\newblock {Genome sequences of rare, uncultured bacteria obtained by
+  differential coverage binning of multiple metagenomes}.
+\newblock {\em Nature Biotechnology}, May 2013.
+
+\bibitem{Allen:2007ju}
+E.~E. Allen, G.~W. Tyson, R.~J. Whitaker, J.~C. Detter, P.~M. Richardson, and
+  J.~F. Banfield.
+\newblock {Genome dynamics in a natural archaeal population}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 104(6):1883--1888, Feb. 2007.
+
+\bibitem{Amann:1995tw}
+R.~I. Amann, W.~Ludwig, and K.~H. Schleifer.
+\newblock {Phylogenetic identification and in situ detection of individual
+  microbial cells without cultivation.}
+\newblock {\em Microbiological reviews}, 59(1):143--169, Mar. 1995.
+
+\bibitem{AmritaPati:2011ba}
+L.~S. H. N. C. K. N.~I. Amrita~Pati.
+\newblock {ClaMS: A Classifier for Metagenomic Sequences}.
+\newblock {\em Standards in Genomic Sciences}, 5(2):248, Nov. 2011.
+
+\bibitem{Andrei:2012he}
+A.-{\c S}. Andrei, H.~L. Banciu, and A.~Oren.
+\newblock {Living with salt: metabolic and phylogenetic diversity of archaea
+  inhabiting saline ecosystems.}
+\newblock {\em FEMS Microbiology Letters}, 330(1):1--9, May 2012.
+
+\bibitem{Anton:2008eb}
+J.~Ant{\'o}n, A.~Pe{\~n}a, F.~Santos, M.~Mart{\'\i}nez-Garc{\'\i}a,
+  P.~Schmitt-Kopplin, and R.~Rossell{\'o}-Mora.
+\newblock {Distribution, abundance and diversity of the extremely halophilic
+  bacterium Salinibacter ruber}.
+\newblock {\em Saline Systems}, 4:15, Jan. 2008.
+
+\bibitem{Aziz:2008ku}
+R.~K. Aziz, D.~Bartels, A.~A. Best, M.~Dejongh, T.~Disz, R.~A. Edwards,
+  K.~Formsma, S.~Gerdes, E.~M. Glass, M.~Kubal, F.~Meyer, G.~J. Olsen,
+  R.~Olson, A.~L. Osterman, R.~A. Overbeek, L.~K. McNeil, D.~Paarmann,
+  T.~Paczian, B.~Parrello, G.~D. Pusch, C.~Reich, R.~Stevens, O.~Vassieva,
+  V.~Vonstein, A.~Wilke, and O.~Zagnitko.
+\newblock {The RAST Server: rapid annotations using subsystems technology}.
+\newblock {\em BMC Genomics}, 9:75, Jan. 2008.
+
+\bibitem{Brady:2011hi}
+A.~Brady and S.~Salzberg.
+\newblock {PhymmBL expanded: confidence scores, custom databases,
+  parallelization and more}.
+\newblock {\em Nature Methods}, 8(5):367--367, May 2011.
+
+\bibitem{Bragg:2014kv}
+L.~Bragg and G.~W. Tyson.
+\newblock {Metagenomics using next-generation sequencing.}
+\newblock {\em Methods in molecular biology (Clifton, N.J.)}, 1096:183--201,
+  2014.
+
+\bibitem{Branton:2008fr}
+D.~Branton, D.~W. Deamer, A.~Marziali, H.~Bayley, S.~A. Benner, T.~Butler,
+  M.~Di~Ventra, S.~Garaj, A.~Hibbs, X.~Huang, S.~B. Jovanovich, P.~S. Krstic,
+  S.~Lindsay, X.~S. Ling, C.~H. Mastrangelo, A.~Meller, J.~S. Oliver, Y.~V.
+  Pershin, J.~M. Ramsey, R.~Riehn, G.~V. Soni, V.~Tabard-Cossa, M.~Wanunu,
+  M.~Wiggin, and J.~A. Schloss.
+\newblock {The potential and challenges of nanopore sequencing}.
+\newblock {\em Nature Biotechnology}, 26(10):1146--1153, Oct. 2008.
+
+\bibitem{Brown:2013ic}
+L.~S. Brown.
+\newblock {Eubacterial Rhodopsins -- Unique Photosensors and Diverse Ion
+  Pumps}.
+\newblock {\em Biochimica et Biophysica Acta (BBA) - Bioenergetics}, June 2013.
+
+\bibitem{Brulc:2009fi}
+J.~Brulc, D.~Antonopoulos, M.~Berg~Miller, M.~Wilson, A.~Yannarell,
+  E.~Dinsdale, R.~Edwards, E.~Frank, J.~Emerson, P.~Wacklin, P.~Coutinho,
+  B.~Henrissat, K.~Nelson, and B.~White.
+\newblock {Gene-centric metagenomics of the fiber-adherent bovine rumen
+  microbiome reveals forage specific glycoside hydrolases}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, Jan. 2009.
+
+\bibitem{Caporaso:2010bi}
+J.~G. Caporaso, J.~Kuczynski, J.~Stombaugh, K.~Bittinger, F.~D. Bushman, E.~K.
+  Costello, N.~Fierer, A.~G. P.~n. a, J.~K. Goodrich, J.~I. Gordon, G.~A.
+  Huttley, S.~T. Kelley, D.~Knights, J.~E. Koenig, R.~E. Ley, C.~A. Lozupone,
+  D.~McDonald, B.~D. Muegge, M.~Pirrung, J.~Reeder, J.~R. Sevinsky, P.~J.
+  Turnbaugh, W.~A. Walters, J.~Widmann, T.~Yatsunenko, J.~Zaneveld, and
+  R.~Knight.
+\newblock {QIIME allows analysis of high-throughput community sequencing data}.
+\newblock {\em Nature Methods}, 7(5):335--336, Apr. 2010.
+
+\bibitem{Caporaso:2011cs}
+J.~G. Caporaso, C.~L. Lauber, W.~A. Walters, D.~Berg-Lyons, C.~A. Lozupone,
+  P.~J. Turnbaugh, N.~Fierer, and R.~Knight.
+\newblock {Global patterns of 16S rRNA diversity at a depth of millions of
+  sequences per sample.}
+\newblock {\em Proceedings of the National Academy of Sciences}, 108 Suppl
+  1:4516--4522, Mar. 2011.
+
+\bibitem{Casamayor:2002tf}
+E.~O. Casamayor, R.~Massana, S.~Benlloch, L.~{\O}vre{\aa}s, B.~D{\'\i}ez, V.~J.
+  Goddard, J.~M. Gasol, I.~Joint, F.~Rodriguez-Valera, and C.~Pedros-Alio.
+\newblock {Changes in archaeal, bacterial and eukaryal assemblages along a
+  salinity gradient by comparison of genetic fingerprinting methods in a
+  multipond solar saltern.}
+\newblock {\em Environmental Microbiology}, 4(6):338--348, June 2002.
+
+\bibitem{Chen:2007kk}
+F.~Chen, A.~J. Mackey, J.~K. Vermunt, and D.~S. Roos.
+\newblock {Assessing Performance of Orthology Detection Strategies Applied to
+  Eukaryotic Genomes}.
+\newblock {\em PLoS ONE}, 2(4):e383, Apr. 2007.
+
+\bibitem{Cingolani:2012cz}
+P.~Cingolani, A.~Platts, L.~L. Wang, M.~Coon, T.~Nguyen, L.~Wang, S.~J. Land,
+  X.~Lu, and D.~M. Ruden.
+\newblock {A program for annotating and predicting the effects of single
+  nucleotide polymorphisms, SnpEff: SNPs in the genome of Drosophila
+  melanogaster strain w1118; iso-2; iso-3}.
+\newblock {\em Fly}, 6(2):80--92, Apr. 2012.
+
+\bibitem{Curtis:2002dj}
+T.~P. Curtis, W.~T. Sloan, and J.~W. Scannell.
+\newblock {Estimating prokaryotic diversity and its limits}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 99(16):10494--10499, 2002.
+
+\bibitem{Darling:2014ej}
+A.~E. Darling, G.~Jospin, E.~Lowe, F.~A. Matsen, IV, H.~M. Bik, and J.~A.
+  Eisen.
+\newblock {PhyloSift: phylogenetic analysis of genomes and metagenomes}.
+\newblock {\em PeerJ}, 2:e243, Jan. 2014.
+
+\bibitem{DePristo:2011fo}
+M.~A. DePristo, E.~Banks, R.~Poplin, K.~V. Garimella, J.~R. Maguire, C.~Hartl,
+  A.~A. Philippakis, G.~del Angel, M.~A. Rivas, M.~Hanna, A.~McKenna, T.~J.
+  Fennell, A.~M. Kernytsky, A.~Y. Sivachenko, K.~Cibulskis, S.~B. Gabriel,
+  D.~Altshuler, and M.~J. Daly.
+\newblock {A framework for variation discovery and genotyping using
+  next-generation DNA sequencing data}.
+\newblock {\em Nature Genetics}, 43(5):491--498, Apr. 2011.
+
+\bibitem{DiRienzi:2013kx}
+S.~C. Di~Rienzi, I.~Sharon, K.~C. Wrighton, O.~Koren, L.~A. Hug, B.~C. Thomas,
+  J.~K. Goodrich, J.~T. Bell, T.~D. Spector, J.~F. Banfield, R.~E. Ley, and
+  R.~Kolter.
+\newblock {The human gut and groundwater harbor non-photosynthetic bacteria
+  belonging to a new candidate phylum sibling to Cyanobacteria}.
+\newblock {\em eLife}, 2, Oct. 2013.
+
+\bibitem{Dinsdale:2008cd}
+E.~A. Dinsdale, R.~A. Edwards, D.~Hall, F.~Angly, M.~Breitbart, J.~M. Brulc,
+  M.~Furlan, C.~Desnues, M.~Haynes, L.~Li, L.~Mcdaniel, M.~A. Moran, K.~E.
+  Nelson, C.~Nilsson, R.~Olson, J.~Paul, B.~R. Brito, Y.~Ruan, B.~K. Swan,
+  R.~Stevens, D.~L. Valentine, R.~V. Thurber, L.~Wegley, B.~A. White, and
+  F.~Rohwer.
+\newblock {Functional metagenomic profiling of nine biomes}.
+\newblock {\em Nature}, 452(7187):629--632, Apr. 2008.
+
+\bibitem{DyallSmith:2003eu}
+M.~Dyall-Smith, S.-L. Tang, and C.~Bath.
+\newblock {Haloarchaeal viruses: how diverse are they?}
+\newblock {\em Research in Microbiology}, 154(4):309--313, May 2003.
+
+\bibitem{Eid:2009kv}
+J.~Eid, A.~Fehr, J.~Gray, K.~Luong, J.~Lyle, G.~Otto, P.~Peluso, D.~Rank,
+  P.~Baybayan, B.~Bettman, A.~Bibillo, K.~Bjornson, B.~Chaudhuri,
+  F.~Christians, R.~Cicero, S.~Clark, R.~Dalal, A.~deWinter, J.~Dixon,
+  M.~Foquet, A.~Gaertner, P.~Hardenbol, C.~Heiner, K.~Hester, D.~Holden,
+  G.~Kearns, X.~Kong, R.~Kuse, Y.~Lacroix, S.~Lin, P.~Lundquist, C.~Ma,
+  P.~Marks, M.~Maxham, D.~Murphy, I.~Park, T.~Pham, M.~Phillips, J.~Roy,
+  R.~Sebra, G.~Shen, J.~Sorenson, A.~Tomaney, K.~Travers, M.~Trulson,
+  J.~Vieceli, J.~Wegener, D.~Wu, A.~Yang, D.~Zaccarin, P.~Zhao, F.~Zhong,
+  J.~Korlach, and S.~Turner.
+\newblock {Real-Time DNA Sequencing from Single Polymerase Molecules}.
+\newblock {\em Science}, 323(5910):133--138, Jan. 2009.
+
+\bibitem{Emerson:2012gh}
+J.~B. Emerson, B.~C. Thomas, K.~Andrade, E.~E. Allen, K.~B. Heidelberg, and
+  J.~F. Banfield.
+\newblock {Dynamic viral populations in hypersaline systems as revealed by
+  metagenomic assembly.}
+\newblock {\em Applied and Environmental Microbiology}, 78(17):6309--6320,
+  Sept. 2012.
+
+\bibitem{Emerson:tk}
+J.~B. Emerson, B.~C. Thomas, K.~Andrade, K.~B. Heidelberg, and J.~F. Banfield.
+\newblock {New approaches indicate constant viral diversity despite shifts in
+  assemblage structure in an Australian hypersaline lake.}
+\newblock {\em Applied and Environmental Microbiology}, 79(21):6755--6764, Nov.
+  2013.
+
+\bibitem{Enright:2002uq}
+A.~J. Enright, S.~Van~Dongen, and C.~A. Ouzounis.
+\newblock {An efficient algorithm for large-scale detection of protein
+  families.}
+\newblock {\em Nucleic Acids Research}, 30(7):1575--1584, Apr. 2002.
+
+\bibitem{Flowers:2013hq}
+J.~J. Flowers, S.~He, S.~Malfatti, T.~G. del Rio, S.~G. Tringe, P.~Hugenholtz,
+  and K.~D. Mcmahon.
+\newblock {Comparative genomics of two `Candidatus Accumulibacter' clades
+  performing biological phosphorus removal}.
+\newblock {\em The ISME Journal}, July 2013.
+
+\bibitem{Garrison:2012wb}
+E.~Garrison and G.~Marth.
+\newblock {Haplotype-based variant detection from short-read sequencing}.
+\newblock July 2012.
+
+\bibitem{Ghai:2012fb}
+R.~Ghai, C.~M. Hernandez, A.~Picazo, C.~M. Mizuno, K.~Ininbergs, B.~D{\'\i}ez,
+  R.~Valas, C.~L. Dupont, K.~D. Mcmahon, A.~Camacho, and F.~Rodriguez-Valera.
+\newblock {Metagenomes of Mediterranean Coastal Lagoons}.
+\newblock {\em Scientific Reports}, 2:--, July 2012.
+
+\bibitem{Ghai:2011hn}
+R.~Ghai, L.~Pasi{\'c}, A.~B. Fern{\'a}ndez, A.-B. Martin-Cuadrado, C.~M.
+  Mizuno, K.~D. Mcmahon, R.~T. Papke, R.~Stepanauskas, B.~Rodriguez-Brito,
+  F.~Rohwer, C.~S{\'a}nchez-Porro, A.~Ventosa, and F.~Rodriguez-Valera.
+\newblock {New abundant microbial groups in aquatic hypersaline environments.}
+\newblock {\em Scientific Reports}, 1:135, 2011.
+
+\bibitem{Handelsman:1998tx}
+J.~Handelsman, M.~R. Rondon, S.~F. Brady, J.~Clardy, and R.~M. Goodman.
+\newblock {Molecular biological access to the chemistry of unknown soil
+  microbes: a new frontier for natural products.}
+\newblock {\em Chemistry {\&} Biology}, 5(10):R245--9, Oct. 1998.
+
+\bibitem{Howe:2014go}
+A.~C. Howe, J.~K. Jansson, S.~A. Malfatti, S.~G. Tringe, J.~M. Tiedje, and
+  C.~T. Brown.
+\newblock {Tackling soil diversity with the assembly of large, complex
+  metagenomes}.
+\newblock {\em Proceedings of the National Academy of Sciences}, Mar. 2014.
+
+\bibitem{Hurwitz:2013gl}
+B.~L. Hurwitz and M.~B. Sullivan.
+\newblock {The Pacific Ocean Virome (POV): A Marine Viral Metagenomic Dataset
+  and Associated Protein Clusters for Quantitative Viral Ecology}.
+\newblock {\em PLoS ONE}, 8(2):e57355, Feb. 2013.
+
+\bibitem{Jaspers:2004ge}
+E.~Jaspers and J.~Overmann.
+\newblock {Ecological Significance of Microdiversity: Identical 16S rRNA Gene
+  Sequences Can Be Found in Bacteria with Highly Divergent Genomes and
+  Ecophysiologies}.
+\newblock {\em Applied and Environmental Microbiology}, 70(8):4831--4839, Aug.
+  2004.
+
+\bibitem{Jones:2006jn}
+C.~Jones, E.~Allen, J.~Giska, S.~Welch, D.~Kirste, and J.~Banfield.
+\newblock {Iron formations at Lake Tyrrell, Victoria, Australia:
+  Microbially-mediated redox chemistry}.
+\newblock {\em Geochimica et Cosmochimica Acta}, 70(18):A297--A297, Aug. 2006.
+
+\bibitem{Kakirde:2010ew}
+K.~S. Kakirde, L.~C. Parsley, and M.~R. Liles.
+\newblock {Size does matter: Application-driven approaches for soil
+  metagenomics}.
+\newblock {\em Soil Biology and Biochemistry}, 42(11):1911--1923, Nov. 2010.
+
+\bibitem{Kallmeyer:2012km}
+J.~Kallmeyer, R.~Pockalny, R.~R. Adhikari, D.~C. Smith, and S.~D'Hondt.
+\newblock {Global distribution of microbial abundance and biomass in
+  subseafloor sediment}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 109(40):16213--16216, 2012.
+
+\bibitem{Kantor:2013ir}
+R.~S. Kantor, K.~C. Wrighton, K.~M. Handley, I.~Sharon, L.~A. Hug, C.~J.
+  Castelle, B.~C. Thomas, and J.~F. Banfield.
+\newblock {Small Genomes and Sparse Metabolisms of Sediment-Associated Bacteria
+  from Four Candidate Phyla}.
+\newblock {\em mBio}, 4(5):e00708--13--e00708--13, Aug. 2013.
+
+\bibitem{KarlaBHeidelberg:2013jc}
+W.~C. N. J. B. H. N. E. K. A. J. B.~E. Karla B~Heidelberg.
+\newblock {Characterization of eukaryotic microbial diversity in hypersaline
+  Lake Tyrrell, Australia}.
+\newblock {\em Frontiers in Microbiology}, 4, 2013.
+
+\bibitem{Koonin:2001vz}
+E.~Koonin, K.~Makarova, and L.~Aravind.
+\newblock {Horizontal gene transfer in prokaryotes: Quantification and
+  classification}.
+\newblock {\em Annual Review of Microbiology}, 55:709--742, Jan. 2001.
+
+\bibitem{Kristensen:2011gw}
+D.~M. Kristensen, Y.~Wolf, A.~R. Mushegian, and E.~Koonin.
+\newblock {Computational methods for Gene Orthology inference}.
+\newblock {\em Briefings in Bioinformatics}, 12(5):379--391, Sept. 2011.
+
+\bibitem{Langmead:2012jh}
+B.~Langmead and S.~L. Salzberg.
+\newblock {Fast gapped-read alignment with Bowtie 2}.
+\newblock {\em Nature Methods}, 9(4):357--359, Mar. 2012.
+
+\bibitem{Legault:2006kh}
+B.~Legault, A.~Lopez-Lopez, J.~Alba-Casado, W.~F. Doolittle, H.~Bolhuis,
+  F.~Rodriguez-Valera, and R.~T. Papke.
+\newblock {BioMed Central | Full text | Environmental genomics of
+  "Haloquadratum walsbyi" in a saltern crystallizer indicates a large pool of
+  accessory genes in an otherwise coherent species}.
+\newblock {\em BMC Genomics}, 7(1):171, July 2006.
+
+\bibitem{Li:2009ka}
+H.~Li, B.~Handsaker, A.~Wysoker, T.~Fennell, J.~Ruan, N.~Homer, G.~Marth,
+  G.~Abecasis, R.~Durbin, and {1000 Genome Project Data Processing Subgroup}.
+\newblock {The Sequence Alignment/Map format and SAMtools}.
+\newblock {\em Bioinformatics (Oxford, England)}, 25(16):2078--2079, Aug. 2009.
+
+\bibitem{Li:2003en}
+L.~Li.
+\newblock {OrthoMCL: Identification of Ortholog Groups for Eukaryotic Genomes}.
+\newblock {\em Genome Research}, 13(9):2178--2189, Sept. 2003.
+
+\bibitem{Lindell:2005gz}
+D.~Lindell, J.~D. Jaffe, Z.~I. Johnson, G.~M. Church, and S.~W. Chisholm.
+\newblock {Photosynthesis genes in marine viruses yield proteins during host
+  infection}.
+\newblock {\em Nature}, 438(7064):86--89, Oct. 2005.
+
+\bibitem{Long:1992ie}
+D.~T. Long, N.~E. Fegan, W.~B. Lyons, M.~E. Hines, P.~G. Macumber, and A.~M.
+  Giblin.
+\newblock {Geochemistry of acid brines: Lake Tyrrell, Victoria, Australia}.
+\newblock {\em Chemical Geology}, 96(1-2):33--52, Mar. 1992.
+
+\bibitem{LopezPerez:2013db}
+M.~L{\'o}pez-P{\'e}rez, R.~Ghai, M.~Leon, {\'A}.~Rodr{\'\i}guez-Olmos,
+  J.~Copa-Pati{\~n}o, J.~Soliveri, C.~S{\'a}nchez-Porro, A.~Ventosa, and
+  F.~Rodriguez-Valera.
+\newblock {Genomes of ``Spiribacter'', a streamlined, successful halophilic
+  bacterium}.
+\newblock {\em BMC Genomics}, 14(1):787, 2013.
+
+\bibitem{Macumber:1992ty}
+P.~G. Macumber.
+\newblock {Hydrological processes in the Tyrrell Basin, southeastern
+  Australia}.
+\newblock {\em Chemical Geology}, 96(1):1--18, 1992.
+
+\bibitem{Mardis:2008fr}
+E.~R. Mardis.
+\newblock {Next-generation DNA sequencing methods}.
+\newblock {\em Annual Review Of Genomics And Human Genetics}, 9:387--402, Jan.
+  2008.
+
+\bibitem{Mardis:2013gn}
+E.~R. Mardis.
+\newblock {Next-Generation Sequencing Platforms}.
+\newblock {\em Annual Review of Analytical Chemistry}, 6(1):287--303, June
+  2013.
+
+\bibitem{Markowitz:2011ck}
+V.~M. Markowitz, I.~M.~A. Chen, K.~Palaniappan, K.~Chu, E.~Szeto, Y.~Grechkin,
+  A.~Ratner, B.~Jacob, J.~Huang, P.~Williams, M.~Huntemann, I.~Anderson,
+  K.~Mavromatis, N.~N. Ivanova, and N.~C. Kyrpides.
+\newblock {IMG: the integrated microbial genomes database and comparative
+  analysis system}.
+\newblock {\em Nucleic Acids Research}, 40(D1):D115--D122, Dec. 2011.
+
+\bibitem{McDonald:2011hn}
+D.~McDonald, M.~N. Price, J.~Goodrich, E.~P. Nawrocki, T.~Z. DeSantis,
+  A.~Probst, G.~L. Andersen, R.~Knight, and P.~Hugenholtz.
+\newblock {An improved Greengenes taxonomy with explicit ranks for ecological
+  and evolutionary analyses of bacteria and archaea}.
+\newblock {\em The ISME Journal}, 6(3):610--618, Dec. 2011.
+
+\bibitem{McGenity:2000ts}
+T.~J. McGenity, R.~T. Gemmell, W.~D. Grant, and H.~Stan-Lotter.
+\newblock {Origins of halophilic microorganisms in ancient salt deposits.}
+\newblock {\em Environmental Microbiology}, 2(3):243--250, June 2000.
+
+\bibitem{Mongodin:2005ie}
+E.~F. Mongodin, K.~E. Nelson, S.~Daugherty, R.~DeBoy, J.~Wister, H.~Khouri,
+  J.~Weidman, D.~A. Walsh, R.~T. Papke, G.~Sanchez~Perez, A.~K. Sharma,
+  C.~Nesb{\o}, D.~MacLeod, E.~Bapteste, W.~F. Doolittle, R.~L. Charlebois,
+  B.~Legault, and F.~Rodriguez-Valera.
+\newblock {The genome of Salinibacter ruber: Convergence and gene exchange
+  among hyperhalophilic bacteria and archaea}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  102(50):18147--18152, Dec. 2005.
+
+\bibitem{Mutlu:2008dk}
+M.~B. Mutlu, M.~Mart{\'\i}nez-Garc{\'\i}a, F.~Santos, A.~Pe{\~n}a, K.~Guven,
+  and J.~Ant{\'o}n.
+\newblock {Prokaryotic diversity in Tuz Lake, a hypersaline environment in
+  Inland Turkey}.
+\newblock {\em FEMS Microbiology Ecology}, 65(3):474--483, Sept. 2008.
+
+\bibitem{Narasingarao:2012kp}
+P.~Narasingarao, S.~Podell, J.~A. Ugalde, C.~Brochier-Armanet, J.~B. Emerson,
+  J.~J. Brocks, K.~B. Heidelberg, J.~F. Banfield, and E.~E. Allen.
+\newblock {De novo metagenomic assembly reveals abundant novel major lineage of
+  Archaea in hypersaline microbial communities.}
+\newblock {\em The ISME Journal}, 6(1):81--93, Jan. 2012.
+
+\bibitem{Oren:2002vw}
+A.~Oren.
+\newblock {\em {Halophilic Microorganisms and Their Environments}}.
+\newblock Kluwer Academic Publishers, Aug. 2002.
+
+\bibitem{Oren:2008ej}
+A.~Oren.
+\newblock {Microbial life at high salt concentrations: phylogenetic and
+  metabolic diversity}.
+\newblock {\em Saline Systems}, 4:2, Jan. 2008.
+
+\bibitem{Oren:2009el}
+A.~Oren.
+\newblock {Saltern evaporation ponds as model systems for the study of primary
+  production processes under hypersaline conditions}.
+\newblock {\em Aquatic Microbial Ecology}, 56:193--204, Sept. 2009.
+
+\bibitem{Oren:2012bg}
+A.~Oren.
+\newblock {Approaches Toward the Study of Halophilic Microorganisms in Their
+  Natural Environments: Who Are They and What Are They Doing?}
+\newblock In {\em link.springer.com}, pages 1--33. Springer Netherlands,
+  Dordrecht, Dec. 2012.
+
+\bibitem{Oren:2013bc}
+A.~Oren.
+\newblock {Life at High Salt Concentrations}.
+\newblock In {\em link.springer.com}, pages 421--440. Springer Berlin
+  Heidelberg, Berlin, Heidelberg, 2013.
+
+\bibitem{Oren:2013gy}
+A.~Oren.
+\newblock {Salinibacter: an extremely halophilic bacterium with archaeal
+  properties Aharon Oren}.
+\newblock {\em FEMS Microbiology Letters}, pages n/a--n/a, Feb. 2013.
+
+\bibitem{Parks:2011bh}
+D.~H. Parks, N.~J. MacDonald, and R.~G. Beiko.
+\newblock {Classifying short genomic fragments from novel lineages using
+  composition and homology.}
+\newblock {\em BMC Bioinformatics}, 12:328, 2011.
+
+\bibitem{Pasic:2009bo}
+L.~Pa{\v s}i{\'c}, B.~Rodriguez-Mueller, A.-B. Martin-Cuadrado, A.~Mira,
+  F.~Rohwer, and F.~Rodriguez-Valera.
+\newblock {Metagenomic islands of hyperhalophiles: the case of Salinibacter
+  ruber}.
+\newblock {\em BMC Genomics}, 10(1):570, Dec. 2009.
+
+\bibitem{Pell:2012id}
+J.~Pell, A.~Hintze, R.~Canino-Koning, A.~Howe, J.~M. Tiedje, and C.~T. Brown.
+\newblock {Scaling metagenome sequence assembly with probabilistic de Bruijn
+  graphs.}
+\newblock {\em Proceedings of the National Academy of Sciences},
+  109(33):13272--13277, July 2012.
+
+\bibitem{Podell:2013fp}
+S.~Podell, J.~B. Emerson, C.~M. Jones, J.~A. Ugalde, S.~Welch, K.~B.
+  Heidelberg, J.~F. Banfield, and E.~E. Allen.
+\newblock {Seasonal fluctuations in ionic concentrations drive microbial
+  succession in a hypersaline lake community.}
+\newblock {\em The ISME Journal}, Dec. 2013.
+
+\bibitem{Podell:2013kx}
+S.~Podell, J.~A. Ugalde, P.~Narasingarao, J.~F. Banfield, K.~B. Heidelberg, and
+  E.~E. Allen.
+\newblock {Assembly-Driven Community Genomics of a Hypersaline Microbial
+  Ecosystem}.
+\newblock {\em PLoS ONE}, 8(4):e61692, Apr. 2013.
+
+\bibitem{Quinlan:2010km}
+A.~R. Quinlan and I.~M. Hall.
+\newblock {BEDTools: a flexible suite of utilities for comparing genomic
+  features}.
+\newblock {\em Bioinformatics (Oxford, England)}, 26(6):841--842, Mar. 2010.
+
+\bibitem{Rappe:2003fc}
+M.~S. Rapp{\'e} and S.~J. Giovannoni.
+\newblock {The uncultured microbial majority}.
+\newblock {\em Annual Review of Microbiology}, 57:369--394, Jan. 2003.
+
+\bibitem{Reed:2014jj}
+D.~C. Reed, C.~K. Algar, J.~A. Huber, and G.~J. Dick.
+\newblock {Gene-centric approach to integrating environmental genomics and
+  biogeochemical models}.
+\newblock {\em Proceedings of the National Academy of Sciences}, Jan. 2014.
+
+\bibitem{Rinke:2013bt}
+C.~Rinke, P.~Schwientek, A.~Sczyrba, N.~N. Ivanova, I.~J. Anderson, J.-F.
+  Cheng, A.~Darling, S.~Malfatti, B.~K. Swan, E.~A. Gies, J.~A. Dodsworth,
+  B.~P. Hedlund, G.~Tsiamis, S.~M. Sievert, W.-T. Liu, J.~A. Eisen, S.~J.
+  Hallam, N.~C. Kyrpides, R.~Stepanauskas, E.~M. Rubin, P.~Hugenholtz, and
+  T.~Woyke.
+\newblock {Insights into the phylogeny and coding potential of microbial dark
+  matter}.
+\newblock {\em Nature}, 499(7459):431--437, 2013.
+
+\bibitem{RodriguezBrito:2010in}
+B.~Rodriguez-Brito, L.~Li, L.~Wegley, M.~Furlan, F.~Angly, M.~Breitbart,
+  J.~Buchanan, C.~Desnues, E.~Dinsdale, R.~Edwards, B.~Felts, M.~Haynes,
+  H.~Liu, D.~Lipson, J.~Mahaffy, A.~B. Martin-Cuadrado, A.~Mira, J.~Nulton,
+  L.~Pasi{\'c}, S.~Rayhawk, J.~Rodriguez-Mueller, F.~Rodriguez-Valera,
+  P.~Salamon, S.~Srinagesh, T.~F. Thingstad, T.~Tran, R.~V. Thurber,
+  D.~Willner, M.~Youle, and F.~Rohwer.
+\newblock {Viral and microbial community dynamics in four aquatic
+  environments.}
+\newblock {\em The ISME Journal}, 4(6):739--751, June 2010.
+
+\bibitem{RodriguezValera:2009cr}
+F.~Rodriguez-Valera, A.-B. Martin-Cuadrado, B.~Rodriguez-Brito, L.~Pasi{\'c},
+  T.~F. Thingstad, F.~Rohwer, and A.~Mira.
+\newblock {Explaining microbial population genomics through phage predation}.
+\newblock {\em Nature Reviews Microbiology}, 7(11):828--836, Nov. 2009.
+
+\bibitem{Rusch:2007ez}
+D.~B. Rusch, A.~L. Halpern, G.~Sutton, K.~B. Heidelberg, S.~Williamson,
+  S.~Yooseph, D.~Wu, J.~A. Eisen, J.~M. Hoffman, K.~Remington, K.~Beeson,
+  B.~Tran, H.~Smith, H.~Baden-Tillson, C.~Stewart, J.~Thorpe, J.~Freeman,
+  C.~Andrews-Pfannkoch, J.~E. Venter, K.~Li, S.~Kravitz, J.~F. Heidelberg,
+  T.~Utterback, Y.-H. Rogers, L.~I. Falc{\'o}n, V.~Souza, G.~Bonilla-Rosso,
+  L.~E. Eguiarte, D.~M. Karl, S.~Sathyendranath, T.~Platt, E.~Bermingham,
+  V.~Gallardo, G.~Tamayo-Castillo, M.~R. Ferrari, R.~L. Strausberg, K.~Nealson,
+  R.~Friedman, M.~Frazier, and J.~C. Venter.
+\newblock {The Sorcerer II Global Ocean Sampling Expedition: Northwest Atlantic
+  through Eastern Tropical Pacific}.
+\newblock {\em PLoS Biology}, 5(3):e77, Jan. 2007.
+
+\bibitem{Schloss:2004do}
+P.~D. Schloss and J.~Handelsman.
+\newblock {Status of the microbial census}.
+\newblock {\em Microbiology and molecular biology reviews : MMBR},
+  68(4):686--+, Dec. 2004.
+
+\bibitem{Seemann:2014ks}
+T.~Seemann.
+\newblock {Prokka: rapid prokaryotic genome annotation}.
+\newblock {\em Bioinformatics (Oxford, England)}, Mar. 2014.
+
+\bibitem{Segata:2013hb}
+N.~Segata, D.~B{\"o}rnigen, X.~C. Morgan, and C.~Huttenhower.
+\newblock {PhyloPhlAn is a new method for improved phylogenetic and taxonomic
+  placement of microbes.}
+\newblock {\em Nature Communications}, 4:2304, 2013.
+
+\bibitem{Segata:2012ba}
+N.~Segata, L.~Waldron, A.~Ballarini, V.~Narasimhan, O.~Jousson, and
+  C.~Huttenhower.
+\newblock {Metagenomic microbial community profiling using unique
+  clade-specific marker genes}.
+\newblock {\em Nature Methods}, pages~--, June 2012.
+
+\bibitem{Sharma:2006kn}
+A.~Sharma, J.~Spudich, and W.~Doolittle.
+\newblock {Microbial rhodopsins: functional versatility and genetic mobility}.
+\newblock {\em Trends in Microbiology}, 14(11):463--469, Nov. 2006.
+
+\bibitem{Sherwood:1991tg}
+J.~E. Sherwood, F.~Stagnitti, M.~J. Kokkinn, and W.~D. Williams.
+\newblock {Dissolved oxygen concentrations in hypersaline waters}.
+\newblock {\em Limnology And Oceanography}, pages 235--250, 1991.
+
+\bibitem{Simmons:2008by}
+S.~L. Simmons, G.~Dibartolo, V.~J. Denef, D.~S.~A. Goltsman, M.~P. Thelen, and
+  J.~F. Banfield.
+\newblock {Population genomic analysis of strain variation in Leptospirillum
+  group II bacteria involved in acid mine drainage formation}.
+\newblock {\em PLoS Biology}, 6(7):e177, July 2008.
+
+\bibitem{Staley:1985ww}
+J.~T. Staley and A.~Konopka.
+\newblock {Measurement of in situ activities of nonphotosynthetic
+  microorganisms in aquatic and terrestrial habitats}.
+\newblock {\em Annual Reviews in Microbiology}, 39(1):321--346, 1985.
+
+\bibitem{Stewart:2012dd}
+E.~J. Stewart.
+\newblock {Growing unculturable bacteria.}
+\newblock {\em Journal Of Bacteriology}, 194(16):4151--4160, Aug. 2012.
+
+\bibitem{Tai:2011jo}
+V.~Tai, A.~F.~Y. Poon, I.~T. Paulsen, and B.~Palenik.
+\newblock {Selection in Coastal Synechococcus (Cyanobacteria) Populations
+  Evaluated from Environmental Metagenomes}.
+\newblock {\em PLoS ONE}, 6(9):e24249, Sept. 2011.
+
+\bibitem{Tyson:2004bw}
+G.~W. Tyson, J.~Chapman, P.~Hugenholtz, E.~E. Allen, R.~J. Ram, P.~M.
+  Richardson, V.~V. Solovyev, E.~M. Rubin, D.~S. Rokhsar, and J.~F. Banfield.
+\newblock {Community structure and metabolism through reconstruction of
+  microbial genomes from the environment}.
+\newblock {\em Nature}, 428(6978):37--43, Mar. 2004.
+
+\bibitem{Tyson:2005by}
+G.~W. Tyson, I.~Lo, B.~J. Baker, E.~E. Allen, P.~Hugenholtz, and J.~F.
+  Banfield.
+\newblock {Genome-directed isolation of the key nitrogen fixer Leptospirillum
+  ferrodiazotrophum sp. nov. from an acidophilic microbial community}.
+\newblock {\em Applied and Environmental Microbiology}, 71(10):6319--6324, Oct.
+  2005.
+
+\bibitem{Ugalde:2013he}
+J.~A. Ugalde, M.~J. Gallardo, C.~Belmar, P.~Mu{\~n}oz, N.~Ruiz-Tagle,
+  S.~Ferrada-Fuentes, C.~Espinoza, E.~E. Allen, and V.~A. Gallardo.
+\newblock {Microbial Life in a Fjord: Metagenomic Analysis of a Microbial Mat
+  in Chilean Patagonia}.
+\newblock {\em PLoS ONE}, 8(8):e71952, Aug. 2013.
+
+\bibitem{Ugalde:2013hb}
+J.~A. Ugalde, P.~Narasingarao, S.~Kuo, S.~Podell, and E.~E. Allen.
+\newblock {Draft Genome Sequence of "Candidatus Halobonum tyrrellensis" Strain
+  G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia.}
+\newblock {\em Genome announcements}, 1(6), 2013.
+
+\bibitem{Ugalde:2011fw}
+J.~A. Ugalde, S.~Podell, P.~Narasingarao, and E.~E. Allen.
+\newblock {Xenorhodopsins, an enigmatic new class of microbial rhodopsins
+  horizontally transferred between archaea and bacteria.}
+\newblock {\em Biology Direct}, 6:52, 2011.
+
+\bibitem{Venter:2004hg}
+J.~C. Venter.
+\newblock {Environmental Genome Shotgun Sequencing of the Sargasso Sea}.
+\newblock {\em Science}, 304(5667):66--74, Apr. 2004.
+
+\bibitem{Ventosa:2012wo}
+A.~Ventosa, M.~C. M{\'a}rquez, C.~S{\'a}nchez-Porro, and R.~Rafael.
+\newblock {Taxonomy of Halophilic Archaea and Bacteria}.
+\newblock pages 59--80, 2012.
+
+\bibitem{Vogeley:2004vh}
+L.~Vogeley, O.~Sineshchekov, V.~Trivedi, J.~Sasaki, J.~Spudich, and H.~Luecke.
+\newblock {Anabaena sensory rhodopsin: a photochromic color sensor at 2.0 A}.
+\newblock {\em Science's STKE}, 306(5700):1390, 2004.
+
+\bibitem{Ward:2008hp}
+D.~M. Ward, F.~M. Cohan, D.~Bhaya, J.~F. Heidelberg, M.~K{\"u}hl, and
+  A.~Grossman.
+\newblock {Genomics, environmental genomics and the issue of microbial
+  species}.
+\newblock {\em Heredity}, 100(2):207--219, Feb. 2008.
+
+\bibitem{Whitman:1998tj}
+W.~B. Whitman, D.~C. Coleman, and W.~J. Wiebe.
+\newblock {Prokaryotes: The unseen majority}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 95(12):6578--6583, 1998.
+
+\bibitem{Williams:um}
+T.~A. Williams and T.~M. Embley.
+\newblock {Archaeal "dark matter" and the origin of eukaryotes.}
+\newblock {\em Genome Biology and Evolution}, 6(3):474--481, Mar. 2014.
+
+\bibitem{Williamson:2008vs}
+S.~J. Williamson, D.~B. Rusch, S.~Yooseph, A.~L. Halpern, K.~B. Heidelberg,
+  J.~I. Glass, C.~Andrews-Pfannkoch, D.~Fadrosh, C.~S. Miller, and G.~Sutton.
+\newblock {The Sorcerer II Global Ocean Sampling Expedition: metagenomic
+  characterization of viruses within aquatic microbial samples}.
+\newblock {\em PLoS ONE}, 3(1):e1456, 2008.
+
+\bibitem{Willner:2009iv}
+D.~Willner, R.~Thurber, and F.~Rohwer.
+\newblock {Metagenomic signatures of 86 microbial and viral metagenomes}.
+\newblock {\em Environmental Microbiology}, Mar. 2009.
+
+\bibitem{Wooley:2010uv}
+J.~C. Wooley, A.~Godzik, and I.~Friedberg.
+\newblock {A Primer on Metagenomics}.
+\newblock {\em PLoS Computational Biology}, 6(2):e1000667, Feb. 2010.
+
+\bibitem{Wu:2009ju}
+D.~Wu, P.~Hugenholtz, K.~Mavromatis, R.~Pukall, E.~Dalin, N.~N. Ivanova,
+  V.~Kunin, L.~Goodwin, M.~Wu, and B.~J. Tindall.
+\newblock {A phylogeny-driven genomic encyclopaedia of Bacteria and Archaea}.
+\newblock {\em Nature}, 462(7276):1056--1060, 2009.
+
+\end{thebibliography}

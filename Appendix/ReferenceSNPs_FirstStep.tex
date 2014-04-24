@@ -1,0 +1,2312 @@
+
+
+
+% Header, overrides base
+
+    % Make sure that the sphinx doc style knows who it inherits from.
+    \def\sphinxdocclass{article}
+
+    % Declare the document class
+    \documentclass[letterpaper,10pt,english]{/Users/juan/anaconda/lib/python2.7/site-packages/sphinx/texinputs/sphinxhowto}
+
+    % Imports
+    \usepackage[utf8]{inputenc}
+    \DeclareUnicodeCharacter{00A0}{\\nobreakspace}
+    \usepackage[T1]{fontenc}
+    \usepackage{babel}
+    \usepackage{times}
+    \usepackage{import}
+    \usepackage[Bjarne]{/Users/juan/anaconda/lib/python2.7/site-packages/sphinx/texinputs/fncychap}
+    \usepackage{longtable}
+    \usepackage{/Users/juan/anaconda/lib/python2.7/site-packages/sphinx/texinputs/sphinx}
+    \usepackage{multirow}
+
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{ucs}
+    \usepackage{enumerate}
+
+    % Used to make the Input/Output rules follow around the contents.
+    \usepackage{needspace}
+
+    % Pygments requirements
+    \usepackage{fancyvrb}
+    \usepackage{color}
+    % ansi colors additions
+    \definecolor{darkgreen}{rgb}{.12,.54,.11}
+    \definecolor{lightgray}{gray}{.95}
+    \definecolor{brown}{rgb}{0.54,0.27,0.07}
+    \definecolor{purple}{rgb}{0.5,0.0,0.5}
+    \definecolor{darkgray}{gray}{0.25}
+    \definecolor{lightred}{rgb}{1.0,0.39,0.28}
+    \definecolor{lightgreen}{rgb}{0.48,0.99,0.0}
+    \definecolor{lightblue}{rgb}{0.53,0.81,0.92}
+    \definecolor{lightpurple}{rgb}{0.87,0.63,0.87}
+    \definecolor{lightcyan}{rgb}{0.5,1.0,0.83}
+
+    % Needed to box output/input
+    \usepackage{tikz}
+        \usetikzlibrary{calc,arrows,shadows}
+    \usepackage[framemethod=tikz]{mdframed}
+
+    \usepackage{alltt}
+
+    % Used to load and display graphics
+    \usepackage{graphicx}
+    \graphicspath{ {figs/} }
+    \usepackage[Export]{adjustbox} % To resize
+
+    % used so that images for notebooks which have spaces in the name can still be included
+    \usepackage{grffile}
+
+
+    % For formatting output while also word wrapping.
+    \usepackage{listings}
+    \lstset{breaklines=true}
+    \lstset{basicstyle=\small\ttfamily}
+    \def\smaller{\fontsize{9.5pt}{9.5pt}\selectfont}
+
+    %Pygments definitions
+    
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\expandafter\def\csname PY@tok@gd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gu\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@gt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\expandafter\def\csname PY@tok@gs\endcsname{\let\PY@bf=\textbf}
+\expandafter\def\csname PY@tok@gr\endcsname{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@cm\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@vg\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@m\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@mh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@go\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\expandafter\def\csname PY@tok@ge\endcsname{\let\PY@it=\textit}
+\expandafter\def\csname PY@tok@vc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@il\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@cs\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@cp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@gh\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@ni\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\expandafter\def\csname PY@tok@nl\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@no\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\expandafter\def\csname PY@tok@na\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\expandafter\def\csname PY@tok@nb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@nd\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@ne\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\expandafter\def\csname PY@tok@nf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\expandafter\def\csname PY@tok@si\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@s2\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@vi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@nt\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@nv\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@s1\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sh\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sc\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sx\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@bp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@c1\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@kc\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@c\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\expandafter\def\csname PY@tok@mf\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@err\endcsname{\def\PY@bc##1{\setlength{\fboxsep}{0pt}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}
+\expandafter\def\csname PY@tok@kd\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@ss\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\expandafter\def\csname PY@tok@sr\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\expandafter\def\csname PY@tok@mo\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@kn\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@mi\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@gp\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\expandafter\def\csname PY@tok@o\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\expandafter\def\csname PY@tok@kr\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@s\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@kp\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@w\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\expandafter\def\csname PY@tok@kt\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\expandafter\def\csname PY@tok@ow\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\expandafter\def\csname PY@tok@sb\endcsname{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\expandafter\def\csname PY@tok@k\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\expandafter\def\csname PY@tok@se\endcsname{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\expandafter\def\csname PY@tok@sd\endcsname{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    %Set pygments styles if needed...
+    
+        \definecolor{nbframe-border}{rgb}{0.867,0.867,0.867}
+        \definecolor{nbframe-bg}{rgb}{0.969,0.969,0.969}
+        \definecolor{nbframe-in-prompt}{rgb}{0.0,0.0,0.502}
+        \definecolor{nbframe-out-prompt}{rgb}{0.545,0.0,0.0}
+
+        \newenvironment{ColorVerbatim}
+        {\begin{mdframed}[%
+            roundcorner=1.0pt, %
+            backgroundcolor=nbframe-bg, %
+            userdefinedwidth=1\linewidth, %
+            leftmargin=0.1\linewidth, %
+            innerleftmargin=0pt, %
+            innerrightmargin=0pt, %
+            linecolor=nbframe-border, %
+            linewidth=1pt, %
+            usetwoside=false, %
+            everyline=true, %
+            innerlinewidth=3pt, %
+            innerlinecolor=nbframe-bg, %
+            middlelinewidth=1pt, %
+            middlelinecolor=nbframe-bg, %
+            outerlinewidth=0.5pt, %
+            outerlinecolor=nbframe-border, %
+            needspace=0pt
+        ]}
+        {\end{mdframed}}
+        
+        \newenvironment{InvisibleVerbatim}
+        {\begin{mdframed}[leftmargin=0.1\linewidth,innerleftmargin=3pt,innerrightmargin=3pt, userdefinedwidth=1\linewidth, linewidth=0pt, linecolor=white, usetwoside=false]}
+        {\end{mdframed}}
+
+        \renewenvironment{Verbatim}[1][\unskip]
+        {\begin{alltt}\smaller}
+        {\end{alltt}}
+    
+
+    % Help prevent overflowing lines due to urls and other hard-to-break 
+    % entities.  This doesn't catch everything...
+    \sloppy
+
+    % Document level variables
+    \title{ReferenceSNPs\_FirstStep}
+    \date{March 20, 2014}
+    \release{}
+    \author{Unknown Author}
+    \renewcommand{\releasename}{}
+
+    % TODO: Add option for the user to specify a logo for his/her export.
+    \newcommand{\sphinxlogo}{}
+
+    % Make the index page of the document.
+    \makeindex
+
+    % Import sphinx document type specifics.
+     
+
+
+% Body
+
+    % Start of the document
+    \begin{document}
+
+        
+            \maketitle
+        
+
+        
+
+
+        
+        This notebook has the code used to process the SNP files generated by
+the AMOS processes pipeline. To generate these files, the assemblies of
+the J07 and A07 populations (generated using the Celera Assembler), were
+proccessed using the analyzeSNPs script from AMOS.
+
+The parameteres used for analyzeSNPs, were: - Minimum depth of 4 - At
+least two different bases of consensus - Quality score of 20 or more
+
+For those assemblies that had 454 reads, those reads were not considered
+in the analysis. Only SNPs supported by Sanger reads were considered.
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}1{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Import the modules needed}
+\PY{k+kn}{from} \PY{n+nn}{collections} \PY{k+kn}{import} \PY{n}{defaultdict}
+\PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k+kn}{as} \PY{n+nn}{np}
+\PY{o}{\PYZpc{}}\PY{k}{matplotlib} \PY{n}{inline}
+\PY{k+kn}{import} \PY{n+nn}{matplotlib.pyplot} \PY{k+kn}{as} \PY{n+nn}{plt}
+\PY{k+kn}{import} \PY{n+nn}{matplotlib.mlab} \PY{k+kn}{as} \PY{n+nn}{mlab}
+\PY{k+kn}{import} \PY{n+nn}{seaborn} \PY{k+kn}{as} \PY{n+nn}{sns}
+\PY{k+kn}{from} \PY{n+nn}{collections} \PY{k+kn}{import} \PY{n}{defaultdict}
+\PY{k+kn}{import} \PY{n+nn}{re}
+\PY{k+kn}{from} \PY{n+nn}{Bio} \PY{k+kn}{import} \PY{n}{SeqIO}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}2{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Read the list of scaffolds and store in a dictionary}
+\PY{c}{\PYZsh{}The structure is: key\PYZhy{}\PYZgt{} Assembly\PYZus{}ID}
+\PY{c}{\PYZsh{}                  values \PYZhy{}\PYZgt{} [JGI\PYZus{}ID, length]}
+\PY{k}{def} \PY{n+nf}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n+nb}{input}\PY{p}{)}\PY{p}{:}
+    
+    \PY{n}{output\PYZus{}dic} \PY{o}{=} \PY{n}{defaultdict}\PY{p}{(}\PY{n+nb}{list}\PY{p}{)}
+    
+    \PY{k}{for} \PY{n}{line} \PY{o+ow}{in} \PY{n+nb}{open}\PY{p}{(}\PY{n+nb}{input}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{r}\PY{l+s}{\PYZsq{}}\PY{p}{)}\PY{p}{:}
+        \PY{k}{if} \PY{n}{line}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+            \PY{n}{line} \PY{o}{=} \PY{n}{line}\PY{o}{.}\PY{n}{rstrip}\PY{p}{(}\PY{p}{)}
+            \PY{n}{info} \PY{o}{=} \PY{n}{line}\PY{o}{.}\PY{n}{split}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{output\PYZus{}dic}\PY{p}{[}\PY{n}{info}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{info}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{,}\PY{n}{info}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{]}
+    
+    \PY{k}{return} \PY{n}{output\PYZus{}dic}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}3{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Read the contig\PYZhy{}scaffold mapping, store in dictionary}
+\PY{c}{\PYZsh{}The structure is: key\PYZhy{}\PYZgt{}contig\PYZus{}id}
+\PY{c}{\PYZsh{}Values:           values\PYZhy{}\PYZgt{}[scaf\PYZus{}id,start,end,orientation]}
+
+\PY{k}{def} \PY{n+nf}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n+nb}{input}\PY{p}{)}\PY{p}{:}
+    \PY{n}{output\PYZus{}dic} \PY{o}{=} \PY{n}{defaultdict}\PY{p}{(}\PY{n+nb}{list}\PY{p}{)}
+    
+    \PY{k}{for} \PY{n}{line} \PY{o+ow}{in} \PY{n+nb}{open}\PY{p}{(}\PY{n+nb}{input}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{r}\PY{l+s}{\PYZsq{}}\PY{p}{)}\PY{p}{:}
+        \PY{k}{if} \PY{n}{line}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+            \PY{n}{line} \PY{o}{=} \PY{n}{line}\PY{o}{.}\PY{n}{rstrip}\PY{p}{(}\PY{p}{)}
+            \PY{n}{info} \PY{o}{=} \PY{n}{line}\PY{o}{.}\PY{n}{split}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+            \PY{n}{output\PYZus{}dic}\PY{p}{[}\PY{n}{info}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{info}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,}\PY{n}{info}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{,}\PY{n}{info}\PY{p}{[}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{,}\PY{n}{info}\PY{p}{[}\PY{l+m+mi}{4}\PY{p}{]}\PY{p}{]}
+    
+    \PY{k}{return} \PY{n}{output\PYZus{}dic}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}4{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Read the AMOS SNP file, change info according to the scaffolds with the JGI ID and store}
+\PY{c}{\PYZsh{}the information ready for the VCF file}
+\PY{c}{\PYZsh{}Dictionary: key\PYZhy{}\PYZgt{}scaffold}
+\PY{c}{\PYZsh{}            values: [position,id,etc..... (rest of columns VCF)}
+
+\PY{k}{def} \PY{n+nf}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{scaf\PYZus{}list}\PY{p}{,}\PY{n}{mapping}\PY{p}{,}\PY{n}{input\PYZus{}snp}\PY{p}{,}\PY{n}{genome\PYZus{}file}\PY{p}{)}\PY{p}{:}
+    \PY{n}{logfile} \PY{o}{=} \PY{n+nb}{open}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{logfile.txt}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{w}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+    
+    \PY{c}{\PYZsh{}Dictionary to get the complementary nucleotide}
+    \PY{n}{complement\PYZus{}dict} \PY{o}{=} \PY{p}{\PYZob{}}\PY{l+s}{\PYZdq{}}\PY{l+s}{A}\PY{l+s}{\PYZdq{}}\PY{p}{:}\PY{l+s}{\PYZdq{}}\PY{l+s}{T}\PY{l+s}{\PYZdq{}}\PY{p}{,}\PY{l+s}{\PYZdq{}}\PY{l+s}{T}\PY{l+s}{\PYZdq{}}\PY{p}{:}\PY{l+s}{\PYZdq{}}\PY{l+s}{A}\PY{l+s}{\PYZdq{}}\PY{p}{,}\PY{l+s}{\PYZdq{}}\PY{l+s}{C}\PY{l+s}{\PYZdq{}}\PY{p}{:}\PY{l+s}{\PYZdq{}}\PY{l+s}{G}\PY{l+s}{\PYZdq{}}\PY{p}{,}\PY{l+s}{\PYZdq{}}\PY{l+s}{G}\PY{l+s}{\PYZdq{}}\PY{p}{:}\PY{l+s}{\PYZdq{}}\PY{l+s}{C}\PY{l+s}{\PYZdq{}}\PY{p}{\PYZcb{}}
+    
+    
+    \PY{n}{fasta\PYZus{}sequences} \PY{o}{=} \PY{n}{SeqIO}\PY{o}{.}\PY{n}{parse}\PY{p}{(}\PY{n+nb}{open}\PY{p}{(}\PY{n}{genome\PYZus{}file}\PY{p}{)}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{fasta}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{genome\PYZus{}dictionary} \PY{o}{=} \PY{n}{defaultdict}\PY{p}{(}\PY{n+nb}{str}\PY{p}{)}
+    
+    \PY{k}{for} \PY{n}{fasta} \PY{o+ow}{in} \PY{n}{fasta\PYZus{}sequences}\PY{p}{:}
+        \PY{n}{name}\PY{p}{,} \PY{n}{sequence} \PY{o}{=} \PY{n}{fasta}\PY{o}{.}\PY{n}{id}\PY{p}{,} \PY{n}{fasta}\PY{o}{.}\PY{n}{seq}\PY{o}{.}\PY{n}{tostring}\PY{p}{(}\PY{p}{)}
+        \PY{n}{genome\PYZus{}dictionary}\PY{p}{[}\PY{n}{name}\PY{p}{]} \PY{o}{=} \PY{n}{sequence}
+          
+    
+    \PY{n}{output\PYZus{}vcf\PYZus{}results} \PY{o}{=} \PY{n}{defaultdict}\PY{p}{(}\PY{k}{lambda}\PY{p}{:} \PY{n}{defaultdict}\PY{p}{(}\PY{n+nb}{list}\PY{p}{)}\PY{p}{)}
+    \PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{defaultdict}\PY{p}{(}\PY{n+nb}{int}\PY{p}{)}
+    
+    \PY{k}{for} \PY{n}{line} \PY{o+ow}{in} \PY{n+nb}{open}\PY{p}{(}\PY{n}{input\PYZus{}snp}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{r}\PY{l+s}{\PYZsq{}}\PY{p}{)}\PY{p}{:}
+        
+        \PY{k}{if} \PY{n}{line}\PY{o}{.}\PY{n}{startswith}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{AsmblID}\PY{l+s}{\PYZdq{}}\PY{p}{)}\PY{p}{:}
+            \PY{k}{continue}
+        \PY{k}{if} \PY{n}{line}\PY{o}{.}\PY{n}{strip}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+            
+            \PY{n}{line} \PY{o}{=} \PY{n}{line}\PY{o}{.}\PY{n}{rstrip}\PY{p}{(}\PY{p}{)}
+            \PY{n}{info} \PY{o}{=} \PY{n}{line}\PY{o}{.}\PY{n}{split}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+            
+            \PY{n}{ctg\PYZus{}id} \PY{o}{=} \PY{n}{info}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+            \PY{n}{ungapped\PYZus{}position} \PY{o}{=} \PY{n}{info}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}
+            \PY{n}{consensus\PYZus{}base} \PY{o}{=} \PY{n}{info}\PY{p}{[}\PY{l+m+mi}{3}\PY{p}{]}
+            \PY{n}{depth\PYZus{}coverage} \PY{o}{=} \PY{n}{info}\PY{p}{[}\PY{l+m+mi}{4}\PY{p}{]}
+            
+            \PY{n}{bases\PYZus{}info} \PY{o}{=} \PY{n}{info}\PY{p}{[}\PY{l+m+mi}{6}\PY{p}{:}\PY{p}{]}
+            
+            \PY{c}{\PYZsh{}Skip gaps, because we are looking for SNPs, and insertion/deletions complicate the creation}
+            \PY{c}{\PYZsh{}of the VCF file}
+            \PY{k}{if} \PY{n}{consensus\PYZus{}base} \PY{o}{==} \PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZhy{}}\PY{l+s}{\PYZdq{}}\PY{p}{:}
+                \PY{k}{continue}
+            
+            \PY{c}{\PYZsh{}Skip if coverage is less than four:}
+            \PY{k}{if} \PY{o+ow}{not} \PY{n+nb}{int}\PY{p}{(}\PY{n}{depth\PYZus{}coverage}\PY{p}{)} \PY{o}{\PYZgt{}} \PY{l+m+mi}{3}\PY{p}{:}
+                \PY{k}{continue}
+            
+            \PY{c}{\PYZsh{}Skip those contig with no mapping info}
+            \PY{k}{if} \PY{o+ow}{not} \PY{n}{ctg\PYZus{}id} \PY{o+ow}{in} \PY{n}{mapping}\PY{p}{:}
+                \PY{k}{continue}
+            
+            
+            \PY{c}{\PYZsh{}Only look at the scaffolds that are part of the assembly}
+            \PY{n}{scf\PYZus{}id}\PY{p}{,}\PY{n}{start}\PY{p}{,}\PY{n}{end}\PY{p}{,}\PY{n}{orientation} \PY{o}{=} \PY{n}{mapping}\PY{p}{[}\PY{n}{ctg\PYZus{}id}\PY{p}{]}
+            \PY{k}{if} \PY{o+ow}{not} \PY{n}{scf\PYZus{}id} \PY{o+ow}{in} \PY{n}{scaf\PYZus{}list}\PY{p}{:}
+                \PY{k}{continue}
+                
+            \PY{n}{jgi\PYZus{}scf\PYZus{}id} \PY{o}{=} \PY{n}{scaf\PYZus{}list}\PY{p}{[}\PY{n}{scf\PYZus{}id}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+            
+            \PY{c}{\PYZsh{}Calculate the SNP position in the scaffold}
+            \PY{n}{snp\PYZus{}position\PYZus{}scf} \PY{o}{=} \PY{l+m+mi}{0}
+            
+            \PY{k}{if} \PY{n}{orientation} \PY{o}{==} \PY{l+s}{\PYZsq{}}\PY{l+s}{f}\PY{l+s}{\PYZsq{}}\PY{p}{:}
+                \PY{n}{snp\PYZus{}position\PYZus{}scf} \PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n}{start}\PY{p}{)} \PY{o}{+} \PY{n+nb}{int}\PY{p}{(}\PY{n}{ungapped\PYZus{}position}\PY{p}{)}
+            
+            \PY{k}{if} \PY{n}{orientation} \PY{o}{==} \PY{l+s}{\PYZsq{}}\PY{l+s}{r}\PY{l+s}{\PYZsq{}}\PY{p}{:}
+                \PY{n}{snp\PYZus{}position\PYZus{}scf} \PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n}{end}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{n+nb}{int}\PY{p}{(}\PY{n}{ungapped\PYZus{}position}\PY{p}{)} \PY{o}{+} \PY{l+m+mi}{1}
+            
+            
+            \PY{c}{\PYZsh{}Get the depth of each base}
+            \PY{n}{bases\PYZus{}dict} \PY{o}{=} \PY{n}{defaultdict}\PY{p}{(}\PY{n+nb}{int}\PY{p}{)}
+            \PY{n}{adjusted\PYZus{}depth} \PY{o}{=} \PY{l+m+mi}{0} 
+            
+            
+            \PY{k}{for} \PY{n}{base} \PY{o+ow}{in} \PY{n}{bases\PYZus{}info}\PY{p}{:}
+                \PY{n}{number\PYZus{}search} \PY{o}{=} \PY{n}{re}\PY{o}{.}\PY{n}{match}\PY{p}{(}\PY{l+s}{\PYZsq{}}\PY{l+s}{(}\PY{l+s}{\PYZbs{}}\PY{l+s}{D+)}\PY{l+s}{\PYZbs{}}\PY{l+s}{((}\PY{l+s}{\PYZbs{}}\PY{l+s}{d+)}\PY{l+s}{\PYZbs{}}\PY{l+s}{)}\PY{l+s}{\PYZsq{}}\PY{p}{,}\PY{n}{base}\PY{p}{)}
+                
+                \PY{k}{if} \PY{n+nb}{int}\PY{p}{(}\PY{n}{number\PYZus{}search}\PY{o}{.}\PY{n}{group}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{)} \PY{o}{\PYZgt{}} \PY{l+m+mi}{2}\PY{p}{:}                    
+                    \PY{n}{base} \PY{o}{=} \PY{n+nb}{str}\PY{p}{(}\PY{p}{)}
+                    
+                    \PY{k}{if} \PY{n}{orientation} \PY{o}{==} \PY{l+s}{\PYZsq{}}\PY{l+s}{r}\PY{l+s}{\PYZsq{}}\PY{p}{:}
+                        
+                        \PY{k}{if} \PY{n}{number\PYZus{}search}\PY{o}{.}\PY{n}{group}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)} \PY{o+ow}{in} \PY{n}{complement\PYZus{}dict}\PY{p}{:}    
+                            \PY{n}{base} \PY{o}{=} \PY{n}{complement\PYZus{}dict}\PY{p}{[}\PY{n}{number\PYZus{}search}\PY{o}{.}\PY{n}{group}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{]}
+                        \PY{k}{else}\PY{p}{:}
+                            \PY{n}{base} \PY{o}{=} \PY{n}{number\PYZus{}search}\PY{o}{.}\PY{n}{group}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}
+                    
+                    \PY{k}{if} \PY{n}{orientation} \PY{o}{==} \PY{l+s}{\PYZsq{}}\PY{l+s}{f}\PY{l+s}{\PYZsq{}}\PY{p}{:}
+                        \PY{n}{base} \PY{o}{=} \PY{n}{number\PYZus{}search}\PY{o}{.}\PY{n}{group}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{)}
+                    
+                    
+                    \PY{n}{bases\PYZus{}dict}\PY{p}{[}\PY{n}{base}\PY{p}{]} \PY{o}{=} \PY{n}{number\PYZus{}search}\PY{o}{.}\PY{n}{group}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{)}
+                    \PY{n}{adjusted\PYZus{}depth} \PY{o}{+}\PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n}{number\PYZus{}search}\PY{o}{.}\PY{n}{group}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{)}
+                    
+            \PY{n}{gap\PYZus{}counter} \PY{o}{=} \PY{l+m+mi}{0}
+            \PY{k}{for} \PY{n}{base} \PY{o+ow}{in} \PY{n}{bases\PYZus{}dict}\PY{p}{:}
+                \PY{k}{if} \PY{n}{base} \PY{o}{==} \PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZhy{}}\PY{l+s}{\PYZdq{}}\PY{p}{:}
+                    \PY{n}{gap\PYZus{}counter} \PY{o}{+}\PY{o}{=} \PY{l+m+mi}{1}
+            
+            \PY{k}{if} \PY{o+ow}{not} \PY{n}{gap\PYZus{}counter} \PY{o}{==} \PY{l+m+mi}{0}\PY{p}{:}
+                \PY{k}{continue}
+                
+                    
+            
+            
+            \PY{c}{\PYZsh{}Because some of the assemblies are based in 454 data, I need to check that the consensus}
+            \PY{c}{\PYZsh{}is indeed the deepest base. If not, I just move to the next one. }
+            \PY{c}{\PYZsh{}This is stringent, but the idea is to look at SNPs that are supported by the sanger reads}
+            \PY{c}{\PYZsh{}The details of the population structure should come out from the Illumina reads}
+         
+            \PY{k}{if} \PY{o+ow}{not} \PY{n+nb}{len}\PY{p}{(}\PY{n}{bases\PYZus{}dict}\PY{o}{.}\PY{n}{keys}\PY{p}{(}\PY{p}{)}\PY{p}{)} \PY{o}{\PYZgt{}} \PY{l+m+mi}{1}\PY{p}{:}
+                \PY{k}{continue}
+            
+    
+
+            \PY{c}{\PYZsh{}Values for the final dictionary}
+            \PY{c}{\PYZsh{}Chrom}
+            \PY{c}{\PYZsh{}Pos}
+            \PY{c}{\PYZsh{}ID, always .}
+            \PY{c}{\PYZsh{}REF}
+            \PY{c}{\PYZsh{}ALT If multiple, separated by , Replace \PYZdq{}\PYZhy{}\PYZdq{} with \PYZdq{}.\PYZdq{}}
+            \PY{c}{\PYZsh{}Qual, always 20}
+            \PY{c}{\PYZsh{}Filter, always PASS}
+            \PY{c}{\PYZsh{}INFO: \PYZsh{}NS=1,DP=depth,AF=allele frequency}
+            
+            \PY{c}{\PYZsh{}For some reason, AMOS gives position that are not the ones found in the consensus}
+            \PY{c}{\PYZsh{}Here I will check against the fasta file for the sequence, to see if the position correspond to the consensus}
+            \PY{c}{\PYZsh{}or the alternates}
+            
+            
+                        
+            \PY{c}{\PYZsh{}Create the alt and allele frequency values}
+            \PY{c}{\PYZsh{}genome\PYZus{}reference\PYZus{}nuc = genome\PYZus{}sequence[jgi\PYZus{}scf\PYZus{}id].seq[int(snp\PYZus{}position\PYZus{}scf) + 1]}
+            \PY{n}{reference\PYZus{}position} \PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n}{snp\PYZus{}position\PYZus{}scf}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mi}{1}
+            
+            \PY{k}{try}\PY{p}{:}
+                \PY{n}{genome\PYZus{}reference\PYZus{}nuc} \PY{o}{=} \PY{n}{genome\PYZus{}dictionary}\PY{p}{[}\PY{n}{jgi\PYZus{}scf\PYZus{}id}\PY{p}{]}\PY{p}{[}\PY{n}{reference\PYZus{}position}\PY{p}{]}
+            \PY{k}{except} \PY{n+ne}{IndexError}\PY{p}{:}
+                \PY{n}{logfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Error: }\PY{l+s+si}{\PYZpc{}s}\PY{l+s+se}{\PYZbs{}t}\PY{l+s+si}{\PYZpc{}d}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}} \PY{o}{\PYZpc{}}\PY{p}{(}\PY{n}{jgi\PYZus{}scf\PYZus{}id}\PY{p}{,}\PY{n}{reference\PYZus{}position}\PY{p}{)}\PY{p}{)}
+                \PY{k}{continue}
+                
+            \PY{n}{new\PYZus{}reference\PYZus{}position} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{.}\PY{l+s}{\PYZdq{}}
+            \PY{n}{alternative\PYZus{}bases} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+            \PY{n}{allele\PYZus{}frequency} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+            
+            
+            \PY{k}{for} \PY{n}{entry} \PY{o+ow}{in} \PY{n}{bases\PYZus{}dict}\PY{o}{.}\PY{n}{keys}\PY{p}{(}\PY{p}{)}\PY{p}{:}
+                
+                \PY{k}{if} \PY{n}{entry} \PY{o}{==} \PY{n}{genome\PYZus{}reference\PYZus{}nuc}\PY{p}{:}
+                    \PY{n}{new\PYZus{}reference\PYZus{}position} \PY{o}{=} \PY{n}{entry}
+                    
+                \PY{k}{else}\PY{p}{:}
+                    \PY{n}{alternative\PYZus{}bases}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{entry}\PY{p}{)}
+                    \PY{n}{freq} \PY{o}{=} \PY{n+nb}{int}\PY{p}{(}\PY{n}{bases\PYZus{}dict}\PY{p}{[}\PY{n}{entry}\PY{p}{]}\PY{p}{)} \PY{o}{/} \PY{n+nb}{float}\PY{p}{(}\PY{n}{adjusted\PYZus{}depth}\PY{p}{)}
+                    \PY{n}{allele\PYZus{}frequency}\PY{o}{.}\PY{n}{append}\PY{p}{(}\PY{n}{freq}\PY{p}{)}
+            
+            \PY{c}{\PYZsh{}Now save everything into an entry}
+            
+            \PY{n}{vcf\PYZus{}alt} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{,}\PY{l+s}{\PYZdq{}}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{n}{alternative\PYZus{}bases}\PY{p}{)}
+            \PY{n}{info\PYZus{}entry} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{NS=1,}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{DP=}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{adjusted\PYZus{}depth}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{,AF=}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{,}\PY{l+s}{\PYZdq{}}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{n+nb}{str}\PY{p}{,} \PY{n}{allele\PYZus{}frequency}\PY{p}{)}\PY{p}{)}
+            
+            \PY{c}{\PYZsh{}Modify consensus base to \PYZdq{}.\PYZdq{}}
+            \PY{c}{\PYZsh{}if consensus\PYZus{}base == \PYZdq{}\PYZhy{}\PYZdq{}:}
+            \PY{c}{\PYZsh{}    consensus\PYZus{}base = \PYZdq{}.\PYZdq{}}
+            
+            \PY{n}{vcf\PYZus{}entry} \PY{o}{=} \PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{.}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{new\PYZus{}reference\PYZus{}position}\PY{p}{,} \PY{n}{vcf\PYZus{}alt}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{20}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{PASS}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{info\PYZus{}entry}\PY{p}{]}
+            
+            \PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scf\PYZus{}id}\PY{p}{]} \PY{o}{+}\PY{o}{=} \PY{l+m+mi}{1}
+            
+            \PY{n}{output\PYZus{}vcf\PYZus{}results}\PY{p}{[}\PY{n}{jgi\PYZus{}scf\PYZus{}id}\PY{p}{]}\PY{p}{[}\PY{n}{snp\PYZus{}position\PYZus{}scf}\PY{p}{]} \PY{o}{=} \PY{n}{vcf\PYZus{}entry}
+            
+            \PY{n}{logfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{n}{orientation} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{,}\PY{l+s}{\PYZdq{}}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{n}{bases\PYZus{}dict}\PY{o}{.}\PY{n}{keys}\PY{p}{(}\PY{p}{)}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n}{genome\PYZus{}reference\PYZus{}nuc} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{,}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n}{new\PYZus{}reference\PYZus{}position} \PY{o}{+}\PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n}{jgi\PYZus{}scf\PYZus{}id} \PY{o}{+}\PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}position\PYZus{}scf}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{,}\PY{l+s}{\PYZdq{}}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{n}{vcf\PYZus{}entry}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+                                
+    \PY{n}{logfile}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+    \PY{k}{return} \PY{n}{output\PYZus{}vcf\PYZus{}results}\PY{p}{,}\PY{n}{snp\PYZus{}count}
+            
+            
+                        
+            
+                            
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}5{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{def} \PY{n+nf}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{snp\PYZus{}info}\PY{p}{,}\PY{n+nb}{file}\PY{p}{)}\PY{p}{:}
+    \PY{c}{\PYZsh{}This function will write a vcf file based on the generated snp dictionary}
+    \PY{k+kn}{import} \PY{n+nn}{datetime}
+    \PY{n}{today} \PY{o}{=} \PY{n}{datetime}\PY{o}{.}\PY{n}{date}\PY{o}{.}\PY{n}{today}\PY{p}{(}\PY{p}{)}
+    
+    \PY{n}{outfile} \PY{o}{=} \PY{n+nb}{open}\PY{p}{(}\PY{n+nb}{file}\PY{p}{,} \PY{l+s}{\PYZsq{}}\PY{l+s}{w}\PY{l+s}{\PYZsq{}}\PY{p}{)}
+    
+    \PY{n}{outfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZsh{}\PYZsh{}fileformat=VCFv4.1}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{outfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZsh{}\PYZsh{}filedate=}\PY{l+s+si}{\PYZpc{}s}\PY{l+s+si}{\PYZpc{}s}\PY{l+s+si}{\PYZpc{}s}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}} \PY{o}{\PYZpc{}} \PY{p}{(}\PY{n}{today}\PY{o}{.}\PY{n}{year}\PY{p}{,}\PY{n}{today}\PY{o}{.}\PY{n}{month}\PY{p}{,}\PY{n}{today}\PY{o}{.}\PY{n}{day}\PY{p}{)}\PY{p}{)}
+    \PY{n}{outfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZsh{}\PYZsh{}source=AMOS\PYZus{}file\PYZus{}JU}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{outfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZsh{}\PYZsh{}INFO=\PYZlt{}ID=NS,Number=1,Type=Integer,Description=}\PY{l+s+se}{\PYZbs{}\PYZdq{}}\PY{l+s}{Number of samples with data}\PY{l+s+se}{\PYZbs{}\PYZdq{}}\PY{l+s}{\PYZgt{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{outfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZsh{}\PYZsh{}INFO=\PYZlt{}ID=DP,Number=1,Type=Integer,Description=}\PY{l+s+se}{\PYZbs{}\PYZdq{}}\PY{l+s}{Total Depth}\PY{l+s+se}{\PYZbs{}\PYZdq{}}\PY{l+s}{\PYZgt{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{outfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZsh{}\PYZsh{}INFO=\PYZlt{}ID=AF,Number=A,Type=Float,Description=}\PY{l+s+se}{\PYZbs{}\PYZdq{}}\PY{l+s}{Allele Frequency}\PY{l+s+se}{\PYZbs{}\PYZdq{}}\PY{l+s}{\PYZgt{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{outfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZsh{}CHROM}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{POS}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{ID}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{REF}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{ALT}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{QUAL}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{FILTER}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{INFO}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    
+    \PY{k}{for} \PY{n}{scaffold} \PY{o+ow}{in} \PY{n+nb}{sorted}\PY{p}{(}\PY{n}{snp\PYZus{}info}\PY{p}{)}\PY{p}{:}
+        \PY{k}{for} \PY{n}{position} \PY{o+ow}{in} \PY{n+nb}{sorted}\PY{p}{(}\PY{n}{snp\PYZus{}info}\PY{p}{[}\PY{n}{scaffold}\PY{p}{]}\PY{p}{)}\PY{p}{:}
+        
+            \PY{n}{outfile}\PY{o}{.}\PY{n}{write}\PY{p}{(}\PY{n}{scaffold} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{position}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}}\PY{o}{.}\PY{n}{join}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{n+nb}{str}\PY{p}{,}\PY{n}{snp\PYZus{}info}\PY{p}{[}\PY{n}{scaffold}\PY{p}{]}\PY{p}{[}\PY{n}{position}\PY{p}{]}\PY{p}{)}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+        
+    
+    \PY{n}{outfile}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+    
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+\subsection{Store the results for global comparison among the genomes}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}6{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{genome\PYZus{}results} \PY{o}{=} \PY{n}{defaultdict}\PY{p}{(}\PY{n+nb}{list}\PY{p}{)}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+\section{J07ABHN4}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}7{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07ABHN4}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07ABHN4}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07HN4/2512875007.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/454\PYZus{}Trimmed.HN4\PYZus{}v3\PYZus{}031612\PYZus{}readnames\PYZus{}Q20C20M2.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07ABHN4.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/HN4\PYZus{}v3\PYZus{}031612.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}8{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}9{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07HN4}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07HN4v2\_scf7180000001347.1     547036  961
+J07HN4v2\_scf7180000001348.2     2341623 7958
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}10{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HN4\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}11{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07HN4} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07HN4\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       1064
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07ABHN6}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}12{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07ABHN6}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07ABHN6}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07HN6/2512875008.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/454Trimmed\PYZus{}HN6\PYZus{}031912\PYZus{}readnames\PYZus{}Q20C20M2.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07ABHN6.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/HN6\PYZus{}031912.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}13{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07HN6}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HN6\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07HN6v2\_scf7180000001851.4     424200  2746
+J07HN6v2\_scf7180000001850.3     185112  1476
+J07HN6v2\_scf7180000001853.6     896196  5442
+J07HN6v2\_scf7180000001852.5     873166  6434
+J07HN6v2\_scf7180000001848.1     61036   602
+J07HN6v2\_scf7180000001849.2     89290   553
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}14{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07HN6} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07HN6\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       1969
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07ABHX64}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}15{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07ABHX64}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07ABHX64}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07HX64/2502082092.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{./AC\PYZus{}sang\PYZus{}080509mer15\PYZus{}C20Q20M2.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07ANHX64.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{./AC\PYZus{}sang\PYZus{}080509mer15.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}16{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07ABHX64}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07ABHX64\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07ABHX6\_J07ABscf098875 2982938 5466
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}17{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07HX64} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07HX64\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       997
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07ABHX67}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}18{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07ABHX67}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07ABHX67}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07HB67/2506783034.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{./AC\PYZus{}sang\PYZus{}080509mer15\PYZus{}C20Q20M2.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07ABHX67.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{./AC\PYZus{}sang\PYZus{}080509mer15.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}19{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07ABHX67}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07ABHX67\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07ABHX67v2\_\_Contig\_2   254249  145
+J07ABHX67v2\_\_Contig\_1   110024  62
+J07ABHX67v2\_\_Contig\_3   2285274 2851
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}20{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07HX67} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07HX67\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       1414
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07HQX}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}21{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07HQX}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07HQX}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07HQX/2512875009.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/454Trimmed\PYZus{}HQX\PYZus{}031812\PYZus{}readnames\PYZus{}Q20C20M2.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HQX.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/HQX\PYZus{}031812.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}22{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07HQX}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HQX\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07HQXv2\_scf7180000001541.2     1476021 131
+J07HQXv2\_scf7180000001540.1     1543888 28
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}23{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07HQX} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07HQX\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       15
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07HWQ1}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}24{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07HWQ1}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07HWQ1}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07HQW1/2512875005.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/AC\PYZus{}0.8sang\PYZus{}080309mer15.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HWQ1.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/AC\PYZus{}0.8sang\PYZus{}080309mer15.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}25{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07HWQ1}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HWQ1\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07HWQ1\_J07B\_scf56329a.1        3475501 24677
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}26{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07HWQ1} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07HWQ1\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       2339
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07HWQ2}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}27{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07HWQ1}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07HWQ2}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07HQW2/2512875006.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/HQW2\PYZus{}08err\PYZus{}032412a\PYZus{}Q20C20M2.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HWQ2.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/HQW2\PYZus{}08err\PYZus{}032412a.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}28{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07HWQ2}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HWQ2\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07HQW2\_scf7180000002443.1      3594539 13863
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}29{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07HWQ2} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07HWQ2\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       1233
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07HR59}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}30{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07HR59}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07HR59}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07HR59/2512875011.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/454Trimmed\PYZus{}HR\PYZus{}032012\PYZus{}readnames\PYZus{}Q20C20M2.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HR59.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/HR\PYZus{}032012.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}31{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07HR59}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HR59\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07HR59\_scf7180000001381.6      184023  7
+J07HR59\_scf7180000001380.5      49857   29
+J07HR59\_scf7180000001382.7      1672266 255
+J07HR59\_scf7180000001326.1      72446   1
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}32{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07HR59} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07HR59\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       64
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07HX5}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}33{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07HX5}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07HX5}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07HX5/2512875010.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/454\PYZus{}Trimmed.HX64\PYZus{}HX5\PYZus{}031512\PYZus{}Q20C20M2.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HX5.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/HX64\PYZus{}HX5\PYZus{}031512.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}34{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07HX5}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07HX5\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07HX5\_scf7180000022092.1       2040945 2046
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}35{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07HX5} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07HX5\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       352
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07NFR43}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}36{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07NFR43}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07NFR43}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07AB43/2502422326.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/454Trimmed\PYZus{}J07NFR43\PYZus{}readnames\PYZus{}Q20C20M2.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07NFR43.scaffold\PYZus{}list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07NFR43.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}37{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07NFR43}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07NFR43\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07NFR4\_J07NFR43scf30742        52428   885
+J07NFR4\_J07NFR43scf30739        112863  2281
+J07NFR4\_J07NFR43scf30734        65032   857
+J07NFR4\_J07NFR43scf30737        32088   201
+J07NFR4\_J07NFR43scf30744        798418  7669
+J07NFR4\_J07NFR43scf30726        111825  701
+J07NFR4\_J07NFR43scf30724        54503   224
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}38{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07AB43} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07AB43\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       2174
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\section{J07NFR56}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}39{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Files for J07NFR56}
+\PY{n}{genome\PYZus{}folder} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{J07NFR56}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Fasta file of the genome (nucleotide)}
+\PY{n}{fasta\PYZus{}genome} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{../jgi\PYZus{}genomes/J07AB56/2502422327.fna}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}SNP file, generated by amos}
+\PY{n}{amos\PYZus{}snp\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/454Trimmed\PYZus{}J07NFR56\PYZus{}Q20C20.snps}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}File with the list of scaffolds. The format is:}
+\PY{c}{\PYZsh{}ID\PYZus{}Assembly Length ID\PYZus{}JGI}
+\PY{n}{scaffold\PYZus{}list} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07NFR56.scaffold.list}\PY{l+s}{\PYZdq{}}
+
+\PY{c}{\PYZsh{}Contig to Scaffold Mapping. The SNP file that AMOS generates, has the coordinates by contig.}
+\PY{c}{\PYZsh{}A second file is needed to map this coordinates to the scaffolds. Format:}
+\PY{c}{\PYZsh{}Contig Scaffold Start End Orientation}
+\PY{n}{ctg\PYZus{}scaf\PYZus{}map} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07NFR56.posmap.ctgscf}\PY{l+s}{\PYZdq{}}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}40{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Generate the list of the snps, and a general count of SNPs found on each scaffold}
+\PY{n}{genome\PYZus{}scaffolds} \PY{o}{=} \PY{n}{read\PYZus{}scaffold\PYZus{}list}\PY{p}{(}\PY{n}{scaffold\PYZus{}list}\PY{p}{)}
+\PY{n}{mapping\PYZus{}info} \PY{o}{=} \PY{n}{read\PYZus{}ctg\PYZus{}scaf\PYZus{}map}\PY{p}{(}\PY{n}{ctg\PYZus{}scaf\PYZus{}map}\PY{p}{)}
+\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,}\PY{n}{snp\PYZus{}count} \PY{o}{=} \PY{n}{read\PYZus{}amos\PYZus{}snp}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{,} \PY{n}{mapping\PYZus{}info}\PY{p}{,} \PY{n}{amos\PYZus{}snp\PYZus{}file}\PY{p}{,} \PY{n}{fasta\PYZus{}genome}\PY{p}{)}
+
+\PY{c}{\PYZsh{}Print some basic stats on number of snps and length}
+\PY{k}{for} \PY{n}{scaf} \PY{o+ow}{in} \PY{n}{snp\PYZus{}count}\PY{p}{:}
+    \PY{k}{print} \PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s+se}{\PYZbs{}t}\PY{l+s}{\PYZdq{}} \PY{o}{+} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}
+    
+    \PY{n}{genome\PYZus{}results}\PY{p}{[}\PY{l+s}{\PYZdq{}}\PY{l+s}{J07NFR56}\PY{l+s}{\PYZdq{}}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{genome\PYZus{}scaffolds}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{)}\PY{p}{,} \PY{n+nb}{str}\PY{p}{(}\PY{n}{snp\PYZus{}count}\PY{p}{[}\PY{n}{scaf}\PY{p}{]}\PY{p}{)}\PY{p}{]}
+    
+    \PY{c}{\PYZsh{}Store the results for comparisons with the other genomes}
+    
+\PY{c}{\PYZsh{}Write the VCF file}
+\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{=} \PY{n}{genome\PYZus{}folder} \PY{o}{+} \PY{l+s}{\PYZdq{}}\PY{l+s}{/J07NFR56\PYZus{}Assembly\PYZus{}snps.vcf}\PY{l+s}{\PYZdq{}}
+\PY{n}{write\PYZus{}vcf}\PY{p}{(}\PY{n}{output\PYZus{}vcf\PYZus{}list}\PY{p}{,} \PY{n}{output\PYZus{}vcf\PYZus{}file}\PY{p}{)}
+    
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}J07NFR5\_J07NFR56scf39101        959093  6809
+J07NFR5\_J07NFR56scf39097        60285   196
+J07NFR5\_J07NFR56scf39072        196424  1527
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}41{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{c}{\PYZsh{}Run snpEFF}
+\PY{o}{!}/Library/Internet\PY{l+s+se}{\PYZbs{} }Plug\PYZhy{}Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java \PYZhy{}jar \PYZti{}/BioApps/snpEff/snpEff.jar eff \PY{err}{\PYZbs{}}
+\PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{downstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{upstream} \PY{o}{\PYZhy{}}\PY{n}{no}\PY{o}{\PYZhy{}}\PY{n}{utr} \PY{o}{\PYZhy{}}\PY{n}{ud} \PY{l+m+mi}{0} \PY{o}{\PYZhy{}}\PY{n}{o} \PY{n}{vcf} \PY{o}{\PYZhy{}}\PY{n}{c} \PY{n}{snpEff}\PY{o}{.}\PY{n}{config} \PY{n}{J07AB56} \PYZbs{}
+\PY{err}{\PYZdl{}}\PY{n}{output\PYZus{}vcf\PYZus{}file} \PY{o}{\PYZgt{}} \PY{err}{\PYZdl{}}\PY{n}{genome\PYZus{}folder}\PY{o}{/}\PY{n}{J07AB56\PYZus{}Assembly\PYZus{}snpEFF}\PY{o}{.}\PY{n}{vcf}
+
+\PY{o}{!}mv snpEff\PYZus{}summary.html \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\PY{o}{!}mv snpEff\PYZus{}genes.txt \PY{n+nv}{\PYZdl{}genome\PYZus{}folder}/
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}
+WARNINGS: Some warning were detected
+Warning type    Number of warnings
+WARNING\_TRANSCRIPT\_NO\_START\_CODON       3875
+
+
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+\part{Data Summary}
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}42{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{print} \PY{n}{genome\PYZus{}results}
+\end{Verbatim}
+
+            
+                \vspace{-0.2\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+    
+
+        % If the first block is an image, minipage the image.  Else
+        % request a certain amount of space for the input text.
+        \needspace{4\baselineskip}
+        
+        
+
+            % Add document contents.
+            
+                \begin{InvisibleVerbatim}
+                \vspace{-0.5\baselineskip}
+\begin{alltt}defaultdict(<type 'list'>, \{'J07NFR56': ['J07NFR5\_J07NFR56scf39072',
+'196424', '1527'], 'J07HX5': ['J07HX5\_scf7180000022092.1', '2040945',
+'2046'], 'J07HN6': ['J07HN6v2\_scf7180000001849.2', '89290', '553'],
+'J07HN4': ['J07HN4v2\_scf7180000001348.2', '2341623', '7958'],
+'J07HR59': ['J07HR59\_scf7180000001326.1', '72446', '1'], 'J07HWQ2':
+['J07HQW2\_scf7180000002443.1', '3594539', '13863'], 'J07HQX':
+['J07HQXv2\_scf7180000001540.1', '1543888', '28'], 'J07HWQ1':
+['J07HWQ1\_J07B\_scf56329a.1', '3475501', '24677'], 'J07ABHX67':
+['J07ABHX67v2\_\_Contig\_3', '2285274', '2851'], 'J07NFR43':
+['J07NFR4\_J07NFR43scf30724', '54503', '224'], 'J07ABHX64':
+['J07ABHX6\_J07ABscf098875', '2982938', '5466']\})
+\end{alltt}
+
+            \end{InvisibleVerbatim}
+            
+        
+    
+
+
+    % Make sure that atleast 4 lines are below the HR
+    \needspace{4\baselineskip}
+
+    
+        \vspace{6pt}
+        \makebox[0.1\linewidth]{\smaller\hfill\tt\color{nbframe-in-prompt}In\hspace{4pt}{[}{]}:\hspace{4pt}}\\*
+        \vspace{-2.65\baselineskip}
+        \begin{ColorVerbatim}
+            \vspace{-0.7\baselineskip}
+            \begin{Verbatim}[commandchars=\\\{\}]
+
+\end{Verbatim}
+
+            
+                \vspace{0.3\baselineskip}
+            
+        \end{ColorVerbatim}
+    
+
+        
+
+        \renewcommand{\indexname}{Index}
+        \printindex
+
+    % End of document
+    \end{document}
+
+

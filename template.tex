@@ -1,0 +1,273 @@
+%
+%
+% UCSD Doctoral Dissertation Template
+% -----------------------------------
+% http://ucsd-thesis.googlecode.com
+%
+%
+% ----------------------------------------------------------------------
+% WARNING: 
+%
+%   This template has not endorced by OGS or any other official entity.
+%   The official formatting guide can be obtained from OGS.
+%   It can be found on the web here:
+%   http://ogs.ucsd.edu/AcademicAffairs/Documents/Dissertations_Theses_Formatting_Manual.pdf
+%
+%   No guaranty is made that this LaTeX class conforms to the official UCSD guidelines.
+%   Make sure that you check the final document against the Formatting Manual.
+%  
+%   That being said, this class has been routinely used for successful 
+%   publication of doctoral theses.  
+%
+%   The ucsd.cls class files are only valid for doctoral dissertations.
+%
+%
+% ----------------------------------------------------------------------
+% GETTING STARTED:
+%
+%   Lots of information can be found on the project wiki:
+%   http://code.google.com/p/ucsd-thesis/wiki/GettingStarted
+%
+%
+%   To make a pdf from this template use the command:
+%     pdflatex template
+%
+%
+%   To get started please read the comments in this template file 
+%   and make changes as appropriate.
+%
+%   If you successfully submit a thesis with this package please let us
+%   know.
+%
+%
+% ----------------------------------------------------------------------
+% KNOWN ISSUES:
+%
+%   Currently only the 12pt size conforms to the UCSD requirements.
+%   The 10pt and 11pt options make the footnote fonts too small.
+%
+%
+% ----------------------------------------------------------------------
+% HELP/CONTACT:
+%
+%   If you need help try the ucsd-thesis google group:
+%   http://groups.google.com/group/ucsd-thesis
+%
+%
+% ----------------------------------------------------------------------
+% BUGS:
+%
+%   Please report all bugs at:
+%   http://code.google.com/p/ucsd-thesis/issues/list
+%
+%
+% ----------------------------------------------------------------------
+% More control of the formatting of your thesis can be achieved through
+% modifications of the included LaTeX class files:
+%
+%   * ucsd.cls    -- Class file
+%   * uct10.clo   -- Configuration files for font sizes 10pt, 11pt, 12pt
+%     uct11.clo                            
+%     uct12.clo
+%
+% ----------------------------------------------------------------------
+
+
+
+% Setup the documentclass 
+% default options: 12pt, oneside, final
+%
+% fonts: 10pt, 11pt, 12pt -- are valid for UCSD dissertations.
+% sides: oneside, twoside -- note that two-sided theses are not accepted 
+%                            by OGS.
+% mode: draft, final      -- draft mode switches to single spacing, 
+%                            removes hyperlinks, and places a black box
+%                            at every overfull hbox (check these before
+%                            submission).
+% chapterheads            -- Include this if you want your chapters to read:
+%                              Chapter 1
+%                              Title of Chapter
+%
+%                            instead of
+%                              1 Title of Chapter
+\documentclass[12pt,chapterheads]{ucsd}
+
+
+
+% Include all packages you need here.  
+% Some standard options are suggested below.
+%
+% See the project wiki for information on how to use 
+% these packages. Other useful packages are also listed there.
+%
+%   http://code.google.com/p/ucsd-thesis/wiki/GettingStarted
+
+
+
+%% AMS PACKAGES - Chances are you will want some or all 
+%    of these if writing a dissertation that includes equations.
+%  \usepackage{amsmath, amscd, amssymb, amsthm}
+
+%% GRAPHICX - This is the standard package for 
+%    including graphics for latex/pdflatex.
+\usepackage{graphicx}
+
+%% SUBFIG - Use this to place multiple images in a
+%    single figure.  Subfig will handle placement and
+%    proper captioning (e.g. Figure 1.2(a))
+
+%% TIMES FONT - replacements for Computer Modern
+%%   This package will replace the default font with a
+%%   Times-Roman font with math support.
+% \usepackage[T1]{fontenc}
+% \usepackage{mathptmx}
+
+%% INDEX
+%   Uncomment the following two lines to create an index: 
+% \usepackage{makeidx}
+% \makeindex
+%   You will need to uncomment the \printindex line near the
+%   bibliography to display the index.  Use the command
+% \index{keyword} 
+%   within the text to create an entry in the index for keyword.
+%   To compile a LaTeX document with an index the 'makeindex'
+%   command will need to be run.  See the wiki for more details.
+
+%% HYPERLINKS
+%   To create a PDF with hyperlinks, you need to include the hyperref package.
+%   THIS HAS TO BE THE LAST PACKAGE INCLUDED!
+%   Note that the options plainpages=false and pdfpagelabels exist
+%   to fix indexing associated with having both (ii) and (2) as pages.
+%   Also, all links must be black according to OGS.
+%   See: http://www.tex.ac.uk/cgi-bin/texfaq2html?label=hyperdupdest
+%   Note: This may not work correctly with all DVI viewers (i.e. Yap breaks).
+%   NOTE: hyperref will NOT work in draft mode, as noted above.
+% \usepackage[colorlinks=true, pdfstartview=FitV, 
+%             linkcolor=black, citecolor=black, 
+%             urlcolor=black, plainpages=false,
+%             pdfpagelabels]{hyperref}
+% \hypersetup{ pdfauthor = {Your Name Here}, 
+%              pdftitle = {The Title of The Dissertation}, 
+%              pdfkeywords = {Keywords for Searching}, 
+%              pdfcreator = {pdfLaTeX with hyperref package}, 
+%              pdfproducer = {pdfLaTeX} }
+
+%This package is needed to insert pdf documents
+\usepackage{pdfpages}
+\usepackage{siunitx}
+
+% This is to help make better tables
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{todonotes}
+\usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{ltxtable}
+\usepackage{rotating}
+
+%For facing captions
+\usepackage{caption}
+\DeclareCaptionLabelFormat{prev-page}{\hrulefill\\#1 #2 \emph{(next page)}} 
+\usepackage{subfig}
+
+
+%\usepackage[sectionbib]{chapterbib}
+
+%This is used to adjust the width of the columns
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+
+\begin{document}
+
+%% FRONT MATTER
+%
+%  All of the front matter.
+%  This includes the title, degree, dedication, vita, abstract, etc..
+%  Modify the file template_frontmatter.tex to change these pages.
+\include{template_frontmatter}
+
+
+
+
+
+%% DISSERTATION
+
+% A common strategy here is to include files for each of the chapters. I.e.,
+% Place the chapters is separate files: 
+%   chapter1.tex, chapter2.tex%
+% Then use the commands:
+%   \include{chapter1}
+%   \include{chapter2}
+%
+% Of course, if you prefer, you can just start with
+%   \chapter{My First Chapter Name}
+% and start typing away. 
+
+%Chapter 1
+\include{Chapter1/chapter1}
+
+%Chapter 2
+\chapter{\textit{De novo} metagenomic assembly reveals abundant novel major lineage of Archaea in hypersaline communities}
+%Check margins!
+\includepdf[pages={-},fitpaper, scale=0.70,pagecommand={}]{PDFs/Narasingarao2012.pdf}
+Chapter 2 is a full reprint of: De novo metagenomic assembly reveals abundant novel major lineage of Archaea in hypersaline communnities. P. Narasingarao, S. Podell, J.A. Ugalde, C. Brochier-Armanet, J.B. Emerson, J.J. Brocks, K.B. Heidelberg, J.F. Banfield and E.E. Allen. \textit{ISME Journal}, \textbf{6},81-93. 2012 (doi: 10.1038/ismej.2011.78), with permission from all coauthors.
+
+
+%Chapter 3
+\chapter{Xenorhodopsins, an enigmatic new class of microbial rhodopsins horizontally transferred between Archaea and Bacteria}
+%Check margins!
+\includepdf[pages={-},fitpaper=true, scale=0.70,pagecommand={}]{PDFs/Ugalde2011.pdf}
+Chapter 3 is a full reprint of: Xenorhodopsins, an enigmatic new class of microbial rhodopsins horizontally transferred between archaea and bacteria. J.A. Ugalde, S. Podell, P. Narasingarao and E.E. Allen. \textit{Biology Direct}, \textbf{6},52. 2011 (doi: 10.1186/1745-6150-6-52), with permission from all coauthors.
+
+
+%Chapter 4
+\chapter{Assembly-driven community genomics of a hypersaline microbial ecosystem}
+%Check margins!
+\includepdf[pages={-},fitpaper=true,scale=0.70,pagecommand={}]{PDFs/Podell2013.pdf}
+Chapter 4 is a full reprint of: Assembly-driven community genomics of a hypersaline microbial ecosystem. S. Podell, J.A. Ugalde, P. Narasingarao, J.F. Banfield, K.B. Heidelberg and E.E. Allen. \textit{PLoS One}, \textbf{8}4:e61692. 2013 (doi: 10.1371/journal.pone.0061692), with permission from all coauthors.
+
+%Chapter 5
+\include{Chapter5/chapter5}
+
+%Chapter 6
+\include{Chapter6/chapter6}
+
+\bibliographystyle{abbrv}
+\bibliography{CompleteLibrary}
+
+
+
+\appendix
+
+\chapter{Draft Genome Sequence of “\textit{Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}\label{G22Genome}
+\includepdf[pages={-},fitpaper=true,scale=0.75,pagecommand={}]{Appendix/UgaldeGA_2013.pdf}
+Appendix \ref{G22Genome} is a full reprint of the publication XXXX, with permissions from all coauthors.
+
+\chapter{Genome coverage plots}
+\include{Appendix/GenomeCoveragePlots}
+
+%\chapter{}\label{ReferenceSNP_analysis}
+%\include{Appendix/ReferenceSNPs_FirstStep}
+
+%PRINT TODO
+\listoftodos
+
+
+%% END MATTER
+%\printindex %% Uncomment to display the index
+% \nocite{}  %% Put any references that you want to include in the bib 
+%               but haven't cited in the braces.
+ %\bibliographystyle{plain}  %% This is just my personal favorite style. 
+%                              There are many others.
+ %\bibliography{myrefs}  %% This looks for the bibliography in myrefs.bib 
+%                          which should be formatted as a bibtex file.
+
+
+\end{document}
+

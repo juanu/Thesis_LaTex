@@ -1,0 +1,47 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Diagram comparing two possible approaches for the analysis of metagenomic data from natural microbial communities. Figure from Bragg and Tyson, 2014 \cite {Bragg:2014kv}.\relax }}{6}{figure.caption.11}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Phylogenetic tree of \textit {Candidatus} Halobonum tyrrellensis G22 and related microorganisms, based on 16S rRNA sequences.\relax }}{11}{figure.caption.12}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Phylogenetic tree of \textit {Candidatus} Halobonum tyrrellensis G22 and related microorganisms, based on phylogenetic marker sequences implemented in the Phylophlan software \cite {Segata:2013hb}\relax }}{12}{figure.caption.13}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Ionic composition of several aquatic systems. Figure from Oren, 2013. \cite {Oren:2013bc}\relax }}{13}{figure.caption.14}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Salt concentration limits for some microbial metabolic processes. Black bars indicate information based on laboratory studies, while white bars indicate activities measured in natural microbial communities. Figure from Oren, 2013 \cite {Oren:2013bc}.\relax }}{13}{figure.caption.15}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Location of Lake Tyrrell in the southeastern region of Australia. Figure from Macumber, 1992. \cite {Macumber:1992ty}.\relax }}{22}{figure.caption.17}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces GC plot of libraries\relax }}{68}{figure.caption.20}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Total number of recruited reads, grouped by identity. The X axis shows the identity of the read to the reference genome (\%), while the Y axis shows the number of reads recruited at that identity (thousands of reads).\relax }}{72}{figure.caption.24}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Phylosift classification of the mapped and unmapped reads of the January 23 sample\relax }}{73}{figure.caption.25}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mapped reads}}}{73}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Unmapped reads}}}{73}{subfigure.3.2}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces EPCA phylosift results\relax }}{74}{figure.caption.26}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Gene significant by seasons\relax }}{74}{figure.caption.27}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces SNPsummary\relax }}{77}{figure.caption.29}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces JanuarySNPs\relax }}{78}{figure.caption.30}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces AugustSNPs\relax }}{79}{figure.caption.31}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces BothSNPs\relax }}{80}{figure.caption.32}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces SNpp frequency\relax }}{81}{figure.caption.33}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Mapping strategy\relax }}{82}{figure.caption.34}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Overview of the pipeline developed for the comparative analysis of microbial genomes}}{86}{figure.caption.39}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Preprocessing step\relax }}{87}{figure.caption.40}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces HQPanGenome\relax }}{92}{figure.caption.45}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Circular plot\relax }}{92}{figure.caption.46}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces J07HWQ1coverage\relax }}{110}{figure.caption.49}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces J07HWQ2coverage\relax }}{111}{figure.caption.50}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces J07AB56coverage\relax }}{112}{figure.caption.51}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces J07AB43coverage\relax }}{113}{figure.caption.52}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces J07HN4coverage\relax }}{114}{figure.caption.53}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces J07HN6coverage\relax }}{115}{figure.caption.54}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces J07HN64coverage\relax }}{116}{figure.caption.55}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces J07HX5coverage\relax }}{117}{figure.caption.56}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces J07HB67coverage\relax }}{118}{figure.caption.57}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces J07HR59coverage\relax }}{119}{figure.caption.58}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces A07HB70coverage\relax }}{120}{figure.caption.59}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces A07HR67coverage\relax }}{121}{figure.caption.60}
+\contentsline {figure}{\numberline {B.13}{\ignorespaces A07HN63coverage\relax }}{122}{figure.caption.61}
+\contentsline {figure}{\numberline {B.14}{\ignorespaces A07HR60coverage\relax }}{123}{figure.caption.62}
+\contentsline {figure}{\numberline {B.15}{\ignorespaces G22 coverage\relax }}{124}{figure.caption.63}
+\contentsline {figure}{\numberline {B.16}{\ignorespaces J07SB coverage\relax }}{125}{figure.caption.64}
