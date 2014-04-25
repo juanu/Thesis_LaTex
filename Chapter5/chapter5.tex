@@ -171,14 +171,11 @@ All of the reads that passed the quality filters were mapped against the set of 
 
 A visualization of the numbers of mapped reads at different identity levels (Figure \ref{GenomeReadIdentity}), shows that for all the genomes (with the exception of G22), the majority of the reads mapped at a 100\% identity, and in none case was lower than 85\%. This reflects the stringency of the parameters used for mapping, and also allows to be confident that the reads are derived from that particular population. Looking more in detail to each of the individual genomes, these plots already show some information on the possible strain diversity present in each of the populations. In the case of the \textit{Haloquadratum} genomes, most of the reads mapped at identities of 95\% or higher, reflecting a low level of population heterogeneity among these populations. On the other extreme, in the case of the \textit{Salinibacter} populations, we can observe a range of identities going from 88\% and higher. 
 
-Given the deep coverage of the community in this four libraries (an average of 4.3 billion nucleotides in each one), this dataset represent not only the most abundant members of the community, represented in the reference genomes used for mapping, but also allows access to less abundant organisms. To quickly evaluate the differences between the mapped and unmapped reads, we used a taxonomic classification approach to estimate difference between the mapped and unmapped reads on each dataset. For example, for the mapped reads in the January 23 dataset (Figure \ref{Jan23_Mapped}), as expected the majority of the mapped reads were classified as \textit{Haloquadratum}, followed by the \textit{Nanohaloarchaea}. In comparison, the unmapped reads for this library (Figure \ref{Jan23_Unmapped}), shows a diversity of groups, including a high percentage of Bacterial reads. These difference in taxonomic composition between the set of mapped and unmapped reads, can be visualize in a two-dimensional plot using an Edge principal component (EPCA) analysis \cite{Matsen:2011wn} derived from the Phylosift results. Plotting the first two components
+Given the deep coverage of the community in this four libraries (an average of 4.3 billion nucleotides in each one), this dataset represent not only the most abundant members of the community, represented in the reference genomes used for mapping, but also allows access to less abundant organisms. To quickly evaluate the differences between the mapped and unmapped reads, we used a taxonomic classification approach to estimate difference between the mapped and unmapped reads on each dataset. For example, for the mapped reads in the January 23 dataset (Figure \ref{Jan23_Mapped}), as expected the majority of the mapped reads were classified as \textit{Haloquadratum}, followed by the \textit{Nanohaloarchaea}. In comparison, the unmapped reads for this library (Figure \ref{Jan23_Unmapped}), shows a diversity of groups, including a high percentage of Bacterial reads. These difference in taxonomic composition between the set of mapped and unmapped reads, can be visualize in a two-dimensional plot using an Edge principal component (EPCA) analysis \cite{Matsen:2011wn} derived from the Phylosift results. Plotting the first two components shows that based on the predicted taxonomic composition of the community, the reads separate between the mapped and unmapped groups, and in addition there is a separation by season in the case of the unmapped reads. For the mapped reads, we observe that the group separately from the unmapped, but due to technical problems, the data available is only for two of the libraries, one from each month. 
 
+The taxonomic analysis suggests the presence of novel groups (not represented in the current set of genomes used for mapping) present in the community, and that with further analysis could be recovered. In the present work, I will focus only on the genomes and its mapped reads, as this genomes provide an already validated set of habitat-specific genomes that can be used for the analysis of diversity in this microbial community.
 
-
-
-This suggests that there is still novel groups (not represented in the current set of genomes used for mapping) that are present in the community, and that could be recovered with further analysis. In the present work, I will focus only on the genomes and its mapped reads, as this genomes provide an already validated set of habitat-specific genomes that can be used for the analysis of diversity in this microbial community.
-
-\begin{table}[ht]
+\begin{table}[ht!]
   \caption{Number of reads from each library, recruited to the Lake Tyrrell reference genomes}
   \begin{tabularx}{\textwidth}{L{2.2cm}R{2cm}R{3cm}R{3.2cm}R{2cm}}
   \hline
@@ -205,18 +202,6 @@ This suggests that there is still novel groups (not represented in the current s
   \end{tabularx}
   \label{ReadRecruitmentGenome}
 \end{table}
-
-The 
-
-
-
-
-Plot of the read recruitment
-Phylogenetic composition of the unmapped reads (Phylosift?)
-Comparison between samples, based on guppy in phylosift
-
-Low abundances compared to Plos paper -> read recrutiment, level of stringency
-
 
 %Figures for this section
 
@@ -253,6 +238,13 @@ Low abundances compared to Plos paper -> read recrutiment, level of stringency
   \label{EPCA_results}
 \end{figure}
 
+
+%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\subsection{Genome coverage}
+
+
+
 %Figure Gene differences season
 \begin{figure}[!hbtp]
   \centering
@@ -262,9 +254,8 @@ Low abundances compared to Plos paper -> read recrutiment, level of stringency
 \end{figure}
 
 
-%%%%%%%%%%%%%%%%%%%%%%
-\clearpage
-\subsection{SNPs}
+
+\subsection{Variation and positive selection analysis}
 
 Results of the snps (\ref{SNPsummary}). Low number of SNPs for G22, so I'll leave out of the analysis. Reasons?
 Comments about the trends?
