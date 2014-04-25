@@ -1,12 +1,12 @@
-\contentsline {frontmatter}{\numberline {}Signature Page}{iii}{section*.2}
-\contentsline {frontmatter}{\numberline {}Dedication}{iv}{section*.3}
-\contentsline {frontmatter}{\numberline {}Epigraph}{v}{section*.4}
-\contentsline {frontmatter}{\numberline {}Table of Contents}{vi}{section*.5}
-\contentsline {frontmatter}{\numberline {}List of Figures}{viii}{section*.6}
-\contentsline {frontmatter}{\numberline {}List of Tables}{x}{section*.7}
-\contentsline {frontmatter}{\numberline {}Acknowledgements}{xi}{section*.8}
-\contentsline {frontmatter}{\numberline {}Vita and Publications}{xii}{section*.9}
-\contentsline {frontmatter}{\numberline {}Abstract of the Dissertation}{xiv}{section*.10}
+\contentsline {frontmatter}{\numberline {}Signature Page}{iii}{section*.1}
+\contentsline {frontmatter}{\numberline {}Dedication}{iv}{section*.2}
+\contentsline {frontmatter}{\numberline {}Epigraph}{v}{section*.3}
+\contentsline {frontmatter}{\numberline {}Table of Contents}{vi}{section*.4}
+\contentsline {frontmatter}{\numberline {}List of Figures}{viii}{section*.5}
+\contentsline {frontmatter}{\numberline {}List of Tables}{x}{section*.6}
+\contentsline {frontmatter}{\numberline {}Acknowledgements}{xi}{section*.7}
+\contentsline {frontmatter}{\numberline {}Vita and Publications}{xii}{section*.8}
+\contentsline {frontmatter}{\numberline {}Abstract of the Dissertation}{xiv}{section*.9}
 \contentsline {chapter}{\numberline {Chapter\nobreakspace {}1}Introduction to the thesis}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Metagenomics}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Microbial communities in hypersaline environments}{7}{section.1.2}
@@ -22,30 +22,14 @@
 \contentsline {subsection}{\numberline {5.3.2}Read mapping}{64}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Taxonomic classification}{65}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Variation analysis}{65}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Computational resources and data availability}{65}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Results and Discussion}{67}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Overview of the Illumina dataset for January and August of 2007}{67}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Genome abundance and community structure, based on read mapping}{70}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Genome coverage}{76}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Variation and positive selection analysis}{76}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Conclusions}{81}{section.5.5}
-\contentsline {section}{\numberline {5.6}Acknowledgments}{81}{section.5.6}
-\contentsline {chapter}{\numberline {Chapter\nobreakspace {}6}Comparative genomics and selective pressure analysis; analysis of the \textit {Haloquadratum walsbyi} genome}{85}{chapter.6}
-\contentsline {section}{\numberline {6.1}Abstract}{85}{section.6.1}
-\contentsline {section}{\numberline {6.2}Introduction}{85}{section.6.2}
-\contentsline {section}{\numberline {6.3}Overview of the analysis workflow}{86}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Data preprocessing}{86}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Construction of orthologous groups}{88}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Analysis of ortholog groups}{90}{subsection.6.3.3}
-\contentsline {subsubsection}{Functional annotation}{90}{section*.41}
-\contentsline {subsubsection}{Alignment and tree construction}{91}{section*.42}
-\contentsline {subsubsection}{Phylogenomic analysis}{91}{section*.43}
-\contentsline {subsubsection}{Population and selection}{92}{section*.44}
-\contentsline {section}{\numberline {6.4}Comparative analysis of \textit {Haloquadratum}}{92}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}\textit {Haloquadratum} core and accessory genome}{92}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Evidence of habitat-selection in \textit {H. walsbyi}}{92}{subsection.6.4.2}
-\contentsline {section}{\numberline {6.5}Conclusions and Future Directions}{92}{section.6.5}
-\contentsline {section}{\numberline {6.6}Acknowledgments}{93}{section.6.6}
-\contentsline {backmatter}{References}{95}{chapter*.48}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{106}{appendix.A}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{110}{appendix.B}
+\contentsline {subsection}{\numberline {5.3.5}Computational resources and data availability}{66}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Results and Discussion}{68}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Overview of the Illumina dataset for January and August of 2007}{68}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Genome abundance and community structure, based on read mapping}{71}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Differential coverage in genomes and genes}{77}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Variation and positive selection analysis}{79}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Conclusions}{84}{section.5.5}
+\contentsline {section}{\numberline {5.6}Acknowledgments}{84}{section.5.6}
+\contentsline {backmatter}{References}{87}{chapter*.38}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{98}{appendix.A}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{102}{appendix.B}
