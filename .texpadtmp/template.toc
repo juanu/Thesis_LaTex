@@ -27,9 +27,11 @@
 \contentsline {subsection}{\numberline {5.4.1}Overview of the Illumina dataset for January and August of 2007}{68}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Genome abundance and community structure, based on read mapping}{71}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}Differential coverage of genomes and genes}{77}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Variation and positive selection analysis}{80}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Conclusions}{90}{section.5.5}
-\contentsline {section}{\numberline {5.6}Acknowledgments}{90}{section.5.6}
-\contentsline {backmatter}{References}{91}{chapter*.42}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{102}{appendix.A}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{106}{appendix.B}
+\contentsline {subsection}{\numberline {5.4.4}Overview of the single nucleotide polymorphisms present in the community}{80}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Genes under positive selection}{83}{subsection.5.4.5}
+\contentsline {section}{\numberline {5.5}General Discussion}{93}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusions}{93}{section.5.6}
+\contentsline {section}{\numberline {5.7}Acknowledgments}{93}{section.5.7}
+\contentsline {backmatter}{References}{94}{chapter*.41}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{105}{appendix.A}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{109}{appendix.B}
