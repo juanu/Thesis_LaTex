@@ -9,7 +9,8 @@
 \contentsline {table}{\numberline {5.2}{\ignorespaces Summary of the Illumina HiSeq libraries for each of the four samples.\relax }}{69}{table.caption.18}
 \contentsline {table}{\numberline {5.3}{\ignorespaces \textbf {Table \ref {LT_chemical}:} Physical and chemical composition of the Lake Tyrrell water samples. Concentrations are given in units of \si {\milli \mole \per \liter }\relax }}{69}{table.caption.20}
 \contentsline {table}{\numberline {5.3}{\ignorespaces Number of reads from each library, recruited to the Lake Tyrrell reference genomes\relax }}{73}{table.caption.22}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Change rate for SNPs\relax }}{79}{table.caption.27}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Count of Genes under positive selection\relax }}{86}{table.caption.34}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Count of number of SNPs per kilobase in each of the Illumina libraries for the reference genomes.\relax }}{81}{table.caption.28}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Summary of type of SNP on each genome\relax }}{83}{table.caption.29}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Count of Genes under positive selection\relax }}{89}{table.caption.38}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

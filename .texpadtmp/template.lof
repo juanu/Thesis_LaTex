@@ -15,28 +15,30 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Mapped reads}}}{75}{subfigure.3.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Unmapped reads}}}{75}{subfigure.3.2}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces EPCA phylosift results\relax }}{76}{figure.caption.25}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Number of genes that recruited more reads from either January or the August reads (determined by a two-tailed Fisher Exact Test, with p-value of 0.05). Genes labeled as both, were those that did not significantly recruited reads from one of the seasons.\relax }}{78}{figure.caption.26}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces SNPsummary\relax }}{80}{figure.caption.28}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces JanuarySNPs\relax }}{81}{figure.caption.29}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces AugustSNPs\relax }}{82}{figure.caption.30}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces BothSNPs\relax }}{83}{figure.caption.31}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces SNpp frequency\relax }}{84}{figure.caption.32}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Mapping strategy\relax }}{85}{figure.caption.33}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Number of genes that recruited more reads from either January or the August reads (determined by a two-tailed Fisher Exact Test, with p-value of 0.05). Genes labeled as both, were those that did not significantly recruited reads from one of the seasons.\relax }}{79}{figure.caption.26}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces SNPsummary\relax }}{82}{figure.caption.30}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces SNPsummary\relax }}{83}{figure.caption.31}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces JanuarySNPs\relax }}{84}{figure.caption.32}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces AugustSNPs\relax }}{85}{figure.caption.33}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces BothSNPs\relax }}{86}{figure.caption.34}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces SNpp frequency\relax }}{87}{figure.caption.35}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces SNpp frequency\relax }}{87}{figure.caption.36}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Mapping strategy\relax }}{88}{figure.caption.37}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Coverage and gene abundance for J07HQW1. \textbf {A} and \textbf {C} shows reads recruited to the January and August genomes, respectively. \textbf {B} indicates the number of reads recruited to each individual gene, expressed as RPKM values, where the color indicates the sample from where the read originated (January vs. August.)\relax }}{103}{figure.caption.39}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Coverage and gene abundance for J07HQW2. \textbf {A} and \textbf {C} shows reads recruited to the January and August genomes, respectively. \textbf {B} indicates the number of reads recruited to each individual gene, expressed as RPKM values, where the color indicates the sample from where the read originated (January vs. August.)\relax }}{104}{figure.caption.40}
-\contentsline {figure}{\numberline {B.3}{\ignorespaces J07AB56coverage\relax }}{105}{figure.caption.41}
-\contentsline {figure}{\numberline {B.4}{\ignorespaces J07AB43coverage\relax }}{106}{figure.caption.42}
-\contentsline {figure}{\numberline {B.5}{\ignorespaces J07HN4coverage\relax }}{107}{figure.caption.43}
-\contentsline {figure}{\numberline {B.6}{\ignorespaces J07HN6coverage\relax }}{108}{figure.caption.44}
-\contentsline {figure}{\numberline {B.7}{\ignorespaces J07HN64coverage\relax }}{109}{figure.caption.45}
-\contentsline {figure}{\numberline {B.8}{\ignorespaces J07HX5coverage\relax }}{110}{figure.caption.46}
-\contentsline {figure}{\numberline {B.9}{\ignorespaces J07HB67coverage\relax }}{111}{figure.caption.47}
-\contentsline {figure}{\numberline {B.10}{\ignorespaces J07HR59coverage\relax }}{112}{figure.caption.48}
-\contentsline {figure}{\numberline {B.11}{\ignorespaces A07HB70coverage\relax }}{113}{figure.caption.49}
-\contentsline {figure}{\numberline {B.12}{\ignorespaces A07HR67coverage\relax }}{114}{figure.caption.50}
-\contentsline {figure}{\numberline {B.13}{\ignorespaces A07HN63coverage\relax }}{115}{figure.caption.51}
-\contentsline {figure}{\numberline {B.14}{\ignorespaces A07HR60coverage\relax }}{116}{figure.caption.52}
-\contentsline {figure}{\numberline {B.15}{\ignorespaces G22 coverage\relax }}{117}{figure.caption.53}
-\contentsline {figure}{\numberline {B.16}{\ignorespaces J07SB coverage\relax }}{118}{figure.caption.54}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Coverage and gene abundance for J07HQW1. \textbf {A} and \textbf {C} shows reads recruited to the January and August genomes, respectively. \textbf {B} indicates the number of reads recruited to each individual gene, expressed as RPKM values, where the color indicates the sample from where the read originated (January vs. August.)\relax }}{107}{figure.caption.43}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Coverage and gene abundance for J07HQW2. \textbf {A} and \textbf {C} shows reads recruited to the January and August genomes, respectively. \textbf {B} indicates the number of reads recruited to each individual gene, expressed as RPKM values, where the color indicates the sample from where the read originated (January vs. August.)\relax }}{108}{figure.caption.44}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces J07AB56coverage\relax }}{109}{figure.caption.45}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces J07AB43coverage\relax }}{110}{figure.caption.46}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces J07HN4coverage\relax }}{111}{figure.caption.47}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces J07HN6coverage\relax }}{112}{figure.caption.48}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces J07HN64coverage\relax }}{113}{figure.caption.49}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces J07HX5coverage\relax }}{114}{figure.caption.50}
+\contentsline {figure}{\numberline {B.9}{\ignorespaces J07HB67coverage\relax }}{115}{figure.caption.51}
+\contentsline {figure}{\numberline {B.10}{\ignorespaces J07HR59coverage\relax }}{116}{figure.caption.52}
+\contentsline {figure}{\numberline {B.11}{\ignorespaces A07HB70coverage\relax }}{117}{figure.caption.53}
+\contentsline {figure}{\numberline {B.12}{\ignorespaces A07HR67coverage\relax }}{118}{figure.caption.54}
+\contentsline {figure}{\numberline {B.13}{\ignorespaces A07HN63coverage\relax }}{119}{figure.caption.55}
+\contentsline {figure}{\numberline {B.14}{\ignorespaces A07HR60coverage\relax }}{120}{figure.caption.56}
+\contentsline {figure}{\numberline {B.15}{\ignorespaces G22 coverage\relax }}{121}{figure.caption.57}
+\contentsline {figure}{\numberline {B.16}{\ignorespaces J07SB coverage\relax }}{122}{figure.caption.58}

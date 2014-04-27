@@ -51,7 +51,7 @@ Visualization of RPKM values was done by comparing the values in January and Aug
 }
 \end{center}
 
-A two-tailed Fisher exact test (pvalue < 0.05) was used to determine genes had differential recruitment of reads between the two seasons (January and August). A complete list of these genes in each of the genomes can be found here (XXX).
+A two-tailed Fisher exact test (pvalue $<$ 0.05) was used to determine genes had differential recruitment of reads between the two seasons (January and August). A complete list of these genes in each of the genomes can be found here (XXX).
 
 \subsection{Taxonomic classification}
 
@@ -195,7 +195,7 @@ A visualization of the numbers of mapped reads at different identity levels (Fig
 
 Given the deep coverage of the community in this four libraries (an average of 4.3 billion nucleotides in each one), this dataset represent not only the most abundant members of the community, represented in the reference genomes used for mapping, but also allows access to less abundant organisms. To quickly evaluate the differences between the mapped and unmapped reads, we used a taxonomic classification approach to estimate difference between the mapped and unmapped reads on each dataset. For example, for the mapped reads in the January 23 dataset (Figure \ref{Jan23Mapped}), as expected the majority of the mapped reads were classified as \textit{Haloquadratum}, followed by the \textit{Nanohaloarchaea}. In comparison, the unmapped reads for this library (Figure \ref{Jan23Unmapped}), shows a diversity of groups, including a high percentage of Bacterial reads. These difference in taxonomic composition between the set of mapped and unmapped reads, can be visualize in a two-dimensional plot using an Edge principal component (EPCA) analysis \cite{Matsen:2011wn} derived from the Phylosift results. Plotting the first two components shows that based on the predicted taxonomic composition of the community, the reads separate between the mapped and unmapped groups, and in addition there is a separation by season in the case of the unmapped reads. For the mapped reads, we observe that the group separately from the unmapped, but due to technical problems, the data available is only for two of the libraries, one from each month. 
 
-The taxonomic analysis suggests the presence of novel groups (not represented in the current set of genomes used for mapping) present in the community, and that with further analysis could be recovered. In addition, none of the methods used, read mapping and taxonomic classification, takes in account the presence of viruses in this community, which could compromise a large percentage of the sequences present in this dataset (REF). In the present work, I will focus only on the genomes and its mapped reads, as this genomes provide an already validated set of habitat-specific genomes that can be used for the analysis of diversity in this microbial community.
+The taxonomic analysis suggests the presence of novel groups (not represented in the current set of genomes used for mapping) present in the community, and that with further analysis could be recovered. In addition, none of the methods used, read mapping and taxonomic classification, takes in account the presence of viruses in this community, which could compromise a large percentage of the sequences present in this dataset \cite{RodriguezBrito:2010in,Emerson:tk}. In the present work, I will focus only on the genomes and its mapped reads, as this genomes provide an already validated set of habitat-specific genomes that can be used for the analysis of diversity in this microbial community.
 
 \begin{table}[ht!]
   \caption{Number of reads from each library, recruited to the Lake Tyrrell reference genomes}
@@ -230,7 +230,7 @@ The taxonomic analysis suggests the presence of novel groups (not represented in
 %Figure, Genome Identity Plots
 \begin{figure}[!hbtp]
   \centering
-  \includegraphics[width=\textwidth,height=\textwidth,keepaspectratio]{/Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf}
+  \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{/Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf}
   \caption{Total number of recruited reads, grouped by identity. The X axis shows the identity of the read to the reference genome (\%), while the Y axis shows the number of reads recruited at that identity (thousands of reads).}
   \label{GenomeReadIdentity}
 \end{figure}
@@ -263,16 +263,13 @@ The taxonomic analysis suggests the presence of novel groups (not represented in
 
 %%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\subsection{Differential coverage in genomes and genes}
+\subsection{Differential coverage of genomes and genes}
 
 The numbers of reads mapped to each genome (Table \ref{ReadRecruitmentGenome}), suggests differences in the relative abundance of certain populations between seasons. For example, the \textit{Haloquadratum} genomes (J07HWQ1 and J07HWQ2), recruited more reads from the January datasets than from the August ones. In contrast, genomes that were assembled from August samples, like A07HR60, recruited more reads from August. However, these numbers do not provide a complete picture of the coverage, because it is possible than certain areas of the genome have a higher coverage than other ones. Also, some regions could show a differential coverage, with more reads mapping from one season. To evaluate this differential coverage, we looked at the identity and coverage of all the reads across each one of the genomes (Appendix B). This allows us to identify regions with low coverage, which suggest a region that is only present on a subset of the strains that compromise that populations, and also regions with differential coverage between the January and August datasets. To complement this, we looked at each individual gene, to identify differential mapped genes, that are more abundant in one of the libraries. This allows to not only look at regions of the genome, but by looking at individual genes, identify possible functional processes that are more abundant in one season versus the other.
 
 The coverage profile of the genomes, shows several examples where some regions had a higher coverage in one of the seasons. More strikingly, there is differential coverage at the gene level. This suggests that there are difference at the population level between January and August, highlighted by this genomic differences. When looking at more in detail at some of these regions, we found the usual suspects for this type of situations, including genes encoding for hypothetical proteins, transposases and related functions, and some phage-related functions. But also, we found genes encoding for glycosyltransferases, transporters and other metabolic processes, which could be driven differences at the functional and metabolic level between the populations that are present in January versus August.
 
-A summary count of the differential recruitment of reads at the gene level for each genome (Figure \ref{CoverageGenes}), shows that in the case of the reference genomes from the January samples \cite{Podell:2013kx}, the majority of its genes recruited reads from the January libraries. Exceptions to this are in the \textit{Halonotius} related populations (J07HN6), as well as in the \textit{Halorubrum} related populations (J07HR59). This could be explained by the presence of similar populations in the August sample, the \textit{Halonotius} A07HN63 and the \textit{Halorubrum} A07HR67 \cite{Podell:2013fp}.
-
-
-
+A summary count of the differential recruitment of reads at the gene level for each genome (Figure \ref{CoverageGenes}), shows that in the case of the reference genomes from the January samples \cite{Podell:2013kx}, the majority of its genes recruited reads from the January libraries. Exceptions to this are in the \textit{Halonotius} related populations (J07HN6), as well as in the \textit{Halorubrum} related populations (J07HR59). This could be explained by the presence of similar populations in the August sample, the \textit{Halonotius} A07HN63 and the \textit{Halorubrum} A07HR67 \cite{Podell:2013fp}. The reference genomes assembled from August samples \cite{Podell:2013fp}, show a preferentiaal recruitment to the August libraries. In the case of the \textit{Salinibacter} population (J07SB), we observe that the genes are either found equally in both seasons, or preferentially recruiting to August. This could be correlated with the presence of \textit{Salinibacter} populations in both seasons, and also the lower concentrations of salts like magnesium in August \cite{Podell:2013fp}. The more extreme situation for this is the G22 genome, which shows most of its gene equally present in August and January. This can be explained by the low abundance of this organism in both samples, suggesting that is a minor member of the community that is always present.
 
 
 %On a case by case basis, we observe that J07HQW1 (Figure \ref{J07HWQ1coverage}) has a similar coverage profile January and August, with the majority of the genes recruiting reads in the January sample. Only 10 genes were found to be more abundant in August, where most of them encode for hypothetical proteins or transposase-related proteins.
@@ -291,10 +288,19 @@ A summary count of the differential recruitment of reads at the gene level for e
   \label{CoverageGenes}
 \end{figure}
 
+\todo{Function plot at COG, differences using Fisher test}
+
 
 %%%%%%%%%%%%%End of Section
 \clearpage
 \subsection{Variation and positive selection analysis}
+
+Moving from the broader picture provided by the analysis of the relative abundances derived from the mapping of the reads, we can explore in more detail by looking at the population diversity that is present in the community, for each of the reference genomes. We can quantify the nucleotide variation for each genomes (single nucleotide polymorphisms, or SNPs) and evaluate the effects of such variation the functional level. And, with this data, quantify the evolutionary effects of such variation, looking at the selective pressure acting on each protein-coding gene.
+
+Only high quality SNPs were considered in the analysis, filtering the alignment files previous to SNP calling, choosing only sites with a quality score of 20 or more, and mapping quality score of 30 or more (REF). The count of SNPs for each of the genomes (Table \ref{SNPS_KB}), shows in each genome we see similar counts of SNPs per kilobase between libraries from the same season. Comparing between seasons, shows that only J07AB43 has a small difference between the January and August libraries (~10 SNPs/per KB, versus ~7 SNPs/per Kb), while the other genomes have similar values. Among the genomes, we find that the ones with a high number of SNPs correspond to the \textit{Nanohaloarchaea} populations, followed by J07HX64 and J07HX5. Statistical testing using the Spearman correlation coefficient (REF) shows that there is no relationship between the depth of coverage neither in the January (0.42, \textit{pvalue}: 0.088) or August (0.40, \textit{pvalue}: 0.105) samples (pvalue $<$ 0.005). This suggests that the differences in SNPs numbers are due to real differences in the population diversity for each of these reference genomes, where organisms like J07AB43 and J07AB56 have a higher genetic diversity (more strain diversity) that organisms such as J07HWQ1 or J07HWQ2.
+
+We can look more in detail at the effect of each variation in its host genome, either intergenic or in the case of coding regions, synonymous (no amino acid change) or non-synonymous (change in the resulting amino acid) (Figure \ref{SNPsummary}) 
+
 
 Results of the snps (\ref{SNPsummary}). Low number of SNPs for G22, so I'll leave out of the analysis. Reasons?
 Comments about the trends?
@@ -314,39 +320,76 @@ Dn/DS
 network diagram of DN/ds and selection, january versus august
 
 
-\begin{table}[hbt]
-  \caption{Change rate for SNPs}
+\begin{table}[ht]
+  \caption{Count of number of SNPs per kilobase in each of the Illumina libraries for the reference genomes.}
   \begin{tabularx}{\textwidth}{L{2.2cm}R{2cm}R{3cm}R{3.2cm}R{2cm}}
   \hline
     \textbf{Genome} & \textbf{Jan 23} & \textbf{Jan 25} & \textbf{Aug 07} & \textbf{Aug 09} \\
     \hline
-     \textit{J07HWQ1} & 261 & 262 & 267 & 270 \\
-     \textit{J07HWQ2} & 398 & 397 & 305 & 407 \\
-     \textit{J07HQX50} & 695 & 693 & 706 & 718 \\
-     \textit{J07AB56} & 99 & 103 & 202 & 192 \\
-     \textit{J07AB43} & 93 & 94 & 137 & 139 \\
-     \textit{J07HN4} & 110 & 110 & 111 & 111 \\
-     \textit{J07HN6} & 348 & 383 & 351 & 356 \\
-     \textit{J07HX64} & 105 & 106 & 107 & 108 \\
-     \textit{J07HX5} & 108 & 109 & 110 & 111 \\
-     \textit{J07HB67} & 110 & 109 & 155 & 191 \\
-     \textit{J07HR59} & 738 & 872 & 651 & 663 \\
-     \textit{A07HB70} & 139 & 142 & 137 & 137 \\
-     \textit{A07HR67} & 171 & 175 & 169 & 169 \\
-     \textit{A07HN63} & 581 & 504 & 471 & 476 \\
-     \textit{A07HR60} & 264 & 271 & 256 & 257 \\
-     \textit{G22} & 24,126 & 33,241 & 29,898 & 31,227 \\
-     \textit{J07SB} & 165 & 177 & 164 & 164 \\     
+     \textit{J07HWQ1} & 3.83 & 3.81 & 3.75 & 3.70 \\
+     \textit{J07HWQ2} & 2.51 & 2.52 & 3.28 & 2.46 \\
+     \textit{J07HQX50} & 1.44 & 1.44 & 1.42 & 1.39 \\
+     \textit{J07AB56} & 10.10 & 9.71 & 4.95 & 5.21 \\
+     \textit{J07AB43} & 10.75 & 10.64 & 7.30 & 7.19 \\
+     \textit{J07HN4} & 9.09 & 9.09 & 9.01 & 9.01 \\
+     \textit{J07HN6} & 2.87 & 2.61 & 2.85 & 2.81 \\
+     \textit{J07HX64} & 9.52 & 9.43 & 9.35 & 9.26 \\
+     \textit{J07HX5} & 9.26 & 9.17 & 9.09 & 9.01 \\
+     \textit{J07HB67} & 9.09 & 9.17 & 6.45 & 5.24 \\
+     \textit{J07HR59} & 1.36 & 1.15 & 1.54 & 1.51 \\
+     \textit{A07HB70} & 7.19 & 7.04 & 7.30 & 7.30 \\
+     \textit{A07HR67} & 5.85 & 5.71 & 5.92 & 5.92 \\
+     \textit{A07HN63} & 1.72 & 1.98 & 2.12 & 2.10 \\
+     \textit{A07HR60} & 3.79 & 3.69 & 3.91 & 3.89 \\
+     \textit{G22} & 0.04 & 0.03 & 0.03 & 0.03 \\
+     \textit{J07SB} & 6.06 & 5.65 & 6.10 & 6.10 \\     
   \end{tabularx}
-  \label{ChangeRate}
+  \label{SNPS_KB}
+\end{table}
+
+%TABLE SUMMARY TYPE OF SNPs
+
+\begin{table}[ht]
+  \caption{Summary of type of SNP on each genome}
+  \begin{tabularx}{\textwidth}{L{2.1cm}R{2.3cm}R{3cm}R{3.8cm}}
+  \hline
+    \textbf{Genome} & \textbf{Intergenic} & \textbf{Synonymous} & \textbf{Non-Synonymous}\\
+    \hline
+     \textit{J07HWQ1} & 36.90 & 38.56 & 24.55 \\
+     \textit{J07HWQ2} & 37.31 & 34.48 & 28.22 \\
+     \textit{J07HQX50} & 31.32 & 36.95 & 31.73 \\
+     \textit{J07AB56} & 10.67 & 65.96 & 23.37 \\
+     \textit{J07AB43} & 10.30 & 64.02 & 25.68 \\
+     \textit{J07HN4} & 15.27 & 66.28 & 18.45 \\
+     \textit{J07HN6} &  19.98 & 55.62 & 23.40\\
+     \textit{J07HX64} & 18.98 & 51.18 & 29.84 \\
+     \textit{J07HX5} & 20.72 & 53.88 & 25.41 \\
+     \textit{J07HB67} & 12.06 & 60.65 & 27.29 \\
+     \textit{J07HR59} & 23.78 & 53.89 & 22.33 \\
+     \textit{A07HB70} & 22.38 & 49.23 & 28.40 \\
+     \textit{A07HR67} & 20.75 & 55.58 & 23.67 \\
+     \textit{A07HN63} & 21.55 & 54.69 & 23.76 \\
+     \textit{A07HR60} & 26.79 & 49.54 & 23.67 \\
+     \textit{G22} & 15.86 & 65.34 & 17.80 \\
+     \textit{J07SB} & 15.67 & 59.60 & 24.74 \\     
+  \end{tabularx}
+  \label{TypeSNP_SummaryGenome}
 \end{table}
 
 %FIgures. SNP summary
 \begin{figure}[!hbtp]
   \centering
-  \includegraphics[width=\textwidth]{Chapter5/Figures/SNPsummary.pdf}
+  \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Chapter5/Figures/SNPsummary.pdf}
   \caption{SNPsummary}
-  \label{SNPSummary}
+  \label{SNPsummary}
+\end{figure}
+
+%Boxplot, type of SNPs
+\begin{figure}[!hbtp]
+  \centering
+  \includegraphics[width=0.7\textwidth,keepaspectratio]{Chapter5/Figures/BoxPlot_TypeofSNPs.pdf}
+  \caption{SNPsummary}
+  \label{BoxPlotSNP}
 \end{figure}
 
 %Figure VENN diagram January
@@ -373,12 +416,20 @@ network diagram of DN/ds and selection, january versus august
   \label{VennBoth}
 \end{figure}
 
-%SNP frequency plot
+%SNP frequency plot, January
 \begin{figure}[!hbtp]
   \centering
-  \includegraphics[width=\textwidth]{Chapter5/Figures/SNP_freq_boxplot.pdf}
+  \includegraphics[width=\textwidth]{Chapter5/Figures/Jan_SNP_freq_boxplot.pdf}
   \caption{SNpp frequency}
-  \label{SNP_boxplot}
+  \label{Jan_SNP_boxplot}
+\end{figure}
+
+%SNP frequency plot, August
+\begin{figure}[!hbtp]
+  \centering
+  \includegraphics[width=\textwidth]{Chapter5/Figures/Aug_SNP_freq_boxplot.pdf}
+  \caption{SNpp frequency}
+  \label{Aug_SNP_boxplot}
 \end{figure}
 
 %Figure Mapping
@@ -422,6 +473,7 @@ network diagram of DN/ds and selection, january versus august
 \todo{Functional categories, differences from the annotation?. Fisher test}
 \todo{Plots of depth, dn/DS along genomes}
 
+\clearpage
 \section{Conclusions}
 
 \section{Acknowledgments}
