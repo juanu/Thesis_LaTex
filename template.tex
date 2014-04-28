@@ -155,6 +155,7 @@
 %This package is needed to insert pdf documents
 \usepackage{pdfpages}
 \usepackage{siunitx}
+\usepackage{hyperref}
 
 % This is to help make better tables
 \usepackage{tabularx}
@@ -240,7 +241,7 @@ Chapter 4 is a full reprint of: Assembly-driven community genomics of a hypersal
 %\include{Chapter6/chapter6}
 
 \bibliographystyle{abbrv}
-\bibliography{CompleteLibrary}
+\bibliography{CompleteLibrary,extra_refs}
 
 
 
@@ -252,6 +253,9 @@ Appendix \ref{G22Genome} is a full reprint of the publication XXXX, with permiss
 
 \chapter{Genome coverage plots}
 \include{Appendix/GenomeCoveragePlots}
+
+\chapter{COG categories with genes under positive selection}
+\include{Appendix/COG_positive_selection_tables}
 
 %\chapter{}\label{ReferenceSNP_analysis}
 %\include{Appendix/ReferenceSNPs_FirstStep}

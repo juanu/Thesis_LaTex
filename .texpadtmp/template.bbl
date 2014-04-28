@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{10}
 
 \bibitem{Albertsen:2013gp}
 M.~Albertsen, P.~Hugenholtz, A.~Skarshewski, K.~L. Nielsen, G.~W. Tyson, and
@@ -37,15 +37,6 @@ J.~Ant{\'o}n, A.~Pe{\~n}a, F.~Santos, M.~Mart{\'\i}nez-Garc{\'\i}a,
 \newblock {Distribution, abundance and diversity of the extremely halophilic
   bacterium Salinibacter ruber}.
 \newblock {\em Saline Systems}, 4:15, Jan. 2008.
-
-\bibitem{Aziz:2008ku}
-R.~K. Aziz, D.~Bartels, A.~A. Best, M.~Dejongh, T.~Disz, R.~A. Edwards,
-  K.~Formsma, S.~Gerdes, E.~M. Glass, M.~Kubal, F.~Meyer, G.~J. Olsen,
-  R.~Olson, A.~L. Osterman, R.~A. Overbeek, L.~K. McNeil, D.~Paarmann,
-  T.~Paczian, B.~Parrello, G.~D. Pusch, C.~Reich, R.~Stevens, O.~Vassieva,
-  V.~Vonstein, A.~Wilke, and O.~Zagnitko.
-\newblock {The RAST Server: rapid annotations using subsystems technology}.
-\newblock {\em BMC Genomics}, 9:75, Jan. 2008.
 
 \bibitem{Brady:2011hi}
 A.~Brady and S.~Salzberg.
@@ -109,12 +100,6 @@ E.~O. Casamayor, R.~Massana, S.~Benlloch, L.~{\O}vre{\aa}s, B.~D{\'\i}ez, V.~J.
   multipond solar saltern.}
 \newblock {\em Environmental Microbiology}, 4(6):338--348, June 2002.
 
-\bibitem{Chen:2007kk}
-F.~Chen, A.~J. Mackey, J.~K. Vermunt, and D.~S. Roos.
-\newblock {Assessing Performance of Orthology Detection Strategies Applied to
-  Eukaryotic Genomes}.
-\newblock {\em PLoS ONE}, 2(4):e383, Apr. 2007.
-
 \bibitem{Cingolani:2012cz}
 P.~Cingolani, A.~Platts, L.~L. Wang, M.~Coon, T.~Nguyen, L.~Wang, S.~J. Land,
   X.~Lu, and D.~M. Ruden.
@@ -122,6 +107,13 @@ P.~Cingolani, A.~Platts, L.~L. Wang, M.~Coon, T.~Nguyen, L.~Wang, S.~J. Land,
   nucleotide polymorphisms, SnpEff: SNPs in the genome of Drosophila
   melanogaster strain w1118; iso-2; iso-3}.
 \newblock {\em Fly}, 6(2):80--92, Apr. 2012.
+
+\bibitem{Cock:2009hj}
+P.~J.~A. Cock, T.~Antao, J.~T. Chang, B.~A. Chapman, C.~J. Cox, A.~Dalke,
+  I.~Friedberg, T.~Hamelryck, F.~Kauff, B.~Wilczynski, and M.~J.~L. de~Hoon.
+\newblock {Biopython: freely available Python tools for computational molecular
+  biology and bioinformatics}.
+\newblock {\em Bioinformatics (Oxford, England)}, 25(11):1422--1423, May 2009.
 
 \bibitem{Curtis:2002dj}
 T.~P. Curtis, W.~T. Sloan, and J.~W. Scannell.
@@ -193,12 +185,6 @@ J.~B. Emerson, B.~C. Thomas, K.~Andrade, K.~B. Heidelberg, and J.~F. Banfield.
   assemblage structure in an Australian hypersaline lake.}
 \newblock {\em Applied and Environmental Microbiology}, 79(21):6755--6764, Nov.
   2013.
-
-\bibitem{Enright:2002uq}
-A.~J. Enright, S.~Van~Dongen, and C.~A. Ouzounis.
-\newblock {An efficient algorithm for large-scale detection of protein
-  families.}
-\newblock {\em Nucleic Acids Research}, 30(7):1575--1584, Apr. 2002.
 
 \bibitem{Flowers:2013hq}
 J.~J. Flowers, S.~He, S.~Malfatti, T.~G. del Rio, S.~G. Tringe, P.~Hugenholtz,
@@ -284,16 +270,13 @@ W.~C. N. J. B. H. N. E. K. A. J. B.~E. Karla B~Heidelberg.
   Lake Tyrrell, Australia}.
 \newblock {\em Frontiers in Microbiology}, 4, 2013.
 
-\bibitem{Koonin:2001vz}
-E.~Koonin, K.~Makarova, and L.~Aravind.
-\newblock {Horizontal gene transfer in prokaryotes: Quantification and
-  classification}.
-\newblock {\em Annual Review of Microbiology}, 55:709--742, Jan. 2001.
-
-\bibitem{Kristensen:2011gw}
-D.~M. Kristensen, Y.~Wolf, A.~R. Mushegian, and E.~Koonin.
-\newblock {Computational methods for Gene Orthology inference}.
-\newblock {\em Briefings in Bioinformatics}, 12(5):379--391, Sept. 2011.
+\bibitem{Knight:2007gp}
+R.~Knight, P.~Maxwell, A.~Birmingham, J.~Carnes, J.~G. Caporaso, B.~C. Easton,
+  M.~Eaton, M.~Hamady, H.~Lindsay, Z.~Liu, C.~Lozupone, D.~McDonald,
+  M.~Robeson, R.~Sammut, S.~Smit, M.~J. Wakefield, J.~Widmann, S.~Wikman,
+  S.~Wilson, H.~Ying, and G.~A. Huttley.
+\newblock {PyCogent: a toolkit for making sense from sequence}.
+\newblock {\em Genome Biology}, 8(8):R171, 2007.
 
 \bibitem{Langmead:2012jh}
 B.~Langmead and S.~L. Salzberg.
@@ -313,11 +296,6 @@ H.~Li, B.~Handsaker, A.~Wysoker, T.~Fennell, J.~Ruan, N.~Homer, G.~Marth,
   G.~Abecasis, R.~Durbin, and {1000 Genome Project Data Processing Subgroup}.
 \newblock {The Sequence Alignment/Map format and SAMtools}.
 \newblock {\em Bioinformatics (Oxford, England)}, 25(16):2078--2079, Aug. 2009.
-
-\bibitem{Li:2003en}
-L.~Li.
-\newblock {OrthoMCL: Identification of Ortholog Groups for Eukaryotic Genomes}.
-\newblock {\em Genome Research}, 13(9):2178--2189, Sept. 2003.
 
 \bibitem{Lindell:2005gz}
 D.~Lindell, J.~D. Jaffe, Z.~I. Johnson, G.~M. Church, and S.~W. Chisholm.
@@ -357,13 +335,11 @@ E.~R. Mardis.
 \newblock {\em Annual Review of Analytical Chemistry}, 6(1):287--303, June
   2013.
 
-\bibitem{Markowitz:2011ck}
-V.~M. Markowitz, I.~M.~A. Chen, K.~Palaniappan, K.~Chu, E.~Szeto, Y.~Grechkin,
-  A.~Ratner, B.~Jacob, J.~Huang, P.~Williams, M.~Huntemann, I.~Anderson,
-  K.~Mavromatis, N.~N. Ivanova, and N.~C. Kyrpides.
-\newblock {IMG: the integrated microbial genomes database and comparative
-  analysis system}.
-\newblock {\em Nucleic Acids Research}, 40(D1):D115--D122, Dec. 2011.
+\bibitem{Matsen:2011wn}
+F.~A. Matsen and S.~N. Evans.
+\newblock {Edge principal components and squash clustering: using the special
+  structure of phylogenetic placement data for sample comparison}.
+\newblock {\em arXiv preprint arXiv:1107.5095}, 2011.
 
 \bibitem{McDonald:2011hn}
 D.~McDonald, M.~N. Price, J.~Goodrich, E.~P. Nawrocki, T.~Z. DeSantis,
@@ -376,6 +352,12 @@ D.~McDonald, M.~N. Price, J.~Goodrich, E.~P. Nawrocki, T.~Z. DeSantis,
 T.~J. McGenity, R.~T. Gemmell, W.~D. Grant, and H.~Stan-Lotter.
 \newblock {Origins of halophilic microorganisms in ancient salt deposits.}
 \newblock {\em Environmental Microbiology}, 2(3):243--250, June 2000.
+
+\bibitem{mckinney-proc-scipy-2010}
+W.~McKinney.
+\newblock Data structures for statistical computing in python.
+\newblock In S.~van~der Walt and J.~Millman, editors, {\em Proceedings of the
+  9th Python in Science Conference}, pages 51 -- 56, 2010.
 
 \bibitem{Mongodin:2005ie}
 E.~F. Mongodin, K.~E. Nelson, S.~Daugherty, R.~DeBoy, J.~Wister, H.~Khouri,
@@ -457,6 +439,11 @@ J.~Pell, A.~Hintze, R.~Canino-Koning, A.~Howe, J.~M. Tiedje, and C.~T. Brown.
 \newblock {\em Proceedings of the National Academy of Sciences},
   109(33):13272--13277, July 2012.
 
+\bibitem{Perez:2007wf}
+F.~Perez and B.~E. Granger.
+\newblock {IPython: a system for interactive scientific computing}.
+\newblock {\em Computing in Science {\&} Engineering}, 9(3):21--29, 2007.
+
 \bibitem{Podell:2013fp}
 S.~Podell, J.~B. Emerson, C.~M. Jones, J.~A. Ugalde, S.~Welch, K.~B.
   Heidelberg, J.~F. Banfield, and E.~E. Allen.
@@ -533,11 +520,6 @@ P.~D. Schloss and J.~Handelsman.
 \newblock {Status of the microbial census}.
 \newblock {\em Microbiology and molecular biology reviews : MMBR},
   68(4):686--+, Dec. 2004.
-
-\bibitem{Seemann:2014ks}
-T.~Seemann.
-\newblock {Prokka: rapid prokaryotic genome annotation}.
-\newblock {\em Bioinformatics (Oxford, England)}, Mar. 2014.
 
 \bibitem{Segata:2013hb}
 N.~Segata, D.~B{\"o}rnigen, X.~C. Morgan, and C.~Huttenhower.
