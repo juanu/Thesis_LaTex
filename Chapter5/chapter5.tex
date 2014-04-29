@@ -440,18 +440,11 @@ The previous point is supported by looking at the percentage of SNPs found on th
 \clearpage
 \subsection{Genes under positive selection}
 
-We can evaluate the extent of how the environments effects selective pressure over the  members of the community using the gernated datasets. Using the ratio of nonsynonymous (dN) to synonoymous (dS) substitutions, allows to look to identify signatures of positive selection (dn/ds > 1) (REF).
+We can evaluate the extent of how the environments effects selective pressure over the  members of the community using the gernated datasets. Using the ratio of nonsynonymous (pN) to synonoymous (pS) substitutions in the population, allows to look to identify signatures of positive selection (pN/pS > 1) (REF), where natural selection is favoring more diversification at the amino acid level. On the other hand, puryifying selection (pN/pS < 1) ocurrs when fewer amino acid changes are expected by change (REF). This last process is how has been suggested that most of the genes evolve, as the occurence and fixation of beneficial mutations is rare (REF).
 
-This would imply that the gene is undergoing positive selection as natural selection is favoring more diversification at the amino acid level. Purifying selection is characterized by fewer amino acid changes than expected by chance (dN/dS<1) (REF). Most genes are thought to have evolved this way as most mutations are deleterious and removed by selection, and the occurrence and fixation of beneficial mutations is rare
-(REFS). 
+By looking at those genes that are undergoin positive selection, we can get an insights into the adpation of each natural population to its environment, and the undergoind processes that are occuring (REF). Phage predation is a factor (REF), changing environmental conditions (REF), and other events that are indeed changing the population structure.
 
-
-
-
-
-
-
-(Figure \ref{MappingStrategy})
+To estimate the pN/pS ratios for each gene, we used an strategy based on previous work by Tai \textit{et al.} \cite{Tai:2011jo}. Because we are using short reads to quantify the variation, is not possible to link multiple polymorphisms between them. This makes the use of maximum likelihood or Bayesian frameworks (REF) for estimation of dN/dS ratios, not applicable in this case. Instead, we used a counting method (shown on Figure \ref{MappingStrategy}), that looks at each nucleotide position within a coding-sequence. This allows for a relatevily easy estimation of pN/pS values across all of the genes.
 
 
 
@@ -459,8 +452,7 @@ Table of DN/ds
 
 COGs, under positive selection. Significance?
 Look at product names
-
-
+ 
 
 
 
@@ -530,6 +522,9 @@ Fixation ratios, FST
 Effects of HGT
 Core genome -> need to focus on single groups
 It has been argued previously that many genes occurring at intermediate frequency within genomes are involved in predation evasion by varying surface antigenicity 
+
+Correlation of these data with the viral data from Joane (Emerson 2012), regarding the temporal scale variation on the virla community
+We didn't explore phagesin this study
 
 
 \section{Conclusions}

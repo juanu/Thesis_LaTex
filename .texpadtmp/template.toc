@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {5.5}General Discussion}{96}{section.5.5}
 \contentsline {section}{\numberline {5.6}Conclusions}{96}{section.5.6}
 \contentsline {section}{\numberline {5.7}Acknowledgments}{96}{section.5.7}
-\contentsline {backmatter}{References}{98}{chapter*.44}
+\contentsline {backmatter}{References}{98}{chapter*.43}
 \contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{108}{appendix.A}
 \contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{112}{appendix.B}
 \contentsline {chapter}{\numberline {Appendix\nobreakspace {}C}COG categories with genes under positive selection}{129}{appendix.C}

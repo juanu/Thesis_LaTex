@@ -9,50 +9,51 @@ A level-1 auxiliary file: Appendix/GenomeCoveragePlots.aux
 A level-1 auxiliary file: Appendix/COG_positive_selection_tables.aux
 Database file #1: ../CompleteLibrary.bib
 Database file #2: ../extra_refs.bib
+Warning--I didn't find a database entry for "Tatusov:2003fk"
 Warning--I didn't find a database entry for "Oliphant:2007ud"
 Warning--I didn't find a database entry for "Hunter:2007ih"
 Warning--I didn't find a database entry for "Pabinger:2014dl"
 Warning--empty journal in Garrison:2012wb
 Warning--empty journal in Ventosa:2012wo
-You've used 98 entries,
+You've used 99 entries,
             2118 wiz_defined-function locations,
-            1129 strings with 30915 characters,
-and the built_in function-call counts, 47209 in all, are:
-= -- 4220
-> -- 3822
+            1138 strings with 31332 characters,
+and the built_in function-call counts, 47898 in all, are:
+= -- 4277
+> -- 3895
 < -- 7
-+ -- 1514
-- -- 1416
-* -- 4505
-:= -- 8314
-add.period$ -- 296
-call.type$ -- 98
-change.case$ -- 1000
++ -- 1543
+- -- 1444
+* -- 4580
+:= -- 8439
+add.period$ -- 299
+call.type$ -- 99
+change.case$ -- 1017
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 1128
-empty$ -- 2508
-format.name$ -- 1416
-if$ -- 8981
+cite$ -- 101
+duplicate$ -- 1139
+empty$ -- 2533
+format.name$ -- 1444
+if$ -- 9105
 int.to.chr$ -- 0
-int.to.str$ -- 98
-missing$ -- 99
-newline$ -- 493
-num.names$ -- 198
-pop$ -- 856
+int.to.str$ -- 99
+missing$ -- 100
+newline$ -- 498
+num.names$ -- 200
+pop$ -- 871
 preamble$ -- 1
-purify$ -- 903
+purify$ -- 919
 quote$ -- 0
-skip$ -- 766
+skip$ -- 773
 stack$ -- 0
-substring$ -- 2400
-swap$ -- 148
+substring$ -- 2424
+swap$ -- 149
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 390
+type$ -- 394
 warning$ -- 2
-while$ -- 352
-width$ -- 100
-write$ -- 1071
-(There were 5 warnings)
+while$ -- 356
+width$ -- 101
+write$ -- 1082
+(There were 6 warnings)
