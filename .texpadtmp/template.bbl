@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{Albertsen:2013gp}
 M.~Albertsen, P.~Hugenholtz, A.~Skarshewski, K.~L. Nielsen, G.~W. Tyson, and
@@ -6,6 +6,11 @@ M.~Albertsen, P.~Hugenholtz, A.~Skarshewski, K.~L. Nielsen, G.~W. Tyson, and
 \newblock {Genome sequences of rare, uncultured bacteria obtained by
   differential coverage binning of multiple metagenomes}.
 \newblock {\em Nature Biotechnology}, May 2013.
+
+\bibitem{Allen:2005dg}
+E.~E. Allen and J.~F. Banfield.
+\newblock {Community genomics in microbial ecology and evolution}.
+\newblock {\em Nature Reviews Microbiology}, 3(6):489--498, June 2005.
 
 \bibitem{Allen:2007ju}
 E.~E. Allen, G.~W. Tyson, R.~J. Whitaker, J.~C. Detter, P.~M. Richardson, and
@@ -115,6 +120,13 @@ P.~J.~A. Cock, T.~Antao, J.~T. Chang, B.~A. Chapman, C.~J. Cox, A.~Dalke,
   biology and bioinformatics}.
 \newblock {\em Bioinformatics (Oxford, England)}, 25(11):1422--1423, May 2009.
 
+\bibitem{Cordero:2012ik}
+O.~X. Cordero, H.~Wildschutte, B.~Kirkup, S.~Proehl, L.~Ngo, F.~Hussain,
+  F.~Le~Roux, T.~Mincer, and M.~F. Polz.
+\newblock {Ecological Populations of Bacteria Act as Socially Cohesive Units of
+  Antibiotic Production and Resistance}.
+\newblock {\em Science}, 337(6099):1228--1231, Sept. 2012.
+
 \bibitem{Curtis:2002dj}
 T.~P. Curtis, W.~T. Sloan, and J.~W. Scannell.
 \newblock {Estimating prokaryotic diversity and its limits}.
@@ -152,6 +164,12 @@ E.~A. Dinsdale, R.~A. Edwards, D.~Hall, F.~Angly, M.~Breitbart, J.~M. Brulc,
   F.~Rohwer.
 \newblock {Functional metagenomic profiling of nine biomes}.
 \newblock {\em Nature}, 452(7187):629--632, Apr. 2008.
+
+\bibitem{Doroghazi:2013gf}
+J.~R. Doroghazi and W.~W. Metcalf.
+\newblock {Comparative genomics of actinomycetes with a focus on natural
+  product biosynthetic genes.}
+\newblock {\em BMC Genomics}, 14(1):611, Sept. 2013.
 
 \bibitem{DyallSmith:2003eu}
 M.~Dyall-Smith, S.-L. Tang, and C.~Bath.
@@ -193,6 +211,13 @@ J.~J. Flowers, S.~He, S.~Malfatti, T.~G. del Rio, S.~G. Tringe, P.~Hugenholtz,
   performing biological phosphorus removal}.
 \newblock {\em The ISME Journal}, July 2013.
 
+\bibitem{Fricke:2011gy}
+W.~F. Fricke, M.~K. Mammel, P.~F. McDermott, C.~Tartera, D.~G. White, J.~E.
+  LeClerc, J.~Ravel, and T.~A. Cebula.
+\newblock {Comparative genomics of 28 Salmonella enterica isolates: evidence
+  for CRISPR-mediated adaptive sublineage evolution.}
+\newblock {\em Journal Of Bacteriology}, 193(14):3556--3568, July 2011.
+
 \bibitem{Garrison:2012wb}
 E.~Garrison and G.~Marth.
 \newblock {Haplotype-based variant detection from short-read sequencing}.
@@ -211,11 +236,33 @@ R.~Ghai, L.~Pasi{\'c}, A.~B. Fern{\'a}ndez, A.-B. Martin-Cuadrado, C.~M.
 \newblock {New abundant microbial groups in aquatic hypersaline environments.}
 \newblock {\em Scientific Reports}, 1:135, 2011.
 
+\bibitem{Grad:2013tc}
+Y.~H. Grad, P.~Godfrey, G.~C. Cerquiera, P.~Mariani-Kurkdjian, M.~Gouali,
+  E.~Bingen, T.~P. Shea, B.~J. Haas, A.~Griggs, and S.~Young.
+\newblock {Comparative genomics of recent Shiga toxin-producing Escherichia
+  coli O104: H4: short-term evolution of an emerging pathogen}.
+\newblock {\em mBio}, 4(1), 2013.
+
 \bibitem{Handelsman:1998tx}
 J.~Handelsman, M.~R. Rondon, S.~F. Brady, J.~Clardy, and R.~M. Goodman.
 \newblock {Molecular biological access to the chemistry of unknown soil
   microbes: a new frontier for natural products.}
 \newblock {\em Chemistry {\&} Biology}, 5(10):R245--9, Oct. 1998.
+
+\bibitem{Hemme:2010ds}
+C.~L. Hemme, Y.~Deng, T.~J. Gentry, M.~W. Fields, L.~Wu, S.~Barua, K.~Barry,
+  S.~G. Tringe, D.~B. Watson, Z.~He, T.~C. Hazen, J.~M. Tiedje, E.~M. Rubin,
+  and J.~Zhou.
+\newblock {Metagenomic insights into evolution of a heavy metal-contaminated
+  groundwater microbial community}.
+\newblock {\em The ISME Journal}, 4(5):660--672, Feb. 2010.
+
+\bibitem{Herlemann:uy}
+D.~P.~R. Herlemann, D.~Lundin, M.~Labrenz, K.~J{\"u}rgens, Z.~Zheng,
+  H.~Aspeborg, and A.~F. Andersson.
+\newblock {Metagenomic De Novo Assembly of an Aquatic Representative of the
+  Verrucomicrobial Class Spartobacteria}.
+\newblock {\em mbio.asm.org}.
 
 \bibitem{Howe:2014go}
 A.~C. Howe, J.~K. Jansson, S.~A. Malfatti, S.~G. Tringe, J.~M. Tiedje, and
@@ -302,6 +349,14 @@ D.~Lindell, J.~D. Jaffe, Z.~I. Johnson, G.~M. Church, and S.~W. Chisholm.
 \newblock {Photosynthesis genes in marine viruses yield proteins during host
   infection}.
 \newblock {\em Nature}, 438(7064):86--89, Oct. 2005.
+
+\bibitem{Lo:2007ht}
+I.~Lo, V.~J. Denef, N.~C. Verberkmoes, M.~B. Shah, D.~Goltsman, G.~Dibartolo,
+  G.~W. Tyson, E.~E. Allen, R.~J. Ram, J.~C. Detter, P.~Richardson, M.~P.
+  Thelen, R.~L. Hettich, and J.~F. Banfield.
+\newblock {Strain-resolved community proteomics reveals recombining genomes of
+  acidophilic bacteria}.
+\newblock {\em Nature}, 446(7135):537--541, Mar. 2007.
 
 \bibitem{Long:1992ie}
 D.~T. Long, N.~E. Fegan, W.~B. Lyons, M.~E. Hines, P.~G. Macumber, and A.~M.
@@ -419,6 +474,12 @@ A.~Oren.
   properties Aharon Oren}.
 \newblock {\em FEMS Microbiology Letters}, pages n/a--n/a, Feb. 2013.
 
+\bibitem{Palenik:2009kx}
+B.~Palenik, Q.~Ren, V.~Tai, and I.~T. Paulsen.
+\newblock {Coastal Synechococcus metagenome reveals major roles for horizontal
+  gene transfer and plasmids in population diversity.}
+\newblock {\em Environmental Microbiology}, 11(2):349--359, Feb. 2009.
+
 \bibitem{Parks:2011bh}
 D.~H. Parks, N.~J. MacDonald, and R.~G. Beiko.
 \newblock {Classifying short genomic fragments from novel lineages using
@@ -431,6 +492,16 @@ L.~Pa{\v s}i{\'c}, B.~Rodriguez-Mueller, A.-B. Martin-Cuadrado, A.~Mira,
 \newblock {Metagenomic islands of hyperhalophiles: the case of Salinibacter
   ruber}.
 \newblock {\em BMC Genomics}, 10(1):570, Dec. 2009.
+
+\bibitem{PeNtildeA:2010ie}
+A.~Pe~Ntilde~A, H.~Teeling, J.~Huerta-Cepas, F.~Santos, P.~Yarza,
+  J.~Brito-Echeverr Iacute~A, M.~Lucio, P.~Schmitt-Kopplin, I.~Meseguer,
+  C.~Schenowitz, C.~Dossat, V.~Barbe, J.~i.~n. Dopazo, R.~Rossell Oacute~Mora,
+  M.~Sch Uuml~Ler, F.~O. Gl~Ouml~Ckner, R.~Amann, T.~Gabald Oacute~N, and
+  J.~Ant Oacute~N.
+\newblock {Fine-scale evolution: genomic, phenotypic and ecological
+  differentiation in two coexisting Salinibacter ruber strains}.
+\newblock {\em The ISME Journal}, Feb. 2010.
 
 \bibitem{Pell:2012id}
 J.~Pell, A.~Hintze, R.~Canino-Koning, A.~Howe, J.~M. Tiedje, and C.~T. Brown.
@@ -474,6 +545,12 @@ D.~C. Reed, C.~K. Algar, J.~A. Huber, and G.~J. Dick.
 \newblock {Gene-centric approach to integrating environmental genomics and
   biogeochemical models}.
 \newblock {\em Proceedings of the National Academy of Sciences}, Jan. 2014.
+
+\bibitem{Reno:2009bq}
+M.~L. Reno, N.~L. Held, C.~J. Fields, P.~V. Burke, and R.~J. Whitaker.
+\newblock {Biogeography of the Sulfolobus islandicus pan-genome}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 106(21):8605--8610, May 2009.
 
 \bibitem{Rinke:2013bt}
 C.~Rinke, P.~Schwientek, A.~Sczyrba, N.~N. Ivanova, I.~J. Anderson, J.-F.
@@ -654,6 +731,11 @@ D.~Willner, R.~Thurber, and F.~Rohwer.
 \newblock {Metagenomic signatures of 86 microbial and viral metagenomes}.
 \newblock {\em Environmental Microbiology}, Mar. 2009.
 
+\bibitem{Wilmes:2009bn}
+P.~Wilmes, S.~L. Simmons, V.~J. Denef, and J.~F. Banfield.
+\newblock {The dynamic genetic repertoire of microbial communities}.
+\newblock {\em FEMS Microbiology Reviews}, 33(1):109--132, Jan. 2009.
+
 \bibitem{Wooley:2010uv}
 J.~C. Wooley, A.~Godzik, and I.~Friedberg.
 \newblock {A Primer on Metagenomics}.
@@ -664,5 +746,11 @@ D.~Wu, P.~Hugenholtz, K.~Mavromatis, R.~Pukall, E.~Dalin, N.~N. Ivanova,
   V.~Kunin, L.~Goodwin, M.~Wu, and B.~J. Tindall.
 \newblock {A phylogeny-driven genomic encyclopaedia of Bacteria and Archaea}.
 \newblock {\em Nature}, 462(7276):1056--1060, 2009.
+
+\bibitem{ZhuofeiXu:2011fp}
+Z.~Xu, H.~Chen, and R.~Zhou.
+\newblock {Genome-wide evidence for positive selection and recombination in
+  Actinobacillus pleuropneumoniae}.
+\newblock {\em BMC Evolutionary Biology}, 11(1):203, 2011.
 
 \end{thebibliography}

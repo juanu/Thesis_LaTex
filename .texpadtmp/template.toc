@@ -17,22 +17,23 @@
 \contentsline {chapter}{\numberline {Chapter\nobreakspace {}5}Microbial population structure and genetic heterogeneity in a hypersaline environment}{62}{chapter.5}
 \contentsline {section}{\numberline {5.1}Abstract}{62}{section.5.1}
 \contentsline {section}{\numberline {5.2}Introduction}{62}{section.5.2}
-\contentsline {section}{\numberline {5.3}Material and Methods}{63}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Sample collection and sequencing}{63}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Read mapping}{64}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Taxonomic classification}{65}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Variation analysis}{65}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Statistical and computer analysis}{66}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Results and Discussion}{68}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Overview of the Illumina dataset for January and August of 2007}{68}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Genome abundance and community structure, based on read mapping}{71}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Differential coverage of genomes and genes}{77}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Overview of the single nucleotide polymorphisms present in the community}{80}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Genes under positive selection}{91}{subsection.5.4.5}
-\contentsline {section}{\numberline {5.5}General Discussion}{96}{section.5.5}
-\contentsline {section}{\numberline {5.6}Conclusions}{96}{section.5.6}
-\contentsline {section}{\numberline {5.7}Acknowledgments}{96}{section.5.7}
-\contentsline {backmatter}{References}{98}{chapter*.43}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{108}{appendix.A}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{112}{appendix.B}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}C}COG categories with genes under positive selection}{129}{appendix.C}
+\contentsline {section}{\numberline {5.3}Material and Methods}{64}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Sample Collection and Sequencing}{64}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Read Mapping}{65}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Taxonomic Classification of Mapped and Unmapped Reads}{66}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Variation Analysis}{66}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Statistical and Computer analysis}{67}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Results and Discussion}{69}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Overview of the Illumina datasets}{69}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Read Mapping using Habitat-Specific genomes}{73}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Taxonomic Classification of Mapped and Unmapped Reads}{77}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Differential coverage of genomes and genes}{81}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Overview of the single nucleotide polymorphisms present in the community}{84}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Genes under positive selection}{95}{subsection.5.4.6}
+\contentsline {section}{\numberline {5.5}General Discussion}{100}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusions}{100}{section.5.6}
+\contentsline {section}{\numberline {5.7}Acknowledgments}{100}{section.5.7}
+\contentsline {backmatter}{References}{102}{chapter*.44}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{114}{appendix.A}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{118}{appendix.B}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}C}COG categories with genes under positive selection}{135}{appendix.C}

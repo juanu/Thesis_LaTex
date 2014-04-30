@@ -9,51 +9,54 @@ A level-1 auxiliary file: Appendix/GenomeCoveragePlots.aux
 A level-1 auxiliary file: Appendix/COG_positive_selection_tables.aux
 Database file #1: ../CompleteLibrary.bib
 Database file #2: ../extra_refs.bib
+Warning--I didn't find a database entry for "Feero:2011fr"
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Tatusov:2003fk"
 Warning--I didn't find a database entry for "Oliphant:2007ud"
 Warning--I didn't find a database entry for "Hunter:2007ih"
 Warning--I didn't find a database entry for "Pabinger:2014dl"
 Warning--empty journal in Garrison:2012wb
+Warning--empty year in Herlemann:uy
 Warning--empty journal in Ventosa:2012wo
-You've used 99 entries,
+You've used 112 entries,
             2118 wiz_defined-function locations,
-            1138 strings with 31332 characters,
-and the built_in function-call counts, 47898 in all, are:
-= -- 4277
-> -- 3895
+            1212 strings with 35109 characters,
+and the built_in function-call counts, 54261 in all, are:
+= -- 4836
+> -- 4439
 < -- 7
-+ -- 1543
-- -- 1444
-* -- 4580
-:= -- 8439
-add.period$ -- 299
-call.type$ -- 99
-change.case$ -- 1017
++ -- 1758
+- -- 1646
+* -- 5209
+:= -- 9572
+add.period$ -- 338
+call.type$ -- 112
+change.case$ -- 1157
 chr.to.int$ -- 0
-cite$ -- 101
-duplicate$ -- 1139
-empty$ -- 2533
-format.name$ -- 1444
-if$ -- 9105
+cite$ -- 115
+duplicate$ -- 1279
+empty$ -- 2853
+format.name$ -- 1646
+if$ -- 10297
 int.to.chr$ -- 0
-int.to.str$ -- 99
-missing$ -- 100
-newline$ -- 498
-num.names$ -- 200
-pop$ -- 871
+int.to.str$ -- 112
+missing$ -- 113
+newline$ -- 563
+num.names$ -- 226
+pop$ -- 991
 preamble$ -- 1
-purify$ -- 919
+purify$ -- 1046
 quote$ -- 0
-skip$ -- 773
+skip$ -- 865
 stack$ -- 0
-substring$ -- 2424
-swap$ -- 149
+substring$ -- 2725
+swap$ -- 162
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 394
-warning$ -- 2
-while$ -- 356
-width$ -- 101
-write$ -- 1082
-(There were 6 warnings)
+type$ -- 446
+warning$ -- 3
+while$ -- 400
+width$ -- 115
+write$ -- 1222
+(There were 9 warnings)
