@@ -9,54 +9,48 @@ A level-1 auxiliary file: Appendix/GenomeCoveragePlots.aux
 A level-1 auxiliary file: Appendix/COG_positive_selection_tables.aux
 Database file #1: ../CompleteLibrary.bib
 Database file #2: ../extra_refs.bib
-Warning--I didn't find a database entry for "Feero:2011fr"
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Tatusov:2003fk"
-Warning--I didn't find a database entry for "Oliphant:2007ud"
-Warning--I didn't find a database entry for "Hunter:2007ih"
-Warning--I didn't find a database entry for "Pabinger:2014dl"
 Warning--empty journal in Garrison:2012wb
-Warning--empty year in Herlemann:uy
 Warning--empty journal in Ventosa:2012wo
-You've used 112 entries,
+You've used 123 entries,
             2118 wiz_defined-function locations,
-            1212 strings with 35109 characters,
-and the built_in function-call counts, 54261 in all, are:
-= -- 4836
-> -- 4439
+            1260 strings with 36667 characters,
+and the built_in function-call counts, 58477 in all, are:
+= -- 5243
+> -- 4693
 < -- 7
-+ -- 1758
-- -- 1646
-* -- 5209
-:= -- 9572
-add.period$ -- 338
-call.type$ -- 112
-change.case$ -- 1157
++ -- 1859
+- -- 1736
+* -- 5584
+:= -- 10301
+add.period$ -- 371
+call.type$ -- 123
+change.case$ -- 1235
 chr.to.int$ -- 0
-cite$ -- 115
-duplicate$ -- 1279
-empty$ -- 2853
-format.name$ -- 1646
-if$ -- 10297
+cite$ -- 125
+duplicate$ -- 1400
+empty$ -- 3135
+format.name$ -- 1736
+if$ -- 11121
 int.to.chr$ -- 0
-int.to.str$ -- 112
-missing$ -- 113
-newline$ -- 563
-num.names$ -- 226
-pop$ -- 991
+int.to.str$ -- 123
+missing$ -- 124
+newline$ -- 618
+num.names$ -- 248
+pop$ -- 1045
 preamble$ -- 1
-purify$ -- 1046
+purify$ -- 1113
 quote$ -- 0
-skip$ -- 865
+skip$ -- 944
 stack$ -- 0
-substring$ -- 2725
-swap$ -- 162
+substring$ -- 3008
+swap$ -- 173
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 446
-warning$ -- 3
-while$ -- 400
-width$ -- 115
-write$ -- 1222
-(There were 9 warnings)
+type$ -- 490
+warning$ -- 2
+while$ -- 442
+width$ -- 126
+write$ -- 1344
+(There were 3 warnings)

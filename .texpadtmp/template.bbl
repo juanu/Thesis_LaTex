@@ -7,6 +7,13 @@ M.~Albertsen, P.~Hugenholtz, A.~Skarshewski, K.~L. Nielsen, G.~W. Tyson, and
   differential coverage binning of multiple metagenomes}.
 \newblock {\em Nature Biotechnology}, May 2013.
 
+\bibitem{Albertsen:2013gpa}
+M.~Albertsen, P.~Hugenholtz, A.~Skarshewski, K.~L. Nielsen, G.~W. Tyson, and
+  P.~H. Nielsen.
+\newblock {Genome sequences of rare, uncultured bacteria obtained by
+  differential coverage binning of multiple metagenomes}.
+\newblock {\em Nature Biotechnology}, 31(6):533--538, May 2013.
+
 \bibitem{Allen:2005dg}
 E.~E. Allen and J.~F. Banfield.
 \newblock {Community genomics in microbial ecology and evolution}.
@@ -165,11 +172,22 @@ E.~A. Dinsdale, R.~A. Edwards, D.~Hall, F.~Angly, M.~Breitbart, J.~M. Brulc,
 \newblock {Functional metagenomic profiling of nine biomes}.
 \newblock {\em Nature}, 452(7187):629--632, Apr. 2008.
 
+\bibitem{Doolittle:2012hf}
+W.~F. Doolittle.
+\newblock {Population genomics: how bacterial species form and why they don't
+  exist.}
+\newblock {\em Current biology : CB}, 22(11):R451--3, June 2012.
+
 \bibitem{Doroghazi:2013gf}
 J.~R. Doroghazi and W.~W. Metcalf.
 \newblock {Comparative genomics of actinomycetes with a focus on natural
   product biosynthetic genes.}
 \newblock {\em BMC Genomics}, 14(1):611, Sept. 2013.
+
+\bibitem{DyallSmith:2011tu}
+M.~Dyall-Smith, F.~Pfeiffer, K.~Klee, P.~Palm, and K.~Gross.
+\newblock {Haloquadratum walsbyi: Limited Diversity in a Global Pond}.
+\newblock {\em PLoS ONE}, 2011.
 
 \bibitem{DyallSmith:2003eu}
 M.~Dyall-Smith, S.-L. Tang, and C.~Bath.
@@ -203,6 +221,12 @@ J.~B. Emerson, B.~C. Thomas, K.~Andrade, K.~B. Heidelberg, and J.~F. Banfield.
   assemblage structure in an Australian hypersaline lake.}
 \newblock {\em Applied and Environmental Microbiology}, 79(21):6755--6764, Nov.
   2013.
+
+\bibitem{Feero:2011fr}
+W.~G. Feero, A.~E. Guttmacher, and D.~A. Relman.
+\newblock {Microbial Genomics and Infectious Diseases}.
+\newblock {\em The New England journal of medicine}, 365(4):347--357, July
+  2011.
 
 \bibitem{Flowers:2013hq}
 J.~J. Flowers, S.~He, S.~Malfatti, T.~G. del Rio, S.~G. Tringe, P.~Hugenholtz,
@@ -260,9 +284,9 @@ C.~L. Hemme, Y.~Deng, T.~J. Gentry, M.~W. Fields, L.~Wu, S.~Barua, K.~Barry,
 \bibitem{Herlemann:uy}
 D.~P.~R. Herlemann, D.~Lundin, M.~Labrenz, K.~J{\"u}rgens, Z.~Zheng,
   H.~Aspeborg, and A.~F. Andersson.
-\newblock {Metagenomic De Novo Assembly of an Aquatic Representative of the
-  Verrucomicrobial Class Spartobacteria}.
-\newblock {\em mbio.asm.org}.
+\newblock {Metagenomic de novo assembly of an aquatic representative of the
+  verrucomicrobial class Spartobacteria.}
+\newblock {\em mBio}, 4(3):e00569--12, 2013.
 
 \bibitem{Howe:2014go}
 A.~C. Howe, J.~K. Jansson, S.~A. Malfatti, S.~G. Tringe, J.~M. Tiedje, and
@@ -270,6 +294,11 @@ A.~C. Howe, J.~K. Jansson, S.~A. Malfatti, S.~G. Tringe, J.~M. Tiedje, and
 \newblock {Tackling soil diversity with the assembly of large, complex
   metagenomes}.
 \newblock {\em Proceedings of the National Academy of Sciences}, Mar. 2014.
+
+\bibitem{Hunter:2007ih}
+J.~D. Hunter.
+\newblock {Matplotlib: A 2D Graphics Environment}.
+\newblock {\em Computing in Science {\&} Engineering}, 9(3):90--95, May 2007.
 
 \bibitem{Hurwitz:2013gl}
 B.~L. Hurwitz and M.~B. Sullivan.
@@ -331,12 +360,12 @@ B.~Langmead and S.~L. Salzberg.
 \newblock {\em Nature Methods}, 9(4):357--359, Mar. 2012.
 
 \bibitem{Legault:2006kh}
-B.~Legault, A.~Lopez-Lopez, J.~Alba-Casado, W.~F. Doolittle, H.~Bolhuis,
+B.~A. Legault, A.~Lopez-Lopez, J.~C. Alba-Casado, W.~F. Doolittle, H.~Bolhuis,
   F.~Rodriguez-Valera, and R.~T. Papke.
-\newblock {BioMed Central | Full text | Environmental genomics of
-  "Haloquadratum walsbyi" in a saltern crystallizer indicates a large pool of
-  accessory genes in an otherwise coherent species}.
-\newblock {\em BMC Genomics}, 7(1):171, July 2006.
+\newblock {Environmental genomics of "Haloquadratum walsbyi" in a saltern
+  crystallizer indicates a large pool of accessory genes in an otherwise
+  coherent species.}
+\newblock {\em BMC Genomics}, 7:171, 2006.
 
 \bibitem{Li:2009ka}
 H.~Li, B.~Handsaker, A.~Wysoker, T.~Fennell, J.~Ruan, N.~Homer, G.~Marth,
@@ -393,8 +422,8 @@ E.~R. Mardis.
 \bibitem{Matsen:2011wn}
 F.~A. Matsen and S.~N. Evans.
 \newblock {Edge principal components and squash clustering: using the special
-  structure of phylogenetic placement data for sample comparison}.
-\newblock {\em arXiv preprint arXiv:1107.5095}, 2011.
+  structure of phylogenetic placement data for sample comparison.}
+\newblock {\em PLoS ONE}, 8(3):e56859, 2013.
 
 \bibitem{McDonald:2011hn}
 D.~McDonald, M.~N. Price, J.~Goodrich, E.~P. Nawrocki, T.~Z. DeSantis,
@@ -424,6 +453,11 @@ E.~F. Mongodin, K.~E. Nelson, S.~Daugherty, R.~DeBoy, J.~Wister, H.~Khouri,
 \newblock {\em Proceedings of the National Academy of Sciences},
   102(50):18147--18152, Dec. 2005.
 
+\bibitem{Mortazavi:2008jj}
+A.~Mortazavi, B.~A. Williams, K.~McCue, L.~Schaeffer, and B.~Wold.
+\newblock {Mapping and quantifying mammalian transcriptomes by RNA-Seq.}
+\newblock {\em Nature Methods}, 5(7):621--628, July 2008.
+
 \bibitem{Mutlu:2008dk}
 M.~B. Mutlu, M.~Mart{\'\i}nez-Garc{\'\i}a, F.~Santos, A.~Pe{\~n}a, K.~Guven,
   and J.~Ant{\'o}n.
@@ -437,6 +471,11 @@ P.~Narasingarao, S.~Podell, J.~A. Ugalde, C.~Brochier-Armanet, J.~B. Emerson,
 \newblock {De novo metagenomic assembly reveals abundant novel major lineage of
   Archaea in hypersaline microbial communities.}
 \newblock {\em The ISME Journal}, 6(1):81--93, Jan. 2012.
+
+\bibitem{Oliphant:2007ud}
+T.~E. Oliphant.
+\newblock {Python for scientific computing}.
+\newblock {\em Computing in Science {\&} Engineering}, 9(3):10--20, 2007.
 
 \bibitem{Oren:2002vw}
 A.~Oren.
@@ -529,6 +568,11 @@ S.~Podell, J.~A. Ugalde, P.~Narasingarao, J.~F. Banfield, K.~B. Heidelberg, and
   Ecosystem}.
 \newblock {\em PLoS ONE}, 8(4):e61692, Apr. 2013.
 
+\bibitem{Porter:2007jw}
+K.~Porter, B.~E. Russ, and M.~L. Dyall-Smith.
+\newblock {Virus--host interactions in salt lakes}.
+\newblock {\em Current Opinion in Microbiology}, 10(4):418--424, Aug. 2007.
+
 \bibitem{Quinlan:2010km}
 A.~R. Quinlan and I.~M. Hall.
 \newblock {BEDTools: a flexible suite of utilities for comparing genomic
@@ -618,6 +662,12 @@ N.~Segata, L.~Waldron, A.~Ballarini, V.~Narasimhan, O.~Jousson, and
   clade-specific marker genes}.
 \newblock {\em Nature Methods}, pages~--, June 2012.
 
+\bibitem{Shapiro:hi}
+B.~J. Shapiro and M.~F. Polz.
+\newblock {Ordering microbial diversity into ecologically and genetically
+  cohesive units.}
+\newblock {\em Trends in Microbiology}, Mar. 2014.
+
 \bibitem{Sharma:2006kn}
 A.~Sharma, J.~Spudich, and W.~Doolittle.
 \newblock {Microbial rhodopsins: functional versatility and genetic mobility}.
@@ -651,6 +701,14 @@ V.~Tai, A.~F.~Y. Poon, I.~T. Paulsen, and B.~Palenik.
 \newblock {Selection in Coastal Synechococcus (Cyanobacteria) Populations
   Evaluated from Environmental Metagenomes}.
 \newblock {\em PLoS ONE}, 6(9):e24249, Sept. 2011.
+
+\bibitem{Tatusov:2003fk}
+R.~L. Tatusov, N.~D. Fedorova, J.~D. Jackson, A.~R. Jacobs, B.~Kiryutin, E.~V.
+  Koonin, D.~M. Krylov, R.~Mazumder, S.~L. Mekhedov, A.~N. Nikolskaya, B.~S.
+  Rao, S.~Smirnov, A.~V. Sverdlov, S.~Vasudevan, Y.~I. Wolf, J.~J. Yin, and
+  D.~A. Natale.
+\newblock {The COG database: an updated version includes eukaryotes.}
+\newblock {\em BMC Bioinformatics}, 4:41, Sept. 2003.
 
 \bibitem{Tyson:2004bw}
 G.~W. Tyson, J.~Chapman, P.~Hugenholtz, E.~E. Allen, R.~J. Ram, P.~M.
@@ -700,6 +758,11 @@ A.~Ventosa, M.~C. M{\'a}rquez, C.~S{\'a}nchez-Porro, and R.~Rafael.
 L.~Vogeley, O.~Sineshchekov, V.~Trivedi, J.~Sasaki, J.~Spudich, and H.~Luecke.
 \newblock {Anabaena sensory rhodopsin: a photochromic color sensor at 2.0 A}.
 \newblock {\em Science's STKE}, 306(5700):1390, 2004.
+
+\bibitem{Vos:2011ux}
+M.~Vos.
+\newblock {A species concept for bacteria based on adaptive divergence}.
+\newblock {\em Trends in Microbiology}, 19(1):1--7, 2011.
 
 \bibitem{Ward:2008hp}
 D.~M. Ward, F.~M. Cohan, D.~Bhaya, J.~F. Heidelberg, M.~K{\"u}hl, and
