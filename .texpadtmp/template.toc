@@ -3,10 +3,10 @@
 \contentsline {frontmatter}{\numberline {}Epigraph}{v}{section*.3}
 \contentsline {frontmatter}{\numberline {}Table of Contents}{vi}{section*.4}
 \contentsline {frontmatter}{\numberline {}List of Figures}{viii}{section*.5}
-\contentsline {frontmatter}{\numberline {}List of Tables}{xii}{section*.6}
-\contentsline {frontmatter}{\numberline {}Acknowledgements}{xv}{section*.7}
-\contentsline {frontmatter}{\numberline {}Vita and Publications}{xvi}{section*.8}
-\contentsline {frontmatter}{\numberline {}Abstract of the Dissertation}{xviii}{section*.9}
+\contentsline {frontmatter}{\numberline {}List of Tables}{xiv}{section*.6}
+\contentsline {frontmatter}{\numberline {}Acknowledgements}{xvii}{section*.7}
+\contentsline {frontmatter}{\numberline {}Vita and Publications}{xviii}{section*.8}
+\contentsline {frontmatter}{\numberline {}Abstract of the Dissertation}{xx}{section*.9}
 \contentsline {chapter}{\numberline {Chapter\nobreakspace {}1}Introduction to the thesis}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Metagenomics}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Microbial communities in hypersaline environments}{7}{section.1.2}
@@ -30,10 +30,15 @@
 \contentsline {subsection}{\numberline {5.4.4}Differential coverage of genomes and genes}{81}{subsection.5.4.4}
 \contentsline {subsection}{\numberline {5.4.5}Fine-scale Genetic Variation: Single Nucleotide Polymorphisms (SNPs)}{84}{subsection.5.4.5}
 \contentsline {subsection}{\numberline {5.4.6}Genes under positive selection}{95}{subsection.5.4.6}
-\contentsline {section}{\numberline {5.5}General Discussion}{101}{section.5.5}
-\contentsline {section}{\numberline {5.6}Conclusions}{101}{section.5.6}
-\contentsline {section}{\numberline {5.7}Acknowledgments}{101}{section.5.7}
-\contentsline {backmatter}{References}{103}{chapter*.46}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{116}{appendix.A}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{120}{appendix.B}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}C}COG categories with genes under positive selection}{138}{appendix.C}
+\contentsline {subsubsection}{Average pN/pS values for each genome}{95}{section*.37}
+\contentsline {subsubsection}{pN/pS values and uniquely selected genes}{96}{section*.38}
+\contentsline {subsubsection}{Differences between pN/pS values between sampling dates}{97}{section*.39}
+\contentsline {subsubsection}{pN/pS values and functional classification}{98}{section*.40}
+\contentsline {section}{\numberline {5.5}General Discussion}{106}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusions}{108}{section.5.6}
+\contentsline {section}{\numberline {5.7}Acknowledgments}{108}{section.5.7}
+\contentsline {backmatter}{References}{109}{chapter*.47}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{123}{appendix.A}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{127}{appendix.B}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}C}COG categories with genes under positive selection}{145}{appendix.C}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}D}Genome pN/pS coverage plots}{177}{appendix.D}

@@ -32,11 +32,6 @@ R.~I. Amann, W.~Ludwig, and K.~H. Schleifer.
   microbial cells without cultivation.}
 \newblock {\em Microbiological reviews}, 59(1):143--169, Mar. 1995.
 
-\bibitem{AmritaPati:2011ba}
-L.~S. H. N. C. K. N.~I. Amrita~Pati.
-\newblock {ClaMS: A Classifier for Metagenomic Sequences}.
-\newblock {\em Standards in Genomic Sciences}, 5(2):248, Nov. 2011.
-
 \bibitem{Andrei:2012he}
 A.-{\c S}. Andrei, H.~L. Banciu, and A.~Oren.
 \newblock {Living with salt: metabolic and phylogenetic diversity of archaea
@@ -111,6 +106,12 @@ E.~O. Casamayor, R.~Massana, S.~Benlloch, L.~{\O}vre{\aa}s, B.~D{\'\i}ez, V.~J.
   salinity gradient by comparison of genetic fingerprinting methods in a
   multipond solar saltern.}
 \newblock {\em Environmental Microbiology}, 4(6):338--348, June 2002.
+
+\bibitem{Chandran:2009fg}
+V.~Chandran, R.~Fronzes, S.~Duquerroy, N.~Cronin, J.~Navaza, and G.~Waksman.
+\newblock {Structure of the outer membrane complex of a type IV secretion
+  system}.
+\newblock {\em Nature}, 462(7276):1011--1015, Nov. 2009.
 
 \bibitem{Cingolani:2012cz}
 P.~Cingolani, A.~Platts, L.~L. Wang, M.~Coon, T.~Nguyen, L.~Wang, S.~J. Land,
@@ -193,6 +194,13 @@ M.~Dyall-Smith, F.~Pfeiffer, K.~Klee, P.~Palm, and K.~Gross.
 M.~Dyall-Smith, S.-L. Tang, and C.~Bath.
 \newblock {Haloarchaeal viruses: how diverse are they?}
 \newblock {\em Research in Microbiology}, 154(4):309--313, May 2003.
+
+\bibitem{Egea:2008jo}
+R.~Egea, S.~Casillas, and A.~Barbadilla.
+\newblock {Standard and generalized McDonald-Kreitman test: a website to detect
+  selection by comparing different classes of DNA sites.}
+\newblock {\em Nucleic Acids Research}, 36(Web Server issue):W157--62, July
+  2008.
 
 \bibitem{Eid:2009kv}
 J.~Eid, A.~Fehr, J.~Gray, K.~Luong, J.~Lyle, G.~Otto, P.~Peluso, D.~Rank,
@@ -300,6 +308,11 @@ J.~D. Hunter.
 \newblock {Matplotlib: A 2D Graphics Environment}.
 \newblock {\em Computing in Science {\&} Engineering}, 9(3):90--95, May 2007.
 
+\bibitem{Hurst:2002ht}
+L.~D. Hurst.
+\newblock {The Ka/Ks ratio: diagnosing the form of sequence evolution}.
+\newblock {\em Trends in Genetics}, 18(9):486--487, Sept. 2002.
+
 \bibitem{Hurwitz:2013gl}
 B.~L. Hurwitz and M.~B. Sullivan.
 \newblock {The Pacific Ocean Virome (POV): A Marine Viral Metagenomic Dataset
@@ -346,6 +359,12 @@ W.~C. N. J. B. H. N. E. K. A. J. B.~E. Karla B~Heidelberg.
   Lake Tyrrell, Australia}.
 \newblock {\em Frontiers in Microbiology}, 4, 2013.
 
+\bibitem{Kirkup:2004hj}
+B.~C. Kirkup and M.~A. Riley.
+\newblock {Antibiotic-mediated antagonism leads to a bacterial game of
+  rock--paper--scissors in vivo}.
+\newblock {\em Nature}, 428(6981):412--414, Mar. 2004.
+
 \bibitem{Knight:2007gp}
 R.~Knight, P.~Maxwell, A.~Birmingham, J.~Carnes, J.~G. Caporaso, B.~C. Easton,
   M.~Eaton, M.~Hamady, H.~Lindsay, Z.~Liu, C.~Lozupone, D.~McDonald,
@@ -353,6 +372,11 @@ R.~Knight, P.~Maxwell, A.~Birmingham, J.~Carnes, J.~G. Caporaso, B.~C. Easton,
   S.~Wilson, H.~Ying, and G.~A. Huttley.
 \newblock {PyCogent: a toolkit for making sense from sequence}.
 \newblock {\em Genome Biology}, 8(8):R171, 2007.
+
+\bibitem{Kryazhimskiy:2008hq}
+S.~Kryazhimskiy and J.~B. Plotkin.
+\newblock {The population genetics of dN/dS}.
+\newblock {\em PLoS genetics}, 4(12):e1000304, Dec. 2008.
 
 \bibitem{Langmead:2012jh}
 B.~Langmead and S.~L. Salzberg.
@@ -407,6 +431,12 @@ P.~G. Macumber.
   Australia}.
 \newblock {\em Chemical Geology}, 96(1):1--18, 1992.
 
+\bibitem{Makarova:2010bi}
+K.~S. Makarova and E.~V. Koonin.
+\newblock {Two new families of the FtsZ-tubulin protein superfamily implicated
+  in membrane remodeling in diverse bacteria and archaea}.
+\newblock {\em Biology Direct}, 5(1):33, 2010.
+
 \bibitem{Mardis:2008fr}
 E.~R. Mardis.
 \newblock {Next-generation DNA sequencing methods}.
@@ -425,12 +455,22 @@ F.~A. Matsen and S.~N. Evans.
   structure of phylogenetic placement data for sample comparison.}
 \newblock {\em PLoS ONE}, 8(3):e56859, 2013.
 
+\bibitem{Matz:2005ik}
+C.~Matz and S.~Kjelleberg.
+\newblock {Off the hook -- how bacteria survive protozoan grazing}.
+\newblock {\em Trends in Microbiology}, 13(7):302--307, July 2005.
+
 \bibitem{McDonald:2011hn}
 D.~McDonald, M.~N. Price, J.~Goodrich, E.~P. Nawrocki, T.~Z. DeSantis,
   A.~Probst, G.~L. Andersen, R.~Knight, and P.~Hugenholtz.
 \newblock {An improved Greengenes taxonomy with explicit ranks for ecological
   and evolutionary analyses of bacteria and archaea}.
 \newblock {\em The ISME Journal}, 6(3):610--618, Dec. 2011.
+
+\bibitem{McDonald:1991hj}
+J.~H. McDonald and M.~Kreitman.
+\newblock {Adaptive protein evolution at the Adh locus in Drosophila}.
+\newblock {\em Nature}, 351(6328):652--654, June 1991.
 
 \bibitem{McGenity:2000ts}
 T.~J. McGenity, R.~T. Gemmell, W.~D. Grant, and H.~Stan-Lotter.
@@ -471,6 +511,12 @@ P.~Narasingarao, S.~Podell, J.~A. Ugalde, C.~Brochier-Armanet, J.~B. Emerson,
 \newblock {De novo metagenomic assembly reveals abundant novel major lineage of
   Archaea in hypersaline microbial communities.}
 \newblock {\em The ISME Journal}, 6(1):81--93, Jan. 2012.
+
+\bibitem{Nogueira:2012gv}
+T.~Nogueira, M.~Touchon, and {Eduardo P. C. Rocha}.
+\newblock {Rapid Evolution of the Sequences and Gene Repertoires of Secreted
+  Proteins in Bacteria}.
+\newblock {\em PLoS ONE}, 7(11):e49403, Nov. 2012.
 
 \bibitem{Oliphant:2007ud}
 T.~E. Oliphant.
@@ -532,15 +578,10 @@ L.~Pa{\v s}i{\'c}, B.~Rodriguez-Mueller, A.-B. Martin-Cuadrado, A.~Mira,
   ruber}.
 \newblock {\em BMC Genomics}, 10(1):570, Dec. 2009.
 
-\bibitem{PeNtildeA:2010ie}
-A.~Pe~Ntilde~A, H.~Teeling, J.~Huerta-Cepas, F.~Santos, P.~Yarza,
-  J.~Brito-Echeverr Iacute~A, M.~Lucio, P.~Schmitt-Kopplin, I.~Meseguer,
-  C.~Schenowitz, C.~Dossat, V.~Barbe, J.~i.~n. Dopazo, R.~Rossell Oacute~Mora,
-  M.~Sch Uuml~Ler, F.~O. Gl~Ouml~Ckner, R.~Amann, T.~Gabald Oacute~N, and
-  J.~Ant Oacute~N.
-\newblock {Fine-scale evolution: genomic, phenotypic and ecological
-  differentiation in two coexisting Salinibacter ruber strains}.
-\newblock {\em The ISME Journal}, Feb. 2010.
+\bibitem{AmritaPati:2011ba}
+A.~Pati, L.~S. Heath, N.~C. Kyrpides, and N.~Ivanova.
+\newblock {ClaMS: A Classifier for Metagenomic Sequences.}
+\newblock {\em Standards in Genomic Sciences}, 5(2):248--253, Nov. 2011.
 
 \bibitem{Pell:2012id}
 J.~Pell, A.~Hintze, R.~Canino-Koning, A.~Howe, J.~M. Tiedje, and C.~T. Brown.
@@ -548,6 +589,14 @@ J.~Pell, A.~Hintze, R.~Canino-Koning, A.~Howe, J.~M. Tiedje, and C.~T. Brown.
   graphs.}
 \newblock {\em Proceedings of the National Academy of Sciences},
   109(33):13272--13277, July 2012.
+
+\bibitem{PeNtildeA:2010ie}
+A.~Pe{\~n}a, H.~Teeling, J.~Huerta-Cepas, F.~Santos, P.~Yarza,
+  J.~Brito-Echeverr{\'\i}a, M.~Lucio, P.~Schmitt-Kopplin, I.~Meseguer, and
+  C.~Schenowitz.
+\newblock {Fine-scale evolution: genomic, phenotypic and ecological
+  differentiation in two coexisting Salinibacter ruber strains}.
+\newblock {\em The ISME Journal}, 4(7):882--895, 2010.
 
 \bibitem{Perez:2007wf}
 F.~Perez and B.~E. Granger.
@@ -710,6 +759,12 @@ R.~L. Tatusov, N.~D. Fedorova, J.~D. Jackson, A.~R. Jacobs, B.~Kiryutin, E.~V.
 \newblock {The COG database: an updated version includes eukaryotes.}
 \newblock {\em BMC Bioinformatics}, 4:41, Sept. 2003.
 
+\bibitem{Tian:2013jv}
+X.~Tian, J.~E. Strassmann, and D.~C. Queller.
+\newblock {A conserved extraordinarily long serine homopolymer in Dictyostelid
+  amoebae}.
+\newblock {\em Heredity}, 112(2):215--218, Oct. 2013.
+
 \bibitem{Tyson:2004bw}
 G.~W. Tyson, J.~Chapman, P.~Hugenholtz, E.~E. Allen, R.~J. Ram, P.~M.
   Richardson, V.~V. Solovyev, E.~M. Rubin, D.~S. Rokhsar, and J.~F. Banfield.
@@ -771,11 +826,30 @@ D.~M. Ward, F.~M. Cohan, D.~Bhaya, J.~F. Heidelberg, M.~K{\"u}hl, and
   species}.
 \newblock {\em Heredity}, 100(2):207--219, Feb. 2008.
 
+\bibitem{Weber:2005fk}
+S.~Weber.
+\newblock {Light-driven enzymatic catalysis of DNA repair: a review of recent
+  biophysical studies on photolyase}.
+\newblock {\em Biochimica et Biophysica Acta (BBA) - Bioenergetics},
+  1707(1):1--23, Feb. 2005.
+
+\bibitem{Whitaker:2006gf}
+R.~J. Whitaker and J.~F. Banfield.
+\newblock {Population genomics in natural microbial communities.}
+\newblock {\em Trends in ecology {\&} evolution (Personal edition)},
+  21(9):508--516, Sept. 2006.
+
 \bibitem{Whitman:1998tj}
 W.~B. Whitman, D.~C. Coleman, and W.~J. Wiebe.
 \newblock {Prokaryotes: The unseen majority}.
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 95(12):6578--6583, 1998.
+
+\bibitem{Whittaker:2002ug}
+C.~A. Whittaker and R.~O. Hynes.
+\newblock {Distribution and evolution of von Willebrand/integrin A domains:
+  widely dispersed domains with roles in cell adhesion and elsewhere}.
+\newblock {\em Molecular biology of the cell}, 13(10):3369--3387, 2002.
 
 \bibitem{Williams:um}
 T.~A. Williams and T.~M. Embley.
@@ -815,5 +889,10 @@ Z.~Xu, H.~Chen, and R.~Zhou.
 \newblock {Genome-wide evidence for positive selection and recombination in
   Actinobacillus pleuropneumoniae}.
 \newblock {\em BMC Evolutionary Biology}, 11(1):203, 2011.
+
+\bibitem{Yang:2000hh}
+Z.~Yang and J.~P. Bielawski.
+\newblock {Statistical methods for detecting molecular adaptation}.
+\newblock {\em Trends in Ecology and Evolution}, 15(12):496--503, Dec. 2000.
 
 \end{thebibliography}
