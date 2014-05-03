@@ -14,31 +14,31 @@
 \contentsline {chapter}{\numberline {Chapter\nobreakspace {}2}\textit {De novo} metagenomic assembly reveals abundant novel major lineage of Archaea in hypersaline communities}{23}{chapter.2}
 \contentsline {chapter}{\numberline {Chapter\nobreakspace {}3}Xenorhodopsins, an enigmatic new class of microbial rhodopsins horizontally transferred between Archaea and Bacteria}{38}{chapter.3}
 \contentsline {chapter}{\numberline {Chapter\nobreakspace {}4}Assembly-driven community genomics of a hypersaline microbial ecosystem}{48}{chapter.4}
-\contentsline {chapter}{\numberline {Chapter\nobreakspace {}5}Microbial population structure and genetic heterogeneity in a hypersaline environment}{62}{chapter.5}
+\contentsline {chapter}{\numberline {Chapter\nobreakspace {}5}Deep-sequencing Approaches to Characterize the Fine-Scale Genetic Variation in the Lake Tyrrell Microbial Community}{62}{chapter.5}
 \contentsline {section}{\numberline {5.1}Abstract}{62}{section.5.1}
-\contentsline {section}{\numberline {5.2}Introduction}{62}{section.5.2}
-\contentsline {section}{\numberline {5.3}Material and Methods}{64}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Sample Collection and Sequencing}{64}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Read Mapping}{65}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Taxonomic Classification of Mapped and Unmapped Reads}{66}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Variation Analysis}{66}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Statistical and Computer analysis}{67}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Results and Discussion}{69}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Overview of the Illumina datasets}{69}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Read Mapping using Habitat-Specific genomes}{73}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Taxonomic Classification of Mapped and Unmapped Reads}{77}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Differential coverage of genomes and genes}{81}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Fine-scale Genetic Variation: Single Nucleotide Polymorphisms (SNPs)}{84}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}Genes under positive selection}{95}{subsection.5.4.6}
-\contentsline {subsubsection}{Average pN/pS values for each genome}{95}{section*.37}
-\contentsline {subsubsection}{pN/pS values and uniquely selected genes}{96}{section*.38}
-\contentsline {subsubsection}{Differences between pN/pS values between sampling dates}{97}{section*.39}
-\contentsline {subsubsection}{pN/pS values and functional classification}{98}{section*.40}
-\contentsline {section}{\numberline {5.5}General Discussion}{106}{section.5.5}
-\contentsline {section}{\numberline {5.6}Conclusions}{108}{section.5.6}
-\contentsline {section}{\numberline {5.7}Acknowledgments}{108}{section.5.7}
-\contentsline {backmatter}{References}{109}{chapter*.47}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{123}{appendix.A}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{127}{appendix.B}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}C}COG categories with genes under positive selection}{145}{appendix.C}
-\contentsline {chapter}{\numberline {Appendix\nobreakspace {}D}Genome pN/pS coverage plots}{177}{appendix.D}
+\contentsline {section}{\numberline {5.2}Introduction}{63}{section.5.2}
+\contentsline {section}{\numberline {5.3}Material and Methods}{65}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Sample Collection and Sequencing}{65}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Read Mapping}{66}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Taxonomic Classification of Mapped and Unmapped Reads}{67}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Variation Analysis}{67}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Statistical and Computer analysis}{68}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Results and Discussion}{70}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Overview of the Illumina datasets}{70}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Read Mapping using Habitat-Specific genomes}{75}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Taxonomic Classification of Mapped and Unmapped Reads}{79}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Differential Coverage of Genomes and Genes}{83}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Fine-scale Genetic Variation: Single Nucleotide Polymorphisms (SNPs)}{86}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Genes Under Positive Selection}{97}{subsection.5.4.6}
+\contentsline {subsubsection}{Average pN/pS values for each genome}{97}{section*.37}
+\contentsline {subsubsection}{pN/pS values and uniquely selected genes}{98}{section*.38}
+\contentsline {subsubsection}{Differences between pN/pS values between sampling dates}{99}{section*.39}
+\contentsline {subsubsection}{pN/pS values and functional classification}{100}{section*.40}
+\contentsline {section}{\numberline {5.5}General Discussion}{108}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusions}{110}{section.5.6}
+\contentsline {section}{\numberline {5.7}Acknowledgments}{110}{section.5.7}
+\contentsline {backmatter}{References}{111}{chapter*.47}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}Draft Genome Sequence of “\textit {Candidatus} Halobonum tyrrellensis” Strain G22, Isolated from the Hypersaline Waters of Lake Tyrrell, Australia}{126}{appendix.A}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}Genome coverage plots}{130}{appendix.B}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}C}COG categories with genes under positive selection}{148}{appendix.C}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}D}Genome pN/pS coverage plots}{180}{appendix.D}

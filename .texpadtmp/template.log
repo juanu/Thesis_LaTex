@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  2 MAY 2014 05:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.22)  3 MAY 2014 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -998,7 +998,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
 Package hyperref Warning: bookmark level for unknown frontmatter defaults to 0.
 
-[3] [4] [5] (/Users/juan/Documents/Thesis/Thesis_LaTex/.texpadtmp/template.toc
+[3] [4]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no î in font cmti12!
+ [5] (/Users/juan/Documents/Thesis/Thesis_LaTex/.texpadtmp/template.toc
 Overfull \hbox (0.71802pt too wide) detected at line 7
  []\OT1/cmr/m/n/12 xvii
  []
@@ -1062,11 +1066,11 @@ Overfull \hbox (3.92308pt too wide) in paragraph at lines 10--10
 \openout7 = `template.lot'.
 
  [16] [17]
-Overfull \hbox (11.20352pt too wide) in paragraph at lines 138--139
+Overfull \hbox (11.20352pt too wide) in paragraph at lines 144--145
 []\OT1/cmr/m/n/12 Research as-sis-tant, Whit-ney Lab-o-ra-tory for Ma-rine Bio-sciences,
  []
 
-[18] [19] [20])
+[18] [19] [20] [21])
 \openout2 = `Chapter1/chapter1.aux'.
 
  (./Chapter1/chapter1.tex
@@ -1075,7 +1079,7 @@ Chapter 1.
 
 
 
-] [2] [3] [4] <Chapter1/Figures/Metagenomics_GeneCentric_vs_Assembly.pdf, id=907, 436.63126pt x 438.63875pt>
+] [2] [3] [4] <Chapter1/Figures/Metagenomics_GeneCentric_vs_Assembly.pdf, id=912, 436.63126pt x 438.63875pt>
 File: Chapter1/Figures/Metagenomics_GeneCentric_vs_Assembly.pdf Graphic file (type pdf)
  <use Chapter1/Figures/Metagenomics_GeneCentric_vs_Assembly.pdf>
 Package pdftex.def Info: Chapter1/Figures/Metagenomics_GeneCentric_vs_Assembly.pdf used on input line 49.
@@ -1100,22 +1104,22 @@ Overfull \hbox (4.51476pt too wide) in paragraph at lines 79--80
 []\OT1/cmr/m/n/12 Another im-por-tant char-ac-ter-is-tic of halophilic or-gan-isms, par-tic-u-larly among
  []
 
-[9] <Chapter1/Figures/HaloG22_16S_v2-2.pdf, id=1082, 1639.39478pt x 2024.56375pt>
+[9] <Chapter1/Figures/HaloG22_16S_v2-2.pdf, id=1086, 1639.39478pt x 2024.56375pt>
 File: Chapter1/Figures/HaloG22_16S_v2-2.pdf Graphic file (type pdf)
  <use Chapter1/Figures/HaloG22_16S_v2-2.pdf>
 Package pdftex.def Info: Chapter1/Figures/HaloG22_16S_v2-2.pdf used on input line 88.
 (pdftex.def)             Requested size: 419.16621pt x 517.63164pt.
- <Chapter1/Figures/HaloG22_v6.pdf, id=1083, 2349.77875pt x 1683.28876pt>
+ <Chapter1/Figures/HaloG22_v6.pdf, id=1087, 2349.77875pt x 1683.28876pt>
 File: Chapter1/Figures/HaloG22_v6.pdf Graphic file (type pdf)
  <use Chapter1/Figures/HaloG22_v6.pdf>
 Package pdftex.def Info: Chapter1/Figures/HaloG22_v6.pdf used on input line 96.
 (pdftex.def)             Requested size: 419.16621pt x 300.2563pt.
- <Chapter1/Figures/IonicComposition.pdf, id=1086, 519.9425pt x 260.975pt>
+ <Chapter1/Figures/IonicComposition.pdf, id=1090, 519.9425pt x 260.975pt>
 File: Chapter1/Figures/IonicComposition.pdf Graphic file (type pdf)
  <use Chapter1/Figures/IonicComposition.pdf>
 Package pdftex.def Info: Chapter1/Figures/IonicComposition.pdf used on input line 104.
 (pdftex.def)             Requested size: 419.16621pt x 210.39305pt.
- <Chapter1/Figures/HaloMetabolism.pdf, id=1089, 532.99126pt x 322.20375pt>
+ <Chapter1/Figures/HaloMetabolism.pdf, id=1093, 532.99126pt x 322.20375pt>
 File: Chapter1/Figures/HaloMetabolism.pdf Graphic file (type pdf)
  <use Chapter1/Figures/HaloMetabolism.pdf>
 Package pdftex.def Info: Chapter1/Figures/HaloMetabolism.pdf used on input line 112.
@@ -1457,7 +1461,7 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 214.
- [19] [20] <Chapter1/Figures/LT_Map.pdf, id=1343, 219.82124pt x 291.0875pt>
+ [19] [20] <Chapter1/Figures/LT_Map.pdf, id=1347, 219.82124pt x 291.0875pt>
 File: Chapter1/Figures/LT_Map.pdf Graphic file (type pdf)
  <use Chapter1/Figures/LT_Map.pdf>
 Package pdftex.def Info: Chapter1/Figures/LT_Map.pdf used on input line 231.
@@ -1467,7 +1471,7 @@ Chapter 2.
 
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1394, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1399, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf used on input line 221.
@@ -1488,7 +1492,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inc
 ]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1403, page=1, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1408, page=1, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 1>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page1 used on input line 221.
@@ -1512,7 +1516,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page1 used on input line 221
  [24 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1447, page=2, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1451, page=2, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 2>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page2 used on input line 221.
@@ -1528,7 +1532,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page2 used on input line 221
  [25 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1466, page=3, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1470, page=3, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 3>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page3 used on input line 221.
@@ -1544,7 +1548,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page3 used on input line 221
  [26 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1512, page=4, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1516, page=4, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 4>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page4 used on input line 221.
@@ -1560,7 +1564,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page4 used on input line 221
  [27 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1527, page=5, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1531, page=5, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 5>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page5 used on input line 221.
@@ -1576,7 +1580,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page5 used on input line 221
  [28 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1537, page=6, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1542, page=6, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 6>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page6 used on input line 221.
@@ -1592,7 +1596,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page6 used on input line 221
  [29 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1550, page=7, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1554, page=7, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 7>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page7 used on input line 221.
@@ -1608,7 +1612,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page7 used on input line 221
  [30 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1559, page=8, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1563, page=8, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 8>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page8 used on input line 221.
@@ -1624,7 +1628,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page8 used on input line 221
  [31 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1568, page=9, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1572, page=9, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 9>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page9 used on input line 221.
@@ -1640,7 +1644,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page9 used on input line 221
  [32 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1577, page=10, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1582, page=10, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 10>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page10 used on input line 221.
@@ -1656,7 +1660,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page10 used on input line 22
  [33 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1585, page=11, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1589, page=11, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 11>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page11 used on input line 221.
@@ -1672,7 +1676,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page11 used on input line 22
  [34 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1592, page=12, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1597, page=12, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 12>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page12 used on input line 221.
@@ -1688,7 +1692,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page12 used on input line 22
  [35 <./PDFs/Narasingarao2012.pdf>]
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./PDFs/Narasingarao2012.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<PDFs/Narasingarao2012.pdf, id=1600, page=13, 597.50829pt x 796.67737pt>
+<PDFs/Narasingarao2012.pdf, id=1604, page=13, 597.50829pt x 796.67737pt>
 File: PDFs/Narasingarao2012.pdf Graphic file (type pdf)
  <use PDFs/Narasingarao2012.pdf, page 13>
 Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page13 used on input line 221.
@@ -1703,7 +1707,7 @@ Package pdftex.def Info: PDFs/Narasingarao2012.pdf, page13 used on input line 22
 (pdftex.def)             Requested size: 418.25294pt x 557.67036pt.
  [36 <./PDFs/Narasingarao2012.pdf>] [37]
 Chapter 3.
-<PDFs/Ugalde2011.pdf, id=1611, 597.50829pt x 796.67737pt>
+<PDFs/Ugalde2011.pdf, id=1615, 597.50829pt x 796.67737pt>
 File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf used on input line 228.
@@ -1714,7 +1718,7 @@ Package pdftex.def Info: PDFs/Ugalde2011.pdf used on input line 228.
 (pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
  [38
 
-] <PDFs/Ugalde2011.pdf, id=1618, page=1, 597.50829pt x 796.67737pt>
+] <PDFs/Ugalde2011.pdf, id=1622, page=1, 597.50829pt x 796.67737pt>
 File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 1>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page1 used on input line 228.
@@ -1735,7 +1739,7 @@ File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 1>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page1 used on input line 228.
 (pdftex.def)             Requested size: 418.25294pt x 557.67036pt.
- [39 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1658, page=2, 597.50829pt x 796.67737pt>
+ [39 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1662, page=2, 597.50829pt x 796.67737pt>
 File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 2>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page2 used on input line 228.
@@ -1748,7 +1752,7 @@ File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 2>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page2 used on input line 228.
 (pdftex.def)             Requested size: 418.25294pt x 557.67036pt.
- [40 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1696, page=3, 597.50829pt x 796.67737pt>
+ [40 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1701, page=3, 597.50829pt x 796.67737pt>
 File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 3>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page3 used on input line 228.
@@ -1761,7 +1765,7 @@ File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 3>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page3 used on input line 228.
 (pdftex.def)             Requested size: 418.25294pt x 557.67036pt.
- [41 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1702, page=4, 597.50829pt x 796.67737pt>
+ [41 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1706, page=4, 597.50829pt x 796.67737pt>
 File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 4>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page4 used on input line 228.
@@ -1774,7 +1778,7 @@ File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 4>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page4 used on input line 228.
 (pdftex.def)             Requested size: 418.25294pt x 557.67036pt.
- [42 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1720, page=5, 597.50829pt x 796.67737pt>
+ [42 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1724, page=5, 597.50829pt x 796.67737pt>
 File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 5>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page5 used on input line 228.
@@ -1787,7 +1791,7 @@ File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 5>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page5 used on input line 228.
 (pdftex.def)             Requested size: 418.25294pt x 557.67036pt.
- [43 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1734, page=6, 597.50829pt x 796.67737pt>
+ [43 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1738, page=6, 597.50829pt x 796.67737pt>
 File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 6>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page6 used on input line 228.
@@ -1800,7 +1804,7 @@ File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 6>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page6 used on input line 228.
 (pdftex.def)             Requested size: 418.25294pt x 557.67036pt.
- [44 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1752, page=7, 597.50829pt x 796.67737pt>
+ [44 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1756, page=7, 597.50829pt x 796.67737pt>
 File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 7>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page7 used on input line 228.
@@ -1813,7 +1817,7 @@ File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 7>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page7 used on input line 228.
 (pdftex.def)             Requested size: 418.25294pt x 557.67036pt.
- [45 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1760, page=8, 597.50829pt x 796.67737pt>
+ [45 <./PDFs/Ugalde2011.pdf>] <PDFs/Ugalde2011.pdf, id=1764, page=8, 597.50829pt x 796.67737pt>
 File: PDFs/Ugalde2011.pdf Graphic file (type pdf)
  <use PDFs/Ugalde2011.pdf, page 8>
 Package pdftex.def Info: PDFs/Ugalde2011.pdf, page8 used on input line 228.
@@ -1828,7 +1832,7 @@ Package pdftex.def Info: PDFs/Ugalde2011.pdf, page8 used on input line 228.
 (pdftex.def)             Requested size: 418.25294pt x 557.67036pt.
  [46 <./PDFs/Ugalde2011.pdf>] [47]
 Chapter 4.
-<PDFs/Podell2013.pdf, id=1781, 614.57909pt x 793.83177pt>
+<PDFs/Podell2013.pdf, id=1785, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf>
 Package pdftex.def Info: PDFs/Podell2013.pdf used on input line 235.
@@ -1839,7 +1843,7 @@ Package pdftex.def Info: PDFs/Podell2013.pdf used on input line 235.
 (pdftex.def)             Requested size: 614.57759pt x 793.82983pt.
  [48
 
-] <PDFs/Podell2013.pdf, id=1788, page=1, 614.57909pt x 793.83177pt>
+] <PDFs/Podell2013.pdf, id=1792, page=1, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 1>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page1 used on input line 235.
@@ -1860,7 +1864,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 1>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page1 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [49 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1814, page=2, 614.57909pt x 793.83177pt>
+ [49 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1818, page=2, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 2>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page2 used on input line 235.
@@ -1873,7 +1877,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 2>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page2 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [50 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1835, page=3, 614.57909pt x 793.83177pt>
+ [50 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1839, page=3, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 3>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page3 used on input line 235.
@@ -1886,7 +1890,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 3>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page3 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [51 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1840, page=4, 614.57909pt x 793.83177pt>
+ [51 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1844, page=4, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 4>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page4 used on input line 235.
@@ -1899,7 +1903,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 4>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page4 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [52 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1856, page=5, 614.57909pt x 793.83177pt>
+ [52 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1861, page=5, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 5>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page5 used on input line 235.
@@ -1912,7 +1916,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 5>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page5 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [53 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1863, page=6, 614.57909pt x 793.83177pt>
+ [53 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1867, page=6, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 6>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page6 used on input line 235.
@@ -1925,7 +1929,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 6>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page6 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [54 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1869, page=7, 614.57909pt x 793.83177pt>
+ [54 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1873, page=7, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 7>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page7 used on input line 235.
@@ -1938,7 +1942,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 7>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page7 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [55 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1875, page=8, 614.57909pt x 793.83177pt>
+ [55 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1879, page=8, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 8>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page8 used on input line 235.
@@ -1951,7 +1955,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 8>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page8 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [56 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1880, page=9, 614.57909pt x 793.83177pt>
+ [56 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1884, page=9, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 9>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page9 used on input line 235.
@@ -1964,7 +1968,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 9>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page9 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [57 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1886, page=10, 614.57909pt x 793.83177pt>
+ [57 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1890, page=10, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
 
 <use PDFs/Podell2013.pdf, page 10>
@@ -1978,7 +1982,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 10>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page10 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [58 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1891, page=11, 614.57909pt x 793.83177pt>
+ [58 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1896, page=11, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 11>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page11 used on input line 235.
@@ -1991,7 +1995,7 @@ File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 11>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page11 used on input line 235.
 (pdftex.def)             Requested size: 430.20242pt x 555.67845pt.
- [59 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1903, page=12, 614.57909pt x 793.83177pt>
+ [59 <./PDFs/Podell2013.pdf>] <PDFs/Podell2013.pdf, id=1907, page=12, 614.57909pt x 793.83177pt>
 File: PDFs/Podell2013.pdf Graphic file (type pdf)
  <use PDFs/Podell2013.pdf, page 12>
 Package pdftex.def Info: PDFs/Podell2013.pdf, page12 used on input line 235.
@@ -2012,241 +2016,213 @@ Chapter 5.
 [62
 
 
-] [63]
-
-LaTeX Warning: Citation `' on page 64 undefined on input line 17.
-
-[64] [65] [66]
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+] [63] [64] [65] [66] [67]
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []|\TS1/cmr/bx/n/10.95 õ \OT1/cmr/bx/n/10.95 scaf-
  []
 
 
-Overfull \hbox (25.70383pt too wide) in paragraph at lines 131--131
+Overfull \hbox (25.70383pt too wide) in paragraph at lines 142--142
 []|\OT1/cmr/bx/n/10.95 Reference| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 131--131
+Underfull \hbox (badness 10000) in alignment at lines 142--142
 [][][][][] 
  []
 
-[67] [68]
+[68] [69] [70
 
-LaTeX Warning: Reference `LT_chemica' on page 69 undefined on input line 147.
-
-
-Underfull \hbox (badness 10000) in alignment at lines 162--162
+]
+Underfull \hbox (badness 10000) in alignment at lines 173--173
 [][][][][] 
  []
 
-[69
-
-] <Chapter5/Figures/GC_content_HiSeqLibs.pdf, id=2088, 1078.09648pt x 717.35349pt>
+<Chapter5/Figures/GC_content_HiSeqLibs.pdf, id=2098, 1078.09648pt x 717.35349pt>
 File: Chapter5/Figures/GC_content_HiSeqLibs.pdf Graphic file (type pdf)
  <use Chapter5/Figures/GC_content_HiSeqLibs.pdf>
-Package pdftex.def Info: Chapter5/Figures/GC_content_HiSeqLibs.pdf used on input line 170.
+Package pdftex.def Info: Chapter5/Figures/GC_content_HiSeqLibs.pdf used on input line 181.
 (pdftex.def)             Requested size: 419.16621pt x 278.90201pt.
- [70 <./Chapter5/Figures/GC_content_HiSeqLibs.pdf>] [71
+ [71] [72 <./Chapter5/Figures/GC_content_HiSeqLibs.pdf>] [73
 
 ]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[72] [73
+[74]
+Overfull \hbox (1.91011pt too wide) in paragraph at lines 222--223
+\OT1/cmr/m/n/12 reads were those as-so-ci-ated with \OT1/cmr/m/it/12 Halo-quadra-tum \OT1/cmr/m/n/12 (J07HWQ1 and J07HWQ2), which
+ []
+
+[75
 
 
 ]
-Underfull \hbox (badness 10000) in alignment at lines 241--241
+Underfull \hbox (badness 10000) in alignment at lines 252--252
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 269--269
+Underfull \hbox (badness 10000) in alignment at lines 280--280
 [][][][][] 
  []
 
-</Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf, id=2180, 715.3099pt x 1076.6411pt>
+</Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf, id=2193, 715.3099pt x 1076.6411pt>
 File: /Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf Graphic file (type pdf)
  <use /Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf>
-Package pdftex.def Info: /Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf used on input line 279.
+Package pdftex.def Info: /Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf used on input line 290.
 (pdftex.def)             Requested size: 373.25124pt x 561.79512pt.
 
 
-LaTeX Warning: Float too large for page by 7.17195pt on input line 282.
+LaTeX Warning: Float too large for page by 7.17195pt on input line 293.
 
-[74] [75 </Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf>] [76] [77
+[76] [77 </Users/juan/Dropbox/GeneticVariationLT/Figures/GenomeIdentityPlots.pdf>] [78] [79
 
-] <Chapter5/Figures/Jan23_Mapped.pdf, id=2243, 614.295pt x 542.025pt>
+] <Chapter5/Figures/Jan23_Mapped.pdf, id=2256, 614.295pt x 542.025pt>
 File: Chapter5/Figures/Jan23_Mapped.pdf Graphic file (type pdf)
  <use Chapter5/Figures/Jan23_Mapped.pdf>
-Package pdftex.def Info: Chapter5/Figures/Jan23_Mapped.pdf used on input line 301.
+Package pdftex.def Info: Chapter5/Figures/Jan23_Mapped.pdf used on input line 312.
 (pdftex.def)             Requested size: 293.41507pt x 258.89536pt.
- <Chapter5/Figures/Jan23_Unmapped.pdf, id=2244, 350.30875pt x 289.08pt>
+ <Chapter5/Figures/Jan23_Unmapped.pdf, id=2257, 350.30875pt x 289.08pt>
 File: Chapter5/Figures/Jan23_Unmapped.pdf Graphic file (type pdf)
  <use Chapter5/Figures/Jan23_Unmapped.pdf>
-Package pdftex.def Info: Chapter5/Figures/Jan23_Unmapped.pdf used on input line 306.
+Package pdftex.def Info: Chapter5/Figures/Jan23_Unmapped.pdf used on input line 317.
 (pdftex.def)             Requested size: 293.41507pt x 242.14624pt.
- <Chapter5/Figures/Unmapped_Mapped_EPCA.pdf, id=2247, 419.166pt x 252.945pt>
+ <Chapter5/Figures/Unmapped_Mapped_EPCA.pdf, id=2260, 419.166pt x 252.945pt>
 File: Chapter5/Figures/Unmapped_Mapped_EPCA.pdf Graphic file (type pdf)
  <use Chapter5/Figures/Unmapped_Mapped_EPCA.pdf>
-Package pdftex.def Info: Chapter5/Figures/Unmapped_Mapped_EPCA.pdf used on input line 314.
+Package pdftex.def Info: Chapter5/Figures/Unmapped_Mapped_EPCA.pdf used on input line 325.
 (pdftex.def)             Requested size: 419.16621pt x 252.94823pt.
- [78] [79 <./Chapter5/Figures/Jan23_Mapped.pdf> <./Chapter5/Figures/Jan23_Unmapped.pdf>] [80 <./Chapter5/Figures/Unmapped_Mapped_EPCA.pdf>] [81
+ [80] [81 <./Chapter5/Figures/Jan23_Mapped.pdf> <./Chapter5/Figures/Jan23_Unmapped.pdf>] [82 <./Chapter5/Figures/Unmapped_Mapped_EPCA.pdf>] [83
 
-] <Chapter5/Figures/GeneDifferencesSeason.pdf, id=2349, 1156.32pt x 867.24pt>
+] <Chapter5/Figures/GeneDifferencesSeason.pdf, id=2363, 1156.32pt x 867.24pt>
 File: Chapter5/Figures/GeneDifferencesSeason.pdf Graphic file (type pdf)
  <use Chapter5/Figures/GeneDifferencesSeason.pdf>
-Package pdftex.def Info: Chapter5/Figures/GeneDifferencesSeason.pdf used on input line 339.
+Package pdftex.def Info: Chapter5/Figures/GeneDifferencesSeason.pdf used on input line 350.
 (pdftex.def)             Requested size: 293.41507pt x 220.05156pt.
- [82] [83 <./Chapter5/Figures/GeneDifferencesSeason.pdf>]
-Overfull \hbox (1.23991pt too wide) in paragraph at lines 346--346
+ [84] [85 <./Chapter5/Figures/GeneDifferencesSeason.pdf>]
+Overfull \hbox (1.23991pt too wide) in paragraph at lines 357--357
 []\OT1/cmr/bx/n/14.4 Fine-scale Ge-netic Vari-a-tion: Sin-gle Nu-cleotide Poly-
  []
 
-[84
+[86
 
-] [85] [86]
-Underfull \hbox (badness 10000) in alignment at lines 386--386
+] [87] [88]
+Underfull \hbox (badness 10000) in alignment at lines 397--397
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 415--415
+Underfull \hbox (badness 10000) in alignment at lines 426--426
 [][][][] 
  []
 
-<Chapter5/Figures/DepthCoverage_VS_SNPsKB.pdf, id=2435, 722.7pt x 578.16pt>
+<Chapter5/Figures/DepthCoverage_VS_SNPsKB.pdf, id=2450, 722.7pt x 578.16pt>
 File: Chapter5/Figures/DepthCoverage_VS_SNPsKB.pdf Graphic file (type pdf)
  <use Chapter5/Figures/DepthCoverage_VS_SNPsKB.pdf>
-Package pdftex.def Info: Chapter5/Figures/DepthCoverage_VS_SNPsKB.pdf used on input line 422.
+Package pdftex.def Info: Chapter5/Figures/DepthCoverage_VS_SNPsKB.pdf used on input line 433.
 (pdftex.def)             Requested size: 293.40868pt x 234.72694pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapter5/Figures/Boxplot_SNPsKB.pdf, id=2436, 578.16pt x 361.35pt>
+<Chapter5/Figures/Boxplot_SNPsKB.pdf, id=2451, 578.16pt x 361.35pt>
 File: Chapter5/Figures/Boxplot_SNPsKB.pdf Graphic file (type pdf)
  <use Chapter5/Figures/Boxplot_SNPsKB.pdf>
-Package pdftex.def Info: Chapter5/Figures/Boxplot_SNPsKB.pdf used on input line 431.
+Package pdftex.def Info: Chapter5/Figures/Boxplot_SNPsKB.pdf used on input line 442.
 (pdftex.def)             Requested size: 251.49756pt x 157.18597pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapter5/Figures/SNPsummary.pdf, id=2437, 722.7pt x 1084.05pt>
+<Chapter5/Figures/SNPsummary.pdf, id=2452, 722.7pt x 1084.05pt>
 File: Chapter5/Figures/SNPsummary.pdf Graphic file (type pdf)
  <use Chapter5/Figures/SNPsummary.pdf>
-Package pdftex.def Info: Chapter5/Figures/SNPsummary.pdf used on input line 440.
+Package pdftex.def Info: Chapter5/Figures/SNPsummary.pdf used on input line 451.
 (pdftex.def)             Requested size: 332.92021pt x 499.38033pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapter5/Figures/BoxPlot_TypeofSNPs.pdf, id=2438, 505.89pt x 289.08pt>
+<Chapter5/Figures/BoxPlot_TypeofSNPs.pdf, id=2453, 505.89pt x 289.08pt>
 File: Chapter5/Figures/BoxPlot_TypeofSNPs.pdf Graphic file (type pdf)
  <use Chapter5/Figures/BoxPlot_TypeofSNPs.pdf>
-Package pdftex.def Info: Chapter5/Figures/BoxPlot_TypeofSNPs.pdf used on input line 448.
+Package pdftex.def Info: Chapter5/Figures/BoxPlot_TypeofSNPs.pdf used on input line 459.
 (pdftex.def)             Requested size: 293.41507pt x 167.6665pt.
- <Chapter5/Figures/Venn_JanuarySNPs.pdf, id=2439, 722.7pt x 1084.05pt>
+ <Chapter5/Figures/Venn_JanuarySNPs.pdf, id=2454, 722.7pt x 1084.05pt>
 File: Chapter5/Figures/Venn_JanuarySNPs.pdf Graphic file (type pdf)
  <use Chapter5/Figures/Venn_JanuarySNPs.pdf>
-Package pdftex.def Info: Chapter5/Figures/Venn_JanuarySNPs.pdf used on input line 456.
+Package pdftex.def Info: Chapter5/Figures/Venn_JanuarySNPs.pdf used on input line 467.
 (pdftex.def)             Requested size: 374.538pt x 561.807pt.
- <Chapter5/Figures/Venn_AugustSNPs.pdf, id=2440, 722.7pt x 1084.05pt>
+ <Chapter5/Figures/Venn_AugustSNPs.pdf, id=2455, 722.7pt x 1084.05pt>
 File: Chapter5/Figures/Venn_AugustSNPs.pdf Graphic file (type pdf)
  <use Chapter5/Figures/Venn_AugustSNPs.pdf>
-Package pdftex.def Info: Chapter5/Figures/Venn_AugustSNPs.pdf used on input line 464.
+Package pdftex.def Info: Chapter5/Figures/Venn_AugustSNPs.pdf used on input line 475.
 (pdftex.def)             Requested size: 374.538pt x 561.807pt.
- <Chapter5/Figures/Venn_JanAugSNPs.pdf, id=2441, 722.7pt x 1084.05pt>
+ <Chapter5/Figures/Venn_JanAugSNPs.pdf, id=2456, 722.7pt x 1084.05pt>
 File: Chapter5/Figures/Venn_JanAugSNPs.pdf Graphic file (type pdf)
  <use Chapter5/Figures/Venn_JanAugSNPs.pdf>
-Package pdftex.def Info: Chapter5/Figures/Venn_JanAugSNPs.pdf used on input line 472.
+Package pdftex.def Info: Chapter5/Figures/Venn_JanAugSNPs.pdf used on input line 483.
 (pdftex.def)             Requested size: 374.538pt x 561.807pt.
- [87] [88] [89 <./Chapter5/Figures/DepthCoverage_VS_SNPsKB.pdf> <./Chapter5/Figures/Boxplot_SNPsKB.pdf
+ [89] [90] [91 <./Chapter5/Figures/DepthCoverage_VS_SNPsKB.pdf> <./Chapter5/Figures/Boxplot_SNPsKB.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Chapter5/Figures/Boxplot_SNPsKB.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [90 <./Chapter5/Figures/SNPsummary.pdf>] [91 <./Chapter5/Figures/BoxPlot_TypeofSNPs.pdf>] [92 <./Chapter5/Figures/Venn_JanuarySNPs.pdf>] [93 <./Chapter5/Figures/Venn_AugustSNPs.pdf>] [94 <./Chapter5/Figures/Venn_JanAugSNPs.pdf>] [95
+>] [92 <./Chapter5/Figures/SNPsummary.pdf>] [93 <./Chapter5/Figures/BoxPlot_TypeofSNPs.pdf>] [94 <./Chapter5/Figures/Venn_JanuarySNPs.pdf>] [95 <./Chapter5/Figures/Venn_AugustSNPs.pdf>] [96 <./Chapter5/Figures/Venn_JanAugSNPs.pdf>] [97
 
-]
-Overfull \hbox (0.75925pt too wide) in paragraph at lines 495--496
-[]\OT1/cmr/m/n/12 Comparing more in de-tail Jan-uary ver-sus Au-gust, for each ref-er-ence genome,
- []
-
-[96] [97] [98] <Chapter5/Figures/MappingStrategy.pdf, id=2796, 492.26509pt x 605.75209pt>
+] [98] [99] [100] <Chapter5/Figures/MappingStrategy.pdf, id=2810, 492.26509pt x 605.75209pt>
 File: Chapter5/Figures/MappingStrategy.pdf Graphic file (type pdf)
  <use Chapter5/Figures/MappingStrategy.pdf>
-Package pdftex.def Info: Chapter5/Figures/MappingStrategy.pdf used on input line 524.
+Package pdftex.def Info: Chapter5/Figures/MappingStrategy.pdf used on input line 535.
 (pdftex.def)             Requested size: 293.41507pt x 361.06012pt.
 
-Overfull \hbox (5.82367pt too wide) in paragraph at lines 553--553
+Overfull \hbox (5.82367pt too wide) in paragraph at lines 564--564
  \OT1/cmr/bx/n/12 (Jan/Aug)|
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 553--553
+Underfull \hbox (badness 10000) in alignment at lines 564--564
 [][][][][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 558.
+               Default added (so using `tbp') on input line 569.
 
-<Chapter5/Figures/Scatter_Genomes_pNpS.pdf, id=2799, 578.16pt x 433.62pt>
+<Chapter5/Figures/Scatter_Genomes_pNpS.pdf, id=2813, 578.16pt x 433.62pt>
 File: Chapter5/Figures/Scatter_Genomes_pNpS.pdf Graphic file (type pdf)
  <use Chapter5/Figures/Scatter_Genomes_pNpS.pdf>
-Package pdftex.def Info: Chapter5/Figures/Scatter_Genomes_pNpS.pdf used on input line 560.
+Package pdftex.def Info: Chapter5/Figures/Scatter_Genomes_pNpS.pdf used on input line 571.
 (pdftex.def)             Requested size: 314.37196pt x 235.77898pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 567.
+               Default added (so using `tbp') on input line 578.
 
-<Chapter5/Figures/Gene_pN_pS.pdf, id=2800, 867.24pt x 1228.59pt>
+<Chapter5/Figures/Gene_pN_pS.pdf, id=2814, 867.24pt x 1228.59pt>
 File: Chapter5/Figures/Gene_pN_pS.pdf Graphic file (type pdf)
  <use Chapter5/Figures/Gene_pN_pS.pdf>
-Package pdftex.def Info: Chapter5/Figures/Gene_pN_pS.pdf used on input line 569.
+Package pdftex.def Info: Chapter5/Figures/Gene_pN_pS.pdf used on input line 580.
 (pdftex.def)             Requested size: 352.50066pt x 499.37592pt.
- <Chapter5/Figures/pn_ps_plots/J07HWQ1_pNpS_density.pdf, id=2801, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07HWQ1_pNpS_density.pdf, id=2815, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07HWQ1_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07HWQ1_pNpS_density.pdf>
-Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HWQ1_pNpS_density.pdf used on input line 577.
+Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HWQ1_pNpS_density.pdf used on input line 588.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf, id=2802, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf, id=2816, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf>
-Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf used on input line 584.
+Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf used on input line 595.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- [99] [100 <./Chapter5/Figures/MappingStrategy.pdf>] [101 <./Chapter5/Figures/Scatter_Genomes_pNpS.pdf>] [102] [103 <./Chapter5/Figures/Gene_pN_pS.pdf>] [104 <./Chapter5/Figures/pn_ps_plots/J07HWQ1_pNpS_density.pdf>] [105 <./Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf>]
+ [101] [102 <./Chapter5/Figures/MappingStrategy.pdf>] [103 <./Chapter5/Figures/Scatter_Genomes_pNpS.pdf>] [104] [105 <./Chapter5/Figures/Gene_pN_pS.pdf>] [106 <./Chapter5/Figures/pn_ps_plots/J07HWQ1_pNpS_density.pdf>] [107 <./Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf>] [108
 
-LaTeX Warning: Citation `Emerson:2013ck' on page 106 undefined on input line 597.
-
-[106
-
-]
-
-LaTeX Warning: Citation `Wiedenbeck:2011ena' on page 107 undefined on input line 603.
-
-
-LaTeX Warning: Citation `Treangen:2011ca' on page 107 undefined on input line 603.
-
-
-LaTeX Warning: Citation `Bolhuis:2006gm' on page 107 undefined on input line 605.
-
-
-LaTeX Warning: Citation `Jordan:2002by' on page 107 undefined on input line 605.
-
-
-LaTeX Warning: Citation `RodriguezValera:2012cg' on page 107 undefined on input line 605.
-
-[107]) [108] (/Users/juan/Documents/Thesis/Thesis_LaTex/.texpadtmp/template.bbl
+] [109]) [110] (/Users/juan/Documents/Thesis/Thesis_LaTex/.texpadtmp/template.bbl
 
 Package hyperref Warning: bookmark level for unknown backmatter defaults to 0.
 
-[109
+[111
 
 
-] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121]) [122]
+] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]) [125]
 Appendix A.
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
@@ -2254,7 +2230,7 @@ Missing character: There is no ú in font cmbx12!
 Missing character: There is no ‚ in font cmbx12!
 Missing character: There is no Ä in font cmbx12!
 Missing character: There is no ù in font cmbx12!
-<Appendix/UgaldeGA_2013.pdf, id=3136, 587.19376pt x 785.93625pt>
+<Appendix/UgaldeGA_2013.pdf, id=3167, 587.19376pt x 785.93625pt>
 File: Appendix/UgaldeGA_2013.pdf Graphic file (type pdf)
  <use Appendix/UgaldeGA_2013.pdf>
 Package pdftex.def Info: Appendix/UgaldeGA_2013.pdf used on input line 252.
@@ -2263,9 +2239,9 @@ File: Appendix/UgaldeGA_2013.pdf Graphic file (type pdf)
  <use Appendix/UgaldeGA_2013.pdf>
 Package pdftex.def Info: Appendix/UgaldeGA_2013.pdf used on input line 252.
 (pdftex.def)             Requested size: 587.19232pt x 785.93433pt.
- [123
+ [126
 
-] <Appendix/UgaldeGA_2013.pdf, id=3144, page=1, 587.19376pt x 785.93625pt>
+] <Appendix/UgaldeGA_2013.pdf, id=3174, page=1, 587.19376pt x 785.93625pt>
 File: Appendix/UgaldeGA_2013.pdf Graphic file (type pdf)
  <use Appendix/UgaldeGA_2013.pdf, page 1>
 Package pdftex.def Info: Appendix/UgaldeGA_2013.pdf, page1 used on input line 252.
@@ -2286,7 +2262,7 @@ File: Appendix/UgaldeGA_2013.pdf Graphic file (type pdf)
  <use Appendix/UgaldeGA_2013.pdf, page 1>
 Package pdftex.def Info: Appendix/UgaldeGA_2013.pdf, page1 used on input line 252.
 (pdftex.def)             Requested size: 440.39424pt x 589.45074pt.
- [124 <./Appendix/UgaldeGA_2013.pdf>] <Appendix/UgaldeGA_2013.pdf, id=3203, page=2, 587.19376pt x 785.93625pt>
+ [127 <./Appendix/UgaldeGA_2013.pdf>] <Appendix/UgaldeGA_2013.pdf, id=3233, page=2, 587.19376pt x 785.93625pt>
 File: Appendix/UgaldeGA_2013.pdf Graphic file (type pdf)
  <use Appendix/UgaldeGA_2013.pdf, page 2>
 Package pdftex.def Info: Appendix/UgaldeGA_2013.pdf, page2 used on input line 252.
@@ -2299,104 +2275,104 @@ File: Appendix/UgaldeGA_2013.pdf Graphic file (type pdf)
  <use Appendix/UgaldeGA_2013.pdf, page 2>
 Package pdftex.def Info: Appendix/UgaldeGA_2013.pdf, page2 used on input line 252.
 (pdftex.def)             Requested size: 440.39424pt x 589.45074pt.
- [125 <./Appendix/UgaldeGA_2013.pdf>] [126]
+ [128 <./Appendix/UgaldeGA_2013.pdf>] [129]
 Appendix B.
-[127
+[130
 
 ]
 \openout2 = `Appendix/GenomeCoveragePlots.aux'.
 
- (./Appendix/GenomeCoveragePlots.tex <Chapter5/Figures/coverage_plots/J07HWQ1_coverage.pdf, id=3218, 1445.4pt x 2529.45pt>
+ (./Appendix/GenomeCoveragePlots.tex <Chapter5/Figures/coverage_plots/J07HWQ1_coverage.pdf, id=3248, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07HWQ1_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07HWQ1_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07HWQ1_coverage.pdf used on input line 7.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07HWQ2_coverage.pdf, id=3219, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07HWQ2_coverage.pdf, id=3249, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07HWQ2_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07HWQ2_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07HWQ2_coverage.pdf used on input line 15.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07HQX50_coverage.pdf, id=3220, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07HQX50_coverage.pdf, id=3250, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07HQX50_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07HQX50_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07HQX50_coverage.pdf used on input line 22.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07AB56_coverage.pdf, id=3221, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07AB56_coverage.pdf, id=3251, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07AB56_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07AB56_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07AB56_coverage.pdf used on input line 29.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07AB43_coverage.pdf, id=3222, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07AB43_coverage.pdf, id=3252, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07AB43_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07AB43_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07AB43_coverage.pdf used on input line 36.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07HN4_coverage.pdf, id=3223, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07HN4_coverage.pdf, id=3253, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07HN4_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07HN4_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07HN4_coverage.pdf used on input line 43.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07HN6_coverage.pdf, id=3224, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07HN6_coverage.pdf, id=3254, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07HN6_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07HN6_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07HN6_coverage.pdf used on input line 50.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07HX64_coverage.pdf, id=3225, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07HX64_coverage.pdf, id=3255, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07HX64_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07HX64_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07HX64_coverage.pdf used on input line 57.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07HX5_coverage.pdf, id=3226, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07HX5_coverage.pdf, id=3256, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07HX5_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07HX5_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07HX5_coverage.pdf used on input line 64.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07HB67_coverage.pdf, id=3227, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07HB67_coverage.pdf, id=3257, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07HB67_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07HB67_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07HB67_coverage.pdf used on input line 71.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07HR59_coverage.pdf, id=3228, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07HR59_coverage.pdf, id=3258, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07HR59_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07HR59_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07HR59_coverage.pdf used on input line 78.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/A07HB70_coverage.pdf, id=3229, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/A07HB70_coverage.pdf, id=3259, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/A07HB70_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/A07HB70_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/A07HB70_coverage.pdf used on input line 85.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/A07HR67_coverage.pdf, id=3230, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/A07HR67_coverage.pdf, id=3260, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/A07HR67_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/A07HR67_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/A07HR67_coverage.pdf used on input line 92.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/A07HN63_coverage.pdf, id=3231, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/A07HN63_coverage.pdf, id=3261, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/A07HN63_coverage.pdf Graphic file (type pdf)
 
 <use Chapter5/Figures/coverage_plots/A07HN63_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/A07HN63_coverage.pdf used on input line 99.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/A07HR60_coverage.pdf, id=3232, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/A07HR60_coverage.pdf, id=3262, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/A07HR60_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/A07HR60_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/A07HR60_coverage.pdf used on input line 106.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/G22_coverage.pdf, id=3233, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/G22_coverage.pdf, id=3263, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/G22_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/G22_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/G22_coverage.pdf used on input line 113.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
- <Chapter5/Figures/coverage_plots/J07SB_coverage.pdf, id=3234, 1445.4pt x 2529.45pt>
+ <Chapter5/Figures/coverage_plots/J07SB_coverage.pdf, id=3264, 1445.4pt x 2529.45pt>
 File: Chapter5/Figures/coverage_plots/J07SB_coverage.pdf Graphic file (type pdf)
  <use Chapter5/Figures/coverage_plots/J07SB_coverage.pdf>
 Package pdftex.def Info: Chapter5/Figures/coverage_plots/J07SB_coverage.pdf used on input line 120.
 (pdftex.def)             Requested size: 285.34758pt x 499.35828pt.
-) [128
+) [131
 
- <./Chapter5/Figures/coverage_plots/J07HWQ1_coverage.pdf>] [129 <./Chapter5/Figures/coverage_plots/J07HWQ2_coverage.pdf>] [130 <./Chapter5/Figures/coverage_plots/J07HQX50_coverage.pdf>] [131 <./Chapter5/Figures/coverage_plots/J07AB56_coverage.pdf>] [132 <./Chapter5/Figures/coverage_plots/J07AB43_coverage.pdf>] [133 <./Chapter5/Figures/coverage_plots/J07HN4_coverage.pdf>] [134 <./Chapter5/Figures/coverage_plots/J07HN6_coverage.pdf>] [135 <./Chapter5/Figures/coverage_plots/J07HX64_coverage.pdf>] [136 <./Chapter5/Figures/coverage_plots/J07HX5_coverage.pdf>] [137 <./Chapter5/Figures/coverage_plots/J07HB67_coverage.pdf>] [138 <./Chapter5/Figures/coverage_plots/J07HR59_coverage.pdf>] [139 <./Chapter5/Figures/coverage_plots/A07HB70_coverage.pdf>] [140 <./Chapter5/Figures/coverage_plots/A07HR67_coverage.pdf>] [141 <./Chapter5/Figures/coverage_plots/A07HN63_coverage.pdf>] [142 <./Chapter5/Figures/coverage_plots/A07HR60_coverage.pdf>] [143 <./Chapter5/Figures/coverage_plots/G22_coverage.pdf>] [144 <./Chapter5/Figures/coverage_plots/J07SB_coverage.pdf>]
+ <./Chapter5/Figures/coverage_plots/J07HWQ1_coverage.pdf>] [132 <./Chapter5/Figures/coverage_plots/J07HWQ2_coverage.pdf>] [133 <./Chapter5/Figures/coverage_plots/J07HQX50_coverage.pdf>] [134 <./Chapter5/Figures/coverage_plots/J07AB56_coverage.pdf>] [135 <./Chapter5/Figures/coverage_plots/J07AB43_coverage.pdf>] [136 <./Chapter5/Figures/coverage_plots/J07HN4_coverage.pdf>] [137 <./Chapter5/Figures/coverage_plots/J07HN6_coverage.pdf>] [138 <./Chapter5/Figures/coverage_plots/J07HX64_coverage.pdf>] [139 <./Chapter5/Figures/coverage_plots/J07HX5_coverage.pdf>] [140 <./Chapter5/Figures/coverage_plots/J07HB67_coverage.pdf>] [141 <./Chapter5/Figures/coverage_plots/J07HR59_coverage.pdf>] [142 <./Chapter5/Figures/coverage_plots/A07HB70_coverage.pdf>] [143 <./Chapter5/Figures/coverage_plots/A07HR67_coverage.pdf>] [144 <./Chapter5/Figures/coverage_plots/A07HN63_coverage.pdf>] [145 <./Chapter5/Figures/coverage_plots/A07HR60_coverage.pdf>] [146 <./Chapter5/Figures/coverage_plots/G22_coverage.pdf>] [147 <./Chapter5/Figures/coverage_plots/J07SB_coverage.pdf>]
 Appendix C.
-[145
+[148
 
 
 ]
@@ -2515,7 +2491,7 @@ Underfull \hbox (badness 10000) in alignment at lines 459--459
 [][][][] 
  []
 
-[146] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160]
+[149] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162] [163]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 465.
@@ -2628,9 +2604,9 @@ Underfull \hbox (badness 10000) in alignment at lines 955--955
 [][][][] 
  []
 
-) [161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176]
+) [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177] [178] [179]
 Appendix D.
-[177
+[180
 
 
 
@@ -2647,87 +2623,87 @@ File: Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf Graphic file (type p
  <use Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HWQ2_pNpS_density.pdf used on input line 10.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07HQX50_pNpS_density.pdf, id=13601, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07HQX50_pNpS_density.pdf, id=13631, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07HQX50_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07HQX50_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HQX50_pNpS_density.pdf used on input line 17.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07AB56_pNpS_density.pdf, id=13602, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07AB56_pNpS_density.pdf, id=13632, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07AB56_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07AB56_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07AB56_pNpS_density.pdf used on input line 24.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07AB43_pNpS_density.pdf, id=13603, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07AB43_pNpS_density.pdf, id=13633, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07AB43_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07AB43_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07AB43_pNpS_density.pdf used on input line 31.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07HN4_pNpS_density.pdf, id=13604, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07HN4_pNpS_density.pdf, id=13634, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07HN4_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07HN4_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HN4_pNpS_density.pdf used on input line 38.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07HN6_pNpS_density.pdf, id=13605, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07HN6_pNpS_density.pdf, id=13635, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07HN6_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07HN6_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HN6_pNpS_density.pdf used on input line 45.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07HX64_pNpS_density.pdf, id=13606, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07HX64_pNpS_density.pdf, id=13636, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07HX64_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07HX64_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HX64_pNpS_density.pdf used on input line 52.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07HX5_pNpS_density.pdf, id=13607, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07HX5_pNpS_density.pdf, id=13637, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07HX5_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07HX5_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HX5_pNpS_density.pdf used on input line 59.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07HB67_pNpS_density.pdf, id=13608, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07HB67_pNpS_density.pdf, id=13638, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07HB67_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07HB67_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HB67_pNpS_density.pdf used on input line 66.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07HR59_pNpS_density.pdf, id=13609, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07HR59_pNpS_density.pdf, id=13639, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07HR59_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07HR59_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07HR59_pNpS_density.pdf used on input line 73.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/A07HB70_pNpS_density.pdf, id=13610, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/A07HB70_pNpS_density.pdf, id=13640, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/A07HB70_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/A07HB70_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/A07HB70_pNpS_density.pdf used on input line 80.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/A07HR67_pNpS_density.pdf, id=13611, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/A07HR67_pNpS_density.pdf, id=13641, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/A07HR67_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/A07HR67_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/A07HR67_pNpS_density.pdf used on input line 87.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/A07HN63_pNpS_density.pdf, id=13612, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/A07HN63_pNpS_density.pdf, id=13642, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/A07HN63_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/A07HN63_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/A07HN63_pNpS_density.pdf used on input line 94.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/A07HR60_pNpS_density.pdf, id=13613, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/A07HR60_pNpS_density.pdf, id=13643, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/A07HR60_pNpS_density.pdf Graphic file (type pdf)
 
 <use Chapter5/Figures/pn_ps_plots/A07HR60_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/A07HR60_pNpS_density.pdf used on input line 101.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/J07SB_pNpS_density.pdf, id=13614, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/J07SB_pNpS_density.pdf, id=13644, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/J07SB_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/J07SB_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/J07SB_pNpS_density.pdf used on input line 108.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
- <Chapter5/Figures/pn_ps_plots/G22_pNpS_density.pdf, id=13615, 1228.59pt x 722.7pt>
+ <Chapter5/Figures/pn_ps_plots/G22_pNpS_density.pdf, id=13645, 1228.59pt x 722.7pt>
 File: Chapter5/Figures/pn_ps_plots/G22_pNpS_density.pdf Graphic file (type pdf)
  <use Chapter5/Figures/pn_ps_plots/G22_pNpS_density.pdf>
 Package pdftex.def Info: Chapter5/Figures/pn_ps_plots/G22_pNpS_density.pdf used on input line 115.
 (pdftex.def)             Requested size: 419.15857pt x 246.56386pt.
-) [178] [179] [180 <./Chapter5/Figures/pn_ps_plots/J07HQX50_pNpS_density.pdf>] [181 <./Chapter5/Figures/pn_ps_plots/J07AB56_pNpS_density.pdf>] [182 <./Chapter5/Figures/pn_ps_plots/J07AB43_pNpS_density.pdf>] [183 <./Chapter5/Figures/pn_ps_plots/J07HN4_pNpS_density.pdf>] [184 <./Chapter5/Figures/pn_ps_plots/J07HN6_pNpS_density.pdf>] [185 <./Chapter5/Figures/pn_ps_plots/J07HX64_pNpS_density.pdf>] [186 <./Chapter5/Figures/pn_ps_plots/J07HX5_pNpS_density.pdf>] [187 <./Chapter5/Figures/pn_ps_plots/J07HB67_pNpS_density.pdf>] [188 <./Chapter5/Figures/pn_ps_plots/J07HR59_pNpS_density.pdf>] [189 <./Chapter5/Figures/pn_ps_plots/A07HB70_pNpS_density.pdf>] [190 <./Chapter5/Figures/pn_ps_plots/A07HR67_pNpS_density.pdf>] [191 <./Chapter5/Figures/pn_ps_plots/A07HN63_pNpS_density.pdf>] [192 <./Chapter5/Figures/pn_ps_plots/A07HR60_pNpS_density.pdf>] [193 <./Chapter5/Figures/pn_ps_plots/J07SB_pNpS_density.pdf>] [194 <./Chapter5/Figures/pn_ps_plots/G22_pNpS_density.pdf>] (/Users/juan/Documents/Thesis/Thesis_LaTex/.texpadtmp/template.tdo)
+) [181] [182] [183 <./Chapter5/Figures/pn_ps_plots/J07HQX50_pNpS_density.pdf>] [184 <./Chapter5/Figures/pn_ps_plots/J07AB56_pNpS_density.pdf>] [185 <./Chapter5/Figures/pn_ps_plots/J07AB43_pNpS_density.pdf>] [186 <./Chapter5/Figures/pn_ps_plots/J07HN4_pNpS_density.pdf>] [187 <./Chapter5/Figures/pn_ps_plots/J07HN6_pNpS_density.pdf>] [188 <./Chapter5/Figures/pn_ps_plots/J07HX64_pNpS_density.pdf>] [189 <./Chapter5/Figures/pn_ps_plots/J07HX5_pNpS_density.pdf>] [190 <./Chapter5/Figures/pn_ps_plots/J07HB67_pNpS_density.pdf>] [191 <./Chapter5/Figures/pn_ps_plots/J07HR59_pNpS_density.pdf>] [192 <./Chapter5/Figures/pn_ps_plots/A07HB70_pNpS_density.pdf>] [193 <./Chapter5/Figures/pn_ps_plots/A07HR67_pNpS_density.pdf>] [194 <./Chapter5/Figures/pn_ps_plots/A07HN63_pNpS_density.pdf>] [195 <./Chapter5/Figures/pn_ps_plots/A07HR60_pNpS_density.pdf>] [196 <./Chapter5/Figures/pn_ps_plots/J07SB_pNpS_density.pdf>] [197 <./Chapter5/Figures/pn_ps_plots/G22_pNpS_density.pdf>] (/Users/juan/Documents/Thesis/Thesis_LaTex/.texpadtmp/template.tdo)
 \tf@tdo=\write8
 \openout8 = `template.tdo'.
 
- [195
+ [198
 
 
 
@@ -2739,25 +2715,21 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: A6FEFD980A632ACCE3BE7F7E9EAFEC74;3371.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 27248 strings out of 493308
- 561503 string characters out of 6137816
- 791863 words of memory out of 5000000
- 29637 multiletter control sequences out of 15000+600000
+ 27256 strings out of 493308
+ 561646 string characters out of 6137816
+ 791065 words of memory out of 5000000
+ 29635 multiletter control sequences out of 15000+600000
  15737 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  62i,19n,92p,10421b,1137s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on /Users/juan/Documents/Thesis/Thesis_LaTex/.texpadtmp/template.pdf (215 pages, 33774244 bytes).
+Output written on /Users/juan/Documents/Thesis/Thesis_LaTex/.texpadtmp/template.pdf (219 pages, 33780614 bytes).
 PDF statistics:
- 14444 PDF objects out of 15390 (max. 8388607)
- 7421 compressed objects within 75 object streams
- 500 named destinations out of 1000 (max. 500000)
+ 14479 PDF objects out of 15390 (max. 8388607)
+ 7452 compressed objects within 75 object streams
+ 510 named destinations out of 1000 (max. 500000)
  848 words of extra memory for PDF output out of 10000 (max. 10000000)
 

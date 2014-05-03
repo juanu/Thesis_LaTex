@@ -10,48 +10,47 @@ A level-1 auxiliary file: Appendix/COG_positive_selection_tables.aux
 A level-1 auxiliary file: Appendix/pNpS_CoveragePlots.aux
 Database file #1: ../CompleteLibrary.bib
 Database file #2: ../extra_refs.bib
-Warning--I didn't find a database entry for ""
 Warning--empty journal in Garrison:2012wb
 Warning--empty journal in Ventosa:2012wo
-You've used 137 entries,
+You've used 143 entries,
             2118 wiz_defined-function locations,
-            1345 strings with 38930 characters,
-and the built_in function-call counts, 63192 in all, are:
-= -- 5734
-> -- 4869
+            1378 strings with 40228 characters,
+and the built_in function-call counts, 65430 in all, are:
+= -- 5944
+> -- 5012
 < -- 7
-+ -- 1927
-- -- 1790
-* -- 5983
-:= -- 11073
-add.period$ -- 413
-call.type$ -- 137
-change.case$ -- 1304
++ -- 1983
+- -- 1840
+* -- 6182
+:= -- 11463
+add.period$ -- 431
+call.type$ -- 143
+change.case$ -- 1347
 chr.to.int$ -- 0
-cite$ -- 139
-duplicate$ -- 1555
-empty$ -- 3523
-format.name$ -- 1790
-if$ -- 12082
+cite$ -- 145
+duplicate$ -- 1620
+empty$ -- 3669
+format.name$ -- 1840
+if$ -- 12519
 int.to.chr$ -- 0
-int.to.str$ -- 137
-missing$ -- 138
-newline$ -- 688
-num.names$ -- 276
-pop$ -- 1084
+int.to.str$ -- 143
+missing$ -- 144
+newline$ -- 718
+num.names$ -- 288
+pop$ -- 1117
 preamble$ -- 1
-purify$ -- 1168
+purify$ -- 1205
 quote$ -- 0
-skip$ -- 1050
+skip$ -- 1095
 stack$ -- 0
-substring$ -- 3445
-swap$ -- 187
+substring$ -- 3574
+swap$ -- 193
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 546
+type$ -- 570
 warning$ -- 2
-while$ -- 498
-width$ -- 140
-write$ -- 1499
-(There were 3 warnings)
+while$ -- 518
+width$ -- 146
+write$ -- 1564
+(There were 2 warnings)

@@ -14,7 +14,7 @@
 \BOOKMARK [0][-]{chapter.2}{De novo metagenomic assembly reveals abundant novel major lineage of Archaea in hypersaline communities}{}% 14
 \BOOKMARK [0][-]{chapter.3}{Xenorhodopsins, an enigmatic new class of microbial rhodopsins horizontally transferred between Archaea and Bacteria}{}% 15
 \BOOKMARK [0][-]{chapter.4}{Assembly-driven community genomics of a hypersaline microbial ecosystem}{}% 16
-\BOOKMARK [0][-]{chapter.5}{Microbial population structure and genetic heterogeneity in a hypersaline environment}{}% 17
+\BOOKMARK [0][-]{chapter.5}{Deep-sequencing Approaches to Characterize the Fine-Scale Genetic Variation in the Lake Tyrrell Microbial Community}{}% 17
 \BOOKMARK [1][-]{section.5.1}{Abstract}{chapter.5}% 18
 \BOOKMARK [1][-]{section.5.2}{Introduction}{chapter.5}% 19
 \BOOKMARK [1][-]{section.5.3}{Material and Methods}{chapter.5}% 20
@@ -27,9 +27,9 @@
 \BOOKMARK [2][-]{subsection.5.4.1}{Overview of the Illumina datasets}{section.5.4}% 27
 \BOOKMARK [2][-]{subsection.5.4.2}{Read Mapping using Habitat-Specific genomes}{section.5.4}% 28
 \BOOKMARK [2][-]{subsection.5.4.3}{Taxonomic Classification of Mapped and Unmapped Reads}{section.5.4}% 29
-\BOOKMARK [2][-]{subsection.5.4.4}{Differential coverage of genomes and genes}{section.5.4}% 30
+\BOOKMARK [2][-]{subsection.5.4.4}{Differential Coverage of Genomes and Genes}{section.5.4}% 30
 \BOOKMARK [2][-]{subsection.5.4.5}{Fine-scale Genetic Variation: Single Nucleotide Polymorphisms \(SNPs\)}{section.5.4}% 31
-\BOOKMARK [2][-]{subsection.5.4.6}{Genes under positive selection}{section.5.4}% 32
+\BOOKMARK [2][-]{subsection.5.4.6}{Genes Under Positive Selection}{section.5.4}% 32
 \BOOKMARK [1][-]{section.5.5}{General Discussion}{chapter.5}% 33
 \BOOKMARK [1][-]{section.5.6}{Conclusions}{chapter.5}% 34
 \BOOKMARK [1][-]{section.5.7}{Acknowledgments}{chapter.5}% 35
